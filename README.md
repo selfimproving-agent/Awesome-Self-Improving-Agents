@@ -54,10 +54,92 @@ This repository focuses on:
 ## 📚 Key Literature
 ### Core Papers
 
-| 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
-|------:|--------|--------|--------|--------|
-| 2023 | Reflexion: Language Agents... | NeurIPS | [paper](#) | [code](#) |
-| 2023 | Voyager | NeurIPS | [paper](#) | [code](#) |
+<details>
+<summary><b>5.1 Prompt Optimization</b></summary>
+
+- **5.1.1 Black-Box Optimization**
+  <details>
+  <summary>View</summary>
+
+  | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
+  |------:|--------|--------|--------|--------|
+  | 2022 | Large Language Models Are Human-Level Prompt Engineers | arXiv | [paper](https://arxiv.org/abs/2211.01910) | [code](https://github.com/keirp/automatic_prompt_engineer) |
+  | 2024 | Large Language Models as Optimizers | ICLR | [paper](https://arxiv.org/abs/2309.03409) | [code](https://github.com/google-deepmind/opro) |
+
+  </details>
+
+- **5.1.2 Iterative Refinement**
+  <details>
+  <summary>View</summary>
+
+  | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
+  |------:|--------|--------|--------|--------|
+  | 2023 | Self-Refine: Iterative Refinement with Self-Feedback | arXiv | [paper](https://arxiv.org/abs/2303.17651) | [code](https://github.com/madaan/self-refine) |
+
+  </details>
+
+- **5.1.3 Evolutionary Algorithms**
+  <details>
+  <summary>View</summary>
+
+  | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
+  |------:|--------|--------|--------|--------|
+  | 2024 | EvoPrompt: Connecting LLMs with Evolutionary Algorithms Yields Powerful Prompt Optimizers | ICLR | [paper](https://arxiv.org/abs/2309.08532) | [code](https://github.com/beeevita/EvoPrompt) |
+  | 2024 | WizardLM: Empowering large pre-trained language models to follow complex instructions | ICLR | [paper](https://arxiv.org/abs/2304.12244) | [code](https://github.com/nlpxucan/WizardLM) |
+
+  </details>
+
+- **5.1.4 Textual Gradient**
+  <details>
+  <summary>View</summary>
+
+  | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
+  |------:|--------|--------|--------|--------|
+  | 2025 | TextGrad: Automatic "Differentiation" via Text | Nature | [paper](https://arxiv.org/abs/2406.07496) | [code](https://github.com/zou-group/textgrad) |
+  | 2025 | metaTextGrad: Automatically optimizing language model optimizers | NeurIPS | [paper](https://arxiv.org/abs/2505.18524) | [code](https://github.com/zou-group/metatextgrad) |
+
+  </details>
+  
+</details>
+
+<details>
+<summary><b>5.2 Memory</b></summary>
+
+- **5.2.1 Memory Object**
+  <details>
+  <summary>View</summary>
+
+  | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
+  |------:|--------|--------|--------|--------|
+  | 2024 | Agent Workflow Memory | arXiv | [paper](https://arxiv.org/abs/2409.07429) | [code](https://github.com/zorazrw/agent-workflow-memory) |
+  | 2025 | ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory | arXiv | [paper](https://arxiv.org/abs/2509.25140) | N/A |
+
+  </details>
+
+- **5.2.2 Memory Structure**
+  <details>
+  <summary>View</summary>
+
+  | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
+  |------:|--------|--------|--------|--------|
+  | 2025 | SCM: Enhancing Large Language Model with Self-Controlled Memory Framework | DASFAA | [paper](https://arxiv.org/abs/2304.13343) | [code](https://github.com/wbbeyourself/SCM4LLMs) |
+  | 2024 | Explore, Select, Derive, and Recall: Augmenting LLM with Human-like Memory for Mobile Task Automation | ACM MobiCom | [paper](https://arxiv.org/abs/2312.03003) | [code](https://github.com/mobilegptsys/MobileGPT) |
+
+  </details>
+
+- **5.2.3 Memory Processing**
+  <details>
+  <summary>View</summary>
+
+  | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
+  |------:|--------|--------|--------|--------|
+  | 2025 | SEDM: Scalable Self-Evolving Distributed Memory for Agents | ICLR | [paper](https://arxiv.org/abs/2309.08532) | [code](https://github.com/beeevita/EvoPrompt) |
+  | 2024 | WizardLM: Empowering large pre-trained language models to follow complex instructions | ICLR | [paper](https://arxiv.org/abs/2509.09498) | N/A |
+
+  </details>
+  
+</details>
+
 
 
 ### Related Surveys
