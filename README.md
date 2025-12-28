@@ -53,8 +53,12 @@ This repository focuses on:
 
 ## 📚 Key Literature
 ### Core Papers
-- (year) **Title** – Authors – _Venue_ — link
-- (year) ...
+
+| 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
+|------:|--------|--------|--------|--------|
+| 2023 | Reflexion: Language Agents... | NeurIPS | [paper](#) | [code](#) |
+| 2023 | Voyager | NeurIPS | [paper](#) | [code](#) |
+
 
 ### Related Surveys
 - ...
