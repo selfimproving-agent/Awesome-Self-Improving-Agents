@@ -58,11 +58,11 @@ This repository focuses on:
 ## 📚 Key Literature
 ### Core Papers
 
-<details>
+<details open>
 <summary><b>5.1 Prompt Optimization</b></summary>
 
 - **5.1.1 Black-Box Optimization**
-  <details>
+  <details open>
   <summary>View</summary>
 
   | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
@@ -73,7 +73,7 @@ This repository focuses on:
   </details>
 
 - **5.1.2 Iterative Refinement**
-  <details>
+  <details open>
   <summary>View</summary>
 
   | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
@@ -83,7 +83,7 @@ This repository focuses on:
   </details>
 
 - **5.1.3 Evolutionary Algorithms**
-  <details>
+  <details open>
   <summary>View</summary>
 
   | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
@@ -94,7 +94,7 @@ This repository focuses on:
   </details>
 
 - **5.1.4 Textual Gradient**
-  <details>
+  <details open>
   <summary>View</summary>
 
   | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
@@ -106,11 +106,11 @@ This repository focuses on:
   
 </details>
 
-<details>
+<details open>
 <summary><b>5.2 Memory</b></summary>
 
 - **5.2.1 Memory Object**
-  <details>
+  <details open>
   <summary>View</summary>
 
   | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
@@ -121,7 +121,7 @@ This repository focuses on:
   </details>
 
 - **5.2.2 Memory Structure**
-  <details>
+  <details open>
   <summary>View</summary>
 
   | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
@@ -132,7 +132,7 @@ This repository focuses on:
   </details>
 
 - **5.2.3 Memory Processing**
-  <details>
+  <details open>
   <summary>View</summary>
 
   | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
@@ -144,11 +144,11 @@ This repository focuses on:
 
 </details>
 
-<details>
+<details open>
 <summary><b>5.3 Tool</b></summary>
 
 - **5.3.1 Dynamic Tool Routing**
-  <details>
+  <details open>
   <summary>View</summary>
 
   | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
@@ -160,7 +160,7 @@ This repository focuses on:
   </details>
 
 - **5.3.2 Iterative Tool Refinement**
-  <details>
+  <details open>
   <summary>View</summary>
 
   | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
@@ -171,7 +171,7 @@ This repository focuses on:
   </details>
 
 - **5.3.3 Autonomous Tool Creation**
-  <details>
+  <details open>
   <summary>View</summary>
 
   | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
@@ -183,7 +183,7 @@ This repository focuses on:
 
 </details>
 
-<details>
+<details open>
 <summary><b>5.4 Full Scaffolding</b></summary>
 
   | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
