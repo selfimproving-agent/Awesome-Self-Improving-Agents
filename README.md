@@ -1,3 +1,6 @@
+<p align="center">
+  <img src="assets/banner.png" width="90%">
+</p>
 
 # Awesome Self-Improving FM-Based Agents [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
@@ -35,6 +38,10 @@ This repository focuses on:
 ## 📄 Survey Paper
 🔗 **Coming soon** — Preprint in preparation.   
 *(Add arXiv link here once uploaded.)*
+
+<p align="center">
+  <img src="assets/main-figure.png" alt="Main figure of the survey" width="75%">
+</p>
 
 ---
 
