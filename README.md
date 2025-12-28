@@ -79,6 +79,9 @@ This repository focuses on:
   | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
   |------:|--------|--------|--------|--------|
   | 2023 | Self-Refine: Iterative Refinement with Self-Feedback | arXiv | [paper](https://arxiv.org/abs/2303.17651) | [code](https://github.com/madaan/self-refine) |
+  | 2023 | Chain of Hindsight Aligns Language Models with Feedback | arXiv | [paper](https://arxiv.org/abs/2302.02676) | [code](https://github.com/haoliuhl/chain-of-hindsight) |
+  | 2023 | Reflexion: Language Agents with Verbal Reinforcement Learning | NeurIPS  | [paper](https://arxiv.org/abs/2303.11366) | [code](https://github.com/noahshinn/reflexion) |
+  | 2024 | Self-Improving Customer Review Response Generation Based on LLMs | COLING  | [paper](https://arxiv.org/abs/2405.03845) | N/A |
 
   </details>
 
@@ -90,6 +93,8 @@ This repository focuses on:
   |------:|--------|--------|--------|--------|
   | 2024 | EvoPrompt: Connecting LLMs with Evolutionary Algorithms Yields Powerful Prompt Optimizers | ICLR | [paper](https://arxiv.org/abs/2309.08532) | [code](https://github.com/beeevita/EvoPrompt) |
   | 2024 | WizardLM: Empowering large pre-trained language models to follow complex instructions | ICLR | [paper](https://arxiv.org/abs/2304.12244) | [code](https://github.com/nlpxucan/WizardLM) |
+  | 2025 | Tournament of Prompts: Evolving LLM Instructions Through Structured Debates and Elo Ratings | KDD | [paper](https://arxiv.org/abs/2506.00178v2) | N/A |
+  | 2023 | Promptbreeder: Self-Referential Self-Improvement Via Prompt Evolution | arXiv | [paper](https://arxiv.org/abs/2309.16797) | N/A |
 
   </details>
 
@@ -101,6 +106,8 @@ This repository focuses on:
   |------:|--------|--------|--------|--------|
   | 2025 | TextGrad: Automatic "Differentiation" via Text | Nature | [paper](https://arxiv.org/abs/2406.07496) | [code](https://github.com/zou-group/textgrad) |
   | 2025 | metaTextGrad: Automatically optimizing language model optimizers | NeurIPS | [paper](https://arxiv.org/abs/2505.18524) | [code](https://github.com/zou-group/metatextgrad) |
+  | 2023 | Automatic Prompt Optimization with "Gradient Descent" and Beam Search | EMNLP  | [paper](https://arxiv.org/abs/2305.03495) | [code](https://github.com/microsoft/LMOps/tree/main/prompt_optimization) |
+  | 2024 | How to Correctly do Semantic Backpropagation on Language-based Agentic Systems | arXiv  | [paper](https://arxiv.org/abs/2412.03624) | [code](https://github.com/HishamAlyahya/semantic_backprop) |
 
   </details>
   
