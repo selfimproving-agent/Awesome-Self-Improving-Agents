@@ -65,7 +65,7 @@ This repository focuses on:
 
   | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
   |------:|--------|--------|--------|--------|
-  | 2022 | Large Language Models Are Human-Level Prompt Engineers | arXiv | [paper](https://arxiv.org/abs/2211.01910) | [code](https://github.com/keirp/automatic_prompt_engineer) |
+  | 2023 | Self-Instruct: Aligning Language Models with Self-Generated Instructions | ACL | [paper](https://arxiv.org/abs/2212.10560) | [code](https://github.com/yizhongw/self-instruct) |
 
 </details>
 
@@ -74,7 +74,7 @@ This repository focuses on:
 
   | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
   |------:|--------|--------|--------|--------|
-  | 2024 | Agent Workflow Memory | arXiv | [paper](https://arxiv.org/abs/2409.07429) | [code](https://github.com/zorazrw/agent-workflow-memory) |
+  | 2025 | STRIVE: Structured Reasoning for Self-Improvement in Claim Verification | MIR | [paper](https://arxiv.org/abs/2502.11959) | N/A |
 
 </details>
 
@@ -87,7 +87,7 @@ This repository focuses on:
 
   | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
   |------:|--------|--------|--------|--------|
-  | 2022 | Large Language Models Are Human-Level Prompt Engineers | arXiv | [paper](https://arxiv.org/abs/2211.01910) | [code](https://github.com/keirp/automatic_prompt_engineer) |
+  | 2023 | RoboCat: A Self-Improving Generalist Agent for Robotic Manipulation | TMLR | [paper](https://arxiv.org/abs/2306.11706) | [code](https://github.com/keirp/automatic_prompt_engineer) |
 
   </details>
 
@@ -97,7 +97,7 @@ This repository focuses on:
 
   | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
   |------:|--------|--------|--------|--------|
-  | 2023 | Self-Refine: Iterative Refinement with Self-Feedback | arXiv | [paper](https://arxiv.org/abs/2303.17651) | [code](https://github.com/madaan/self-refine) |
+  | 2025 | Understanding World or Predicting Future? A Comprehensive Survey of World Models | ACM CSUR | [paper](https://arxiv.org/abs/2411.14499) | [code](https://github.com/tsinghua-fib-lab/World-Model) |
 
   </details>
   
