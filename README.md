@@ -58,7 +58,7 @@ This repository focuses on:
 ## 📚 Key Literature
 ### Core Papers
 
-#### Foundation Model Improvement
+#### §4. Foundation Model Improvement
 
 <details open>
 <summary><b>4.1 Self-Generated Data</b></summary>
@@ -104,7 +104,7 @@ This repository focuses on:
 </details>
 
 
-#### Scaffolding Improvement
+#### §5. Scaffolding Improvement
 
 <details open>
 <summary><b>5.1 Prompt Optimization</b></summary>
