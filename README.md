@@ -124,6 +124,11 @@ This repository focuses on:
   |------:|--------|--------|--------|--------|
   | 2024 | Agent Workflow Memory | arXiv | [paper](https://arxiv.org/abs/2409.07429) | [code](https://github.com/zorazrw/agent-workflow-memory) |
   | 2025 | ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory | arXiv | [paper](https://arxiv.org/abs/2509.25140) | N/A |
+  | 2024 | ExpeL: LLM Agents Are Experiential Learners | AAAI  | [paper](https://arxiv.org/abs/2308.10144) | [code](https://github.com/LeapLabTHU/ExpeL) |
+  | 2024 | A Human-Inspired Reading Agent with Gist Memory of Very Long Contexts | ICML  | [paper](https://arxiv.org/abs/2402.09727) | N/A |
+  | 2025 | Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory | arXiv  | [paper](https://arxiv.org/abs/2508.09736) | [code](https://github.com/bytedance-seed/m3-agent) |
+  | 2023 | Learning to Reason and Memorize with Self-Notes | NeurIPS  | [paper](https://arxiv.org/abs/2305.00833) | N/A |
+  | 2025 | Dynamic Cheatsheet: Test-Time Learning with Adaptive Memory | arXiv  | [paper](https://arxiv.org/abs/2305.00833) | [code](https://github.com/suzgunmirac/dynamic-cheatsheet) |
 
   </details>
 
@@ -135,6 +140,11 @@ This repository focuses on:
   |------:|--------|--------|--------|--------|
   | 2025 | SCM: Enhancing Large Language Model with Self-Controlled Memory Framework | DASFAA | [paper](https://arxiv.org/abs/2304.13343) | [code](https://github.com/wbbeyourself/SCM4LLMs) |
   | 2024 | Explore, Select, Derive, and Recall: Augmenting LLM with Human-like Memory for Mobile Task Automation | ACM MobiCom | [paper](https://arxiv.org/abs/2312.03003) | [code](https://github.com/mobilegptsys/MobileGPT) |
+  | 2025 | Hierarchical Memory for High-Efficiency Long-Term Reasoning in LLM Agents | arXiv | [paper](https://arxiv.org/abs/2507.22925) | N/A |
+  | 2025 | SALM: A Multi-Agent Framework for Language Model-Driven Social Network Simulation | arXiv | [paper](https://arxiv.org/abs/2505.09081) | N/A |
+  | 2022 | XMem: Long-Term Video Object Segmentation with an Atkinson-Shiffrin Memory Model | ECCV  | [paper](https://arxiv.org/abs/2207.07115) | [code](https://github.com/hkchengrex/XMem) |
+  | 2024 | MovieChat: From Dense Token to Sparse Memory for Long Video Understanding | CVPR | [paper](https://arxiv.org/abs/2307.16449) | [code](https://github.com/rese1f/MovieChat) |
+  | 2025 | Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory | arXiv | [paper](https://arxiv.org/abs/2504.19413) | [code](https://mem0.ai/research) |
 
   </details>
 
@@ -146,6 +156,11 @@ This repository focuses on:
   |------:|--------|--------|--------|--------|
   | 2025 | SEDM: Scalable Self-Evolving Distributed Memory for Agents | ICLR | [paper](https://arxiv.org/abs/2309.08532) | [code](https://github.com/beeevita/EvoPrompt) |
   | 2024 | WizardLM: Empowering large pre-trained language models to follow complex instructions | ICLR | [paper](https://arxiv.org/abs/2509.09498) | N/A |
+  | 2025 | MemInsight: Autonomous Memory Augmentation for LLM Agents | arXiv | [paper](https://arxiv.org/abs/2503.21760) | N/A |
+  | 2025 | MemGen: Weaving Generative Latent Memory for Self-Evolving Agents | arXiv | [paper](https://arxiv.org/abs/2509.24704) | [code](https://github.com/KANABOON1/MemGen) |
+  | 2025 | A-MEM: Agentic Memory for LLM Agents | NeurIPS | [paper](https://arxiv.org/abs/2502.12110) | [code](https://github.com/WujiangXu/A-mem-sys) |
+  | 2023 | Generative Agents: Interactive Simulacra of Human Behavior | UIST | [paper](https://arxiv.org/abs/2304.03442) | [code](https://github.com/joonspk-research/generative_agents) |
+  | 2025 | G-Memory: Tracing Hierarchical Memory for Multi-Agent Systems | arXiv | [paper](https://arxiv.org/abs/2506.07398) | [code](https://github.com/bingreeky/GMemory) |
 
   </details>
 
@@ -162,6 +177,12 @@ This repository focuses on:
   |------:|--------|--------|--------|--------|
   | 2023 | Voyager: An Open-Ended Embodied Agent with Large Language Models | arXiv | [paper](https://arxiv.org/abs/2305.16291) | [code](https://github.com/MineDojo/Voyager) |
   | 2025 | AgentOrchestra: Orchestrating Hierarchical Multi-Agent Intelligence with the Tool-Environment-Agent(TEA) Protocol | arXiv | [paper](https://arxiv.org/abs/2506.12508) | N/A |
+  | 2025 | MetaAgent: Toward Self-Evolving Agent via Tool Meta-Learning | arXiv | [paper](https://arxiv.org/abs/2508.00271) | [code](https://github.com/qhjqhj00/MetaAgent) |
+  | 2025 | OrchDAG: Complex Tool Orchestration in Multi-Turn Interactions with Plan DAGs | NeurIPS Workshop | [paper](https://arxiv.org/abs/2510.24663) | N/A |
+  | 2025 | AutoTIR: Autonomous Tools Integrated Reasoning via Reinforcement Learning | arXiv | [paper](https://arxiv.org/abs/2507.21836) | [code](https://github.com/weiyifan1023/AutoTIR) |
+  | 2025 | MCP-Flow: Facilitating LLM Agents to Master Real-World, Diverse and Scaling MCP Tools | arXiv | [paper](https://arxiv.org/abs/2510.24284) | [code](https://github.com/wwh0411/MCP-Flow) |
+  | 2025 | In-the-Flow Agentic System Optimization for Effective Planning and Tool Use | NeurIPS | [paper](https://arxiv.org/abs/2510.05592) | [code](https://github.com/lupantech/AgentFlow) |
+  | 2025 | MassTool: A Multi-Task Search-Based Tool Retrieval Framework for Large Language Models | arXiv | [paper](https://arxiv.org/abs/2507.00487) | [code](https://github.com/wxydada/MassTool) |
 
 
   </details>
@@ -174,6 +195,8 @@ This repository focuses on:
   |------:|--------|--------|--------|--------|
   | 2025 | STELLA: Self-Evolving LLM Agent for Biomedical Research | arXiv | [paper](https://arxiv.org/abs/2507.02004) | [code](https://github.com/zaixizhang/STELLA) |
   | 2025 | SkillWeaver: Web Agents can Self-Improve by Discovering and Honing Skills | arXiv | [paper](https://arxiv.org/abs/2504.07079) | [code](https://github.com/OSU-NLP-Group/SkillWeaver) |
+  | 2025 | PyVision: Agentic Vision with Dynamic Tooling | arXiv | [paper](https://arxiv.org/abs/2507.07998) | [code](https://github.com/agents-x-project/PyVision) |
+  | 2025 | From Exploration to Mastery: Enabling LLMs to Master Tools via Self-Driven Interactions | ICLR | [paper](https://arxiv.org/abs/2410.08197) | [code](https://github.com/quchangle1/DRAFT) |
 
   </details>
 
@@ -185,6 +208,11 @@ This repository focuses on:
   |------:|--------|--------|--------|--------|
   | 2025 | Alita: Generalist Agent Enabling Scalable Agentic Reasoning with Minimal Predefinition and Maximal Self-Evolution | arXiv | [paper](https://arxiv.org/abs/2505.20286) | [code](https://github.com/CharlesQ9/Alita) |
   | 2024 | Large Language Models as Tool Makers | arXiv | [paper](https://arxiv.org/abs/2305.17126) | [code](https://github.com/ctlllll/LLM-ToolMaker) |
+  | 2025 | Alita-G: Self-Evolving Generative Agent for Agent Generation | arXiv | [paper](https://arxiv.org/abs/2510.23601) | N/A |
+  | 2025 | LLM Agents Making Agent Tools | ACL | [paper](https://arxiv.org/abs/2502.11705) | [code](https://github.com/KatherLab/ToolMaker) |
+  | 2024 | OS-Copilot: Towards Generalist Computer Agents with Self-Improvement | ICLR | [paper](https://arxiv.org/abs/2402.07456) | [code](https://github.com/OS-Copilot/OS-Copilot) |
+  | 2025 | Advanced Tool Learning and Selection System (ATLASS): A Closed-Loop Framework Using LLM | SOSE | [paper](https://arxiv.org/abs/2503.10071) | N/A |
+  | 2025 | Code2MCP: Transforming Code Repositories into MCP Services | arXiv | [paper](https://arxiv.org/abs/2509.05941) | [code](https://github.com/DEFENSE-SEU/Code2MCP) |
 
   </details>
 
