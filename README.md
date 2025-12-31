@@ -58,6 +58,54 @@ This repository focuses on:
 ## 📚 Key Literature
 ### Core Papers
 
+#### Foundation Model Improvement
+
+<details open>
+<summary><b>4.1 Self-Generated Data</b></summary>
+
+  | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
+  |------:|--------|--------|--------|--------|
+  | 2022 | Large Language Models Are Human-Level Prompt Engineers | arXiv | [paper](https://arxiv.org/abs/2211.01910) | [code](https://github.com/keirp/automatic_prompt_engineer) |
+
+</details>
+
+<details open>
+<summary><b>4.2 Self-Generated Supervision</b></summary>
+
+  | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
+  |------:|--------|--------|--------|--------|
+  | 2024 | Agent Workflow Memory | arXiv | [paper](https://arxiv.org/abs/2409.07429) | [code](https://github.com/zorazrw/agent-workflow-memory) |
+
+</details>
+
+<details open>
+<summary><b>4.3 Self-Generated Experience</b></summary>
+
+- **4.3.1 Environment -Interactive**
+  <details open>
+  <summary>View</summary>
+
+  | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
+  |------:|--------|--------|--------|--------|
+  | 2022 | Large Language Models Are Human-Level Prompt Engineers | arXiv | [paper](https://arxiv.org/abs/2211.01910) | [code](https://github.com/keirp/automatic_prompt_engineer) |
+
+  </details>
+
+- **4.3.2 World Models**
+  <details open>
+  <summary>View</summary>
+
+  | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
+  |------:|--------|--------|--------|--------|
+  | 2023 | Self-Refine: Iterative Refinement with Self-Feedback | arXiv | [paper](https://arxiv.org/abs/2303.17651) | [code](https://github.com/madaan/self-refine) |
+
+  </details>
+  
+</details>
+
+
+#### Scaffolding Improvement
+
 <details open>
 <summary><b>5.1 Prompt Optimization</b></summary>
 
