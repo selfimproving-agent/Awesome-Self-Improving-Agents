@@ -66,6 +66,15 @@ This repository focuses on:
   | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
   |------:|--------|--------|--------|--------|
   | 2023 | Self-Instruct: Aligning Language Models with Self-Generated Instructions | ACL | [paper](https://arxiv.org/abs/2212.10560) | [code](https://github.com/yizhongw/self-instruct) |
+  | 2023 | Large Language Models Can Self-Improve | EMNLP | [paper](https://arxiv.org/abs/2210.11610) | N/A |
+  | 2023 | Orca: Progressive Learning from Complex Explanation Traces of GPT-4 | arXiv | [paper](https://arxiv.org/abs/2306.02707) | [code]( https://aka.ms/orca-lm) |
+  | 2024 | SELF: Self-Evolution with Language Feedback | arXiv | [paper](https://arxiv.org/abs/2310.00533) | N/A |
+  | 2024 | SELF-GUIDE: Better Task-Specific Instruction Following via Self-Synthetic Finetuning | COLM | [paper](https://arxiv.org/abs/2407.12874) | [code](https://github.com/zhaochenyang20/Prompt2Model-Self-Guide) |
+  | 2025 | Improving Model Alignment Through Collective Intelligence of Open-Source LLMS | ICML | [paper](https://arxiv.org/abs/2505.03059) | N/A |
+  | 2025 | Superficial Self-Improved Reasoners Benefit from Model Merging | EMNLP | [paper](https://arxiv.org/abs/2503.02103) | [code](https://github.com/xiangchi-yuan/merge_syn) |
+  | 2025 | Will Pre-Training Ever End? A First Step Toward Next-Generation Foundation MLLMs via Self-Improving Systematic Cognition | arXiv | [paper](https://arxiv.org/abs/2503.12303) | [code](https://github.com/thunlp/SICOG?tab=readme-ov-file) |
+  | 2025 | TaskCraft: Automated Generation of Agentic Tasks | arXiv | [paper](https://arxiv.org/abs/2506.10055) | [code](https://github.com/OPPO-PersonalAI/TaskCraft) |
+  | 2025 | Iterative Tool Usage Exploration for Multimodal Agents via Step-wise Preference Tuning | NeurIPS | [paper](https://arxiv.org/abs/2504.21561) | [code](https://github.com/SPORT-Agents/SPORT-Agents) |
 
 </details>
 
@@ -75,6 +84,12 @@ This repository focuses on:
   | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
   |------:|--------|--------|--------|--------|
   | 2025 | STRIVE: Structured Reasoning for Self-Improvement in Claim Verification | MIR | [paper](https://arxiv.org/abs/2502.11959) | N/A |
+  | 2025 | Beyond Accuracy: The Role of Calibration in Self-Improving Large Language Models | arXiv | [paper](https://arxiv.org/abs/2504.02902) | N/A |
+  | 2022 | Constitutional AI: Harmlessness from AI Feedback | arXiv | [paper](https://arxiv.org/abs/2212.08073) | [code](https://github.com/anthropics/ConstitutionalHarmlessnessPaper?tab=readme-ov-file) |
+  | 2023 | ReST meets ReAct: Self-Improvement for Multi-Step Reasoning LLM Agent | arXiv | [paper](https://arxiv.org/abs/2312.10003) | N/A |
+  | 2025 | Self-Evolved Reward Learning for LLMs | ICLR | [paper](https://arxiv.org/abs/2411.00418) | [code](https://github.com/microsoft/DKI_LLM/tree/main/SER) |
+  | 2025 | Sample, Predict, then Proceed: Self-Verification Sampling for Tool Use of LLMs | arXiv | [paper](https://arxiv.org/abs/2506.02918v1) | N/A |
+  | 2025 | RLSR: Reinforcement Learning from Self Reward | arXiv | [paper](https://arxiv.org/abs/2505.08827) | N/A |
 
 </details>
 
@@ -88,6 +103,12 @@ This repository focuses on:
   | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
   |------:|--------|--------|--------|--------|
   | 2023 | RoboCat: A Self-Improving Generalist Agent for Robotic Manipulation | TMLR | [paper](https://arxiv.org/abs/2306.11706) | [code](https://github.com/keirp/automatic_prompt_engineer) |
+  | 2025 | Tool-Star: Empowering LLM-Brained Multi-Tool Reasoner via Reinforcement Learning | arXiv | [paper](https://arxiv.org/abs/2505.16410) | [code](https://github.com/RUC-NLPIR/Tool-Star) |
+  | 2025 | CodeARC: Benchmarking Reasoning Capabilities of LLM Agents for Inductive Program Synthesis | COLM | [paper](https://arxiv.org/abs/2503.23145) | [code](https://github.com/Anjiang-Wei/CodeARC) |
+  | 2025 | LLMs are Greedy Agents: Effects of RL Fine-tuning on Decision-Making Abilities | arXiv | [paper](https://arxiv.org/abs/2504.16078) | N/A |
+  | 2025 | Agent-RLVR: Training Software Engineering Agents via Guidance and Environment Rewards | arXiv | [paper](https://arxiv.org/abs/2506.11425) | N/A |
+  | 2025 | WebRL: Training LLM Web Agents via Self-Evolving Online Curriculum Reinforcement Learning | ICLR | [paper](https://arxiv.org/abs/2411.02337) | [code](https://github.com/THUDM/WebRL) |
+  | 2025 | Self-Improving Language Models for Evolutionary Program Synthesis: A Case Study on ARC-AGI | ICML | [paper](https://arxiv.org/abs/2507.14172) | [code](https://github.com/flowersteam/SOAR) |
 
   </details>
 
@@ -98,6 +119,13 @@ This repository focuses on:
   | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
   |------:|--------|--------|--------|--------|
   | 2025 | Understanding World or Predicting Future? A Comprehensive Survey of World Models | ACM CSUR | [paper](https://arxiv.org/abs/2411.14499) | [code](https://github.com/tsinghua-fib-lab/World-Model) |
+  | 2025 | General agents contain world models | ICML | [paper](https://arxiv.org/abs/2506.01622) | N/A |
+  | 2025 | WebEvolver: Enhancing Web Agent Self-Improvement with Coevolving World Model | EMNLP | [paper](https://arxiv.org/abs/2504.21024) | [code](https://github.com/Tencent/SelfEvolvingAgent) |
+  | 2025 | WebSynthesis: World-Model-Guided MCTS for Efficient WebUI-Trajectory Synthesis | arXiv | [paper](https://arxiv.org/abs/2507.04370) | [code](https://github.com/LucusFigoGao/WebSynthesis) |
+  | 2025 | GAWM: Global-Aware World Model for Multi-Agent Reinforcement Learning | arXiv | [paper](https://arxiv.org/abs/2501.10116) | N/A |
+  | 2023 | Language Models Meet World Models: Embodied Experiences Enhance Language Models | NeurIPS | [paper](https://arxiv.org/abs/2305.10626) | [code](https://github.com/szxiangjn/world-model-for-language-model) |
+  | 2025 | Web Agents with World Models: Learning and Leveraging Environment Dynamics in Web Navigation | ICLR | [paper](https://arxiv.org/abs/2410.13232) | [code](https://github.com/kyle8581/WMA-Agents) |
+  | 2024 | Agent Planning with World Knowledge Model | NeurIPS | [paper](https://arxiv.org/abs/2405.14205) | [code](https://github.com/zjunlp/WKM) |
 
   </details>
   
