@@ -11,8 +11,8 @@
 - [Survey Paper](#-survey-paper)
 - [Taxonomy](#-taxonomy)
 - [Key Literature](#-key-literature)
-  - [🟦 Foundation Model Improvement](#4-foundation-model-improvement)
-  - [🟩 Scaffolding Improvement](#5-scaffolding-improvement)
+  - [🟦 Foundation Model Improvement](#foundation-model-improvement)
+  - [🟩 Scaffolding Improvement](#scaffolding-improvement)
 - [Contribute](#-contribute)
 - [Citation](#-citation)
 
