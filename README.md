@@ -39,26 +39,18 @@ This repository focuses on:
 
 ## 🧭 Taxonomy
 
-```mermaid
-graph LR
-    Root[Self-Improving Agents] --> FM[Foundation Model Improvement §4]
-    Root --> SF[Scaffolding Improvement §5]
-
-    FM --> F1[Self-Generated Data §4.1]
-    FM --> F2[Self-Generated Supervision §4.2]
-    FM --> F3[Self-Generated Experience §4.3]
-    
-    F3 --> F31[Environment-Interactive §4.3.1]
-    F3 --> F32[World Models §4.3.2]
-
-    SF --> S1[Prompt Optimization §5.1]
-    SF --> S2[Memory §5.2]
-    SF --> S3[Tool §5.3]
-    SF --> S4[Full Scaffolding §5.4]
-
-    S1 --> S11[Black-Box Optimization]
-    S1 --> S12[Iterative Refinement]
-```
+* **🚀 Self-Improving Agents**
+    * **🧠 Foundation Model Improvement**
+        * 📄 `4.1` Self-Generated Data
+        * ⚖️ `4.2` Self-Generated Supervision
+        * 🌍 `4.3` Self-Generated Experience
+            * 🤖 `4.3.1` Environment-Interactive
+            * 🔮 `4.3.2` World Models
+    * **🏗️ Scaffolding Improvement**
+        * ✍️ `5.1` Prompt Optimization
+        * 💾 `5.2` Memory
+        * 🛠️ `5.3` Tool
+        * ♾️ `5.4` Full Scaffolding
 
 ---
 
