@@ -11,8 +11,8 @@
 - [Survey Paper](#-survey-paper)
 - [Taxonomy](#-taxonomy)
 - [Key Literature](#-key-literature)
-  - [4. Foundation Model Improvement](#4-foundation-model-improvement)
-  - [5. Scaffolding Improvement](#5-scaffolding-improvement)
+  - [🟦 Foundation Model Improvement](#4-foundation-model-improvement)
+  - [🟩 Scaffolding Improvement](#5-scaffolding-improvement)
 - [Contribute](#-contribute)
 - [Citation](#-citation)
 
@@ -57,7 +57,7 @@ This repository focuses on:
 ## 📚 Key Literature
 ### Core Papers
 
-#### §4. Foundation Model Improvement
+#### 🟦 Foundation Model Improvement
 
 <details open>
 <summary><b>4.1 Self-Generated Data</b></summary>
@@ -131,7 +131,7 @@ This repository focuses on:
 </details>
 
 
-#### §5. Scaffolding Improvement
+#### 🟩 Scaffolding Improvement
 
 <details open>
 <summary><b>5.1 Prompt Optimization</b></summary>
