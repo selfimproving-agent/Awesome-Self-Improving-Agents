@@ -7,28 +7,23 @@
 ---
 
 ## 🌐 Contents
-- [Definition & Scope](#definition--scope)
-- [Survey Paper](#survey-paper)
-- [Taxonomy](#taxonomy)
-- [Key Literature](#key-literature)
-- [Benchmarks & Datasets](#benchmarks--datasets)
-- [Codebases](#codebases)
-- [Evaluation & Metrics](#evaluation--metrics)
-- [Chronological Timeline](#chronological-timeline)
-- [Contribute](#contribute)
-- [Citation](#citation)
+- [Definition & Scope](#-definition--scope)
+- [Survey Paper](#-survey-paper)
+- [Taxonomy](#-taxonomy)
+- [Key Literature](#-key-literature)
+  - [4. Foundation Model Improvement](#4-foundation-model-improvement)
+  - [5. Scaffolding Improvement](#5-scaffolding-improvement)
+- [Contribute](#-contribute)
+- [Citation](#-citation)
 
 ---
 
 ## 🧩 Definition & Scope
 This repository focuses on:
-- Foundation-Model-Based Agents
-- Autonomous Self-Improvement
-- Agentic Reinforcement Learning & Policy Optimization
-- Knowledge Accumulation and Skill Growth
-- Tool-Augmented Adaptation
-- Continual Learning & Self-Correction
-- Meta-Learning / Self-Play / Scaling Laws for Agents
+- **Foundation-Model-Based Agents**: Autonomous entities leveraging LLMs/VLM as core controllers.
+- **Autonomous Self-Improvement**: Systems that enhance their own performance through internal mechanisms.
+- **Agentic RL & Policy Optimization**: Self-evolving strategies and decision-making.
+- **Scaffolding Evolution**: Growth in memory structures, tool-use capability, and prompt refinement.
 
 ---
 
@@ -43,15 +38,27 @@ This repository focuses on:
 ---
 
 ## 🧭 Taxonomy
-| Category | Description |
-|----------|--------------|
-| Architectural Self-Improvement | Structure & capability changes |
-| Data Self-Improvement | Synthetic data & feedback loops |
-| Training Self-Improvement | RL, meta-learning, gradient-based updates |
-| Tool Self-Improvement | Tool use, planner evolution, memory |
-| Evaluation Self-Improvement | Self-diagnostics, reward shaping |
 
-> (*Customize according to your paper’s structure.*)
+```mermaid
+graph LR
+    Root[Self-Improving Agents] --> FM[Foundation Model Improvement §4]
+    Root --> SF[Scaffolding Improvement §5]
+
+    FM --> F1[Self-Generated Data §4.1]
+    FM --> F2[Self-Generated Supervision §4.2]
+    FM --> F3[Self-Generated Experience §4.3]
+    
+    F3 --> F31[Environment-Interactive §4.3.1]
+    F3 --> F32[World Models §4.3.2]
+
+    SF --> S1[Prompt Optimization §5.1]
+    SF --> S2[Memory §5.2]
+    SF --> S3[Tool §5.3]
+    SF --> S4[Full Scaffolding §5.4]
+
+    S1 --> S11[Black-Box Optimization]
+    S1 --> S12[Iterative Refinement]
+```
 
 ---
 
@@ -312,48 +319,10 @@ This repository focuses on:
 </details>
 
 
-
-
-### Related Surveys
-- ...
-
----
-
-## 📊 Benchmarks & Datasets
-| Name | Task Type | Modality | Link |
-|------|------------|-----------|------|
-
----
-
-## 📦 Codebases
-| Framework | Area | Link |
-|-----------|------|------|
-
----
-
-## 🧪 Evaluation & Metrics
-- Trajectory improvement
-- Self-play capability score
-- Return-on-feedback (RoF)
-- Scaling-based efficiency measures
-
----
-
-## ⏳ Chronological Timeline
-```
-
-2021 - Early FM-based agents
-2023 - Emergence of tool-use agents
-2024 - Self-refinement & reflection-led improvement
-2025 - Self-improving agent ecosystems
-
-````
-
 ---
 
 ## 🤝 Contribute
 PRs are welcome!  
-Please follow `CONTRIBUTE.md` (to be added) and standard Awesome list guidelines.
 
 ---
 
@@ -361,7 +330,7 @@ Please follow `CONTRIBUTE.md` (to be added) and standard Awesome list guidelines
 ```bibtex
 @article{your_survey_2025,
   title={Self-Improvement in Foundation Model Based Agentic Systems: A Survey},
-  author={Your Name and ...},
+  author={Name1 and ...},
   journal={Preprint},
   year={2025}
 }
