@@ -33,11 +33,25 @@ This repository focuses on:
 
 <p align="center">
   <img src="assets/fig.png" alt="Main figure of the survey" width="95%">
+  <br>
+  <em>Overview of self-improvement mechanisms in foundation model–based agentic systems.</em>
 </p>
 
 ---
 
 ## 🧭 Taxonomy
+
+To ground our taxonomy, we first introduce a formal abstraction of a foundation model–based agent,
+which serves as the basic unit for all self-improving agentic systems considered in this survey.
+
+<p align="center">
+  <img src="assets/agent_def.png" alt="Formal abstraction of an FM-based agent" width="55%">
+  <br>
+  <em>Formal abstraction of a foundation model–based agent, consisting of a foundation model and its scaffolding.</em>
+</p>
+
+Based on this abstraction, we categorize **self-improving agents** along two orthogonal axes,
+depending on **which component is improved** during learning and adaptation.
 
 * **🚀 Self-Improving Agents**
     * **🧠 Foundation Model Improvement**
