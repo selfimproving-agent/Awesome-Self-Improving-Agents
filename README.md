@@ -55,16 +55,16 @@ depending on **which component is improved** during learning and adaptation.
 
 * **🚀 Self-Improving Agents**
     * **🧠 Foundation Model Improvement**
-        * 📄 `4.1` Self-Generated Data
-        * ⚖️ `4.2` Self-Generated Supervision
-        * 🌍 `4.3` Self-Generated Experience
-            * 🤖 `4.3.1` Environment-Interactive
-            * 🔮 `4.3.2` World Models
+        * 📄 `1.1` Self-Generated Data
+        * ⚖️ `1.2` Self-Generated Supervision
+        * 🌍 `1.3` Self-Generated Experience
+            * 🤖 `1.3.1` Environment-Interactive
+            * 🔮 `1.3.2` World Models
     * **🏗️ Scaffolding Improvement**
-        * ✍️ `5.1` Prompt Optimization
-        * 💾 `5.2` Memory
-        * 🛠️ `5.3` Tool
-        * ♾️ `5.4` Full Scaffolding
+        * ✍️ `2.1` Prompt Optimization
+        * 💾 `2.2` Memory
+        * 🛠️ `2.3` Tool
+        * ♾️ `2.4` Full Scaffolding
 
 ---
 
@@ -74,7 +74,7 @@ depending on **which component is improved** during learning and adaptation.
 #### 🟦 Foundation Model Improvement
 
 <details open>
-<summary><b>4.1 Self-Generated Data</b></summary>
+<summary><b>1.1 Self-Generated Data</b></summary>
 
   | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
   |------:|--------|--------|--------|--------|
@@ -92,7 +92,7 @@ depending on **which component is improved** during learning and adaptation.
 </details>
 
 <details open>
-<summary><b>4.2 Self-Generated Supervision</b></summary>
+<summary><b>1.2 Self-Generated Supervision</b></summary>
 
   | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
   |------:|--------|--------|--------|--------|
@@ -107,9 +107,9 @@ depending on **which component is improved** during learning and adaptation.
 </details>
 
 <details open>
-<summary><b>4.3 Self-Generated Experience</b></summary>
+<summary><b>1.3 Self-Generated Experience</b></summary>
 
-- **4.3.1 Environment -Interactive**
+- **1.3.1 Environment -Interactive**
   <details open>
   <summary>View</summary>
 
@@ -125,7 +125,7 @@ depending on **which component is improved** during learning and adaptation.
 
   </details>
 
-- **4.3.2 World Models**
+- **1.3.2 World Models**
   <details open>
   <summary>View</summary>
 
@@ -148,9 +148,9 @@ depending on **which component is improved** during learning and adaptation.
 #### 🟩 Scaffolding Improvement
 
 <details open>
-<summary><b>5.1 Prompt Optimization</b></summary>
+<summary><b>2.1 Prompt Optimization</b></summary>
 
-- **5.1.1 Black-Box Optimization**
+- **2.1.1 Black-Box Optimization**
   <details open>
   <summary>View</summary>
 
@@ -161,7 +161,7 @@ depending on **which component is improved** during learning and adaptation.
 
   </details>
 
-- **5.1.2 Iterative Refinement**
+- **2.1.2 Iterative Refinement**
   <details open>
   <summary>View</summary>
 
@@ -174,7 +174,7 @@ depending on **which component is improved** during learning and adaptation.
 
   </details>
 
-- **5.1.3 Evolutionary Algorithms**
+- **2.1.3 Evolutionary Algorithms**
   <details open>
   <summary>View</summary>
 
@@ -187,7 +187,7 @@ depending on **which component is improved** during learning and adaptation.
 
   </details>
 
-- **5.1.4 Textual Gradient**
+- **2.1.4 Textual Gradient**
   <details open>
   <summary>View</summary>
 
@@ -203,9 +203,9 @@ depending on **which component is improved** during learning and adaptation.
 </details>
 
 <details open>
-<summary><b>5.2 Memory</b></summary>
+<summary><b>2.2 Memory</b></summary>
 
-- **5.2.1 Memory Object**
+- **2.2.1 Memory Object**
   <details open>
   <summary>View</summary>
 
@@ -221,7 +221,7 @@ depending on **which component is improved** during learning and adaptation.
 
   </details>
 
-- **5.2.2 Memory Structure**
+- **2.2.2 Memory Structure**
   <details open>
   <summary>View</summary>
 
@@ -237,7 +237,7 @@ depending on **which component is improved** during learning and adaptation.
 
   </details>
 
-- **5.2.3 Memory Processing**
+- **2.2.3 Memory Processing**
   <details open>
   <summary>View</summary>
 
@@ -256,9 +256,9 @@ depending on **which component is improved** during learning and adaptation.
 </details>
 
 <details open>
-<summary><b>5.3 Tool</b></summary>
+<summary><b>2.3 Tool</b></summary>
 
-- **5.3.1 Dynamic Tool Routing**
+- **2.3.1 Dynamic Tool Routing**
   <details open>
   <summary>View</summary>
 
@@ -276,7 +276,7 @@ depending on **which component is improved** during learning and adaptation.
 
   </details>
 
-- **5.3.2 Iterative Tool Refinement**
+- **2.3.2 Iterative Tool Refinement**
   <details open>
   <summary>View</summary>
 
@@ -289,7 +289,7 @@ depending on **which component is improved** during learning and adaptation.
 
   </details>
 
-- **5.3.3 Autonomous Tool Creation**
+- **2.3.3 Autonomous Tool Creation**
   <details open>
   <summary>View</summary>
 
@@ -308,7 +308,7 @@ depending on **which component is improved** during learning and adaptation.
 </details>
 
 <details open>
-<summary><b>5.4 Full Scaffolding</b></summary>
+<summary><b>2.4 Full Scaffolding</b></summary>
 
   | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
   |------:|--------|--------|--------|--------|
