@@ -2,7 +2,7 @@
 # Awesome Self-Improving FM-Based Agents [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A curated, continuously updated resource list for **Self-Improvement in Foundation Model Based Agentic Systems**.  
-> This repo accompanies the survey paper: _"Self-Improvement in Foundation Model Based Agentic Systems: A Survey"_ (2025).
+> This repo accompanies the survey paper: _"Self-Improvement in Foundation Model Based Agentic Systems: A Survey"_ (2026).
 
 ---
 
