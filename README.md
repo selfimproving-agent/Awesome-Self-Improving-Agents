@@ -1,6 +1,6 @@
 
 # Awesome Self-Improving FM-Based Agents 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Discord](https://img.shields.io/badge/Discord-Join-blue?logo=discord&logoColor=white)](https://discord.gg/fn5rYJhgaz)
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Discord](https://img.shields.io/badge/Discord-Join-blue?logo=discord&logoColor=white)](https://discord.gg/fn5rYJhgaz) [![Website](https://img.shields.io/badge/Website-Visit-blue)](https://selfimproving-agent.github.io/)
 
 
 > A curated, continuously updated resource list for **Self-Improvement in Foundation Model Based Agentic Systems**.  
