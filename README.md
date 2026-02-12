@@ -1,5 +1,7 @@
 
-# Awesome Self-Improving FM-Based Agents [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome Self-Improving FM-Based Agents 
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re) [![Discord](https://img.shields.io/badge/Discord-Join-blue?logo=discord&logoColor=white)](https://discord.gg/XXXXXXX)
+
 
 > A curated, continuously updated resource list for **Self-Improvement in Foundation Model Based Agentic Systems**.  
 > This repo accompanies the survey paper: _"Self-Improvement in Foundation Model Based Agentic Systems: A Survey"_ (2026).
@@ -13,6 +15,7 @@
 - [Key Literature](#-key-literature)
   - [🟦 Foundation Model Improvement](#-foundation-model-improvement)
   - [🟩 Scaffolding Improvement](#-scaffolding-improvement)
+- [Contact & Community](#-contact--community)
 - [Contribute](#-contribute)
 - [Citation](#-citation)
 
@@ -324,6 +327,16 @@ depending on **which component is improved** during learning and adaptation.
   
 </details>
 
+---
+
+## 📬 Contact & Community
+
+- **Discord**: Join our server 👉 https://discord.gg/XXXXXXX
+- **WeChat Group**: Scan the QR code below to join (updated: 2026-02-12)
+
+<p align="center">
+  <img src="assets/wechat_group_qr.png" alt="WeChat group QR" width="260">
+</p>
 
 ---
 
