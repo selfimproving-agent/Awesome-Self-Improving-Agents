@@ -332,7 +332,7 @@ depending on **which component is improved** during learning and adaptation.
 ## 📬 Contact & Community
 
 - **Discord**: Join our server 👉 https://discord.gg/fn5rYJhgaz
-- **WeChat Group**: Scan the QR code below to join (updated: 2026-02-12)
+- **WeChat Group**: Scan the QR code below to join. If the QR code expires, please add the WeChat admin (**13488260597**), and we will invite you to the group.
 
 <p align="center">
   <img src="assets/wechat_group_qr.png" alt="WeChat group QR" width="260">
@@ -347,7 +347,7 @@ PRs are welcome!
 
 ## 📌 Citation
 ```bibtex
-@article{your_survey_2025,
+@article{your_survey_2026,
   title={Self-Improvement in Foundation Model Based Agentic Systems: A Survey},
   author={Name1 and ...},
   journal={Preprint},
