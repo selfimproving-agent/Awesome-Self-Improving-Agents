@@ -356,6 +356,3 @@ PRs are welcome!
   journal={Preprint},
   year={2025}
 }
-
-
-
