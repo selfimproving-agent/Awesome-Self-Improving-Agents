@@ -354,5 +354,5 @@ PRs are welcome!
   title={Self-Improvement in Foundation Model Based Agentic Systems: A Survey},
   author={Name1 and ...},
   journal={Preprint},
-  year={2025}
+  year={2026}
 }
