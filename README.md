@@ -94,6 +94,13 @@ depending on **which component is improved** during learning and adaptation.
   | 2025 | Will Pre-Training Ever End? A First Step Toward Next-Generation Foundation MLLMs via Self-Improving Systematic Cognition | arXiv | [paper](https://arxiv.org/abs/2503.12303) | [code](https://github.com/thunlp/SICOG?tab=readme-ov-file) |
   | 2025 | TaskCraft: Automated Generation of Agentic Tasks | arXiv | [paper](https://arxiv.org/abs/2506.10055) | [code](https://github.com/OPPO-PersonalAI/TaskCraft) |
   | 2025 | Iterative Tool Usage Exploration for Multimodal Agents via Step-wise Preference Tuning | NeurIPS | [paper](https://arxiv.org/abs/2504.21561) | [code](https://github.com/SPORT-Agents/SPORT-Agents) |
+  | 2025 | Maximizing Confidence Alone Improves Reasoning | arXiv | [paper](https://arxiv.org/abs/2505.22660) | [code](https://github.com/satrams/rent-rl) |
+  | 2025 | DIVE: Diversified Iterative Self-Improvement | arXiv | [paper](https://arxiv.org/abs/2501.00747) | [code](https://github.com/qinyiwei/DIVE) |
+  | 2025 | Self-Adapting Language Models | NeurIPS | [paper](https://arxiv.org/abs/2506.10943) | [code](https://github.com/Continual-Intelligence/SEAL) |
+  | 2025 | First SFT, Second RL, Third UPT: Continual Improving Multi-Modal LLM Reasoning via Unsupervised Post-Training | NeurIPS | [paper](https://arxiv.org/pdf/2505.22453) | [code](https://github.com/waltonfuture/MM-UPT) |
+  | 2025 | LADDER: Self-Improving LLMs Through Recursive Problem Decomposition | arXiv | [paper](https://arxiv.org/abs/2503.00735) | N/A |
+  | 2025 | Self-Consistency Preference Optimization | ICML | [paper](https://arxiv.org/abs/2411.04109) | N/A |
+  | 2026 | Reinforcing General Reasoning Without Verifiers | ICLR | [paper](https://arxiv.org/abs/2505.21493) | [code](https://github.com/sail-sg/VeriFree) |
 
 </details>
 
