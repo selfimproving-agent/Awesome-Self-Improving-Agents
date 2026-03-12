@@ -116,6 +116,10 @@ depending on **which component is improved** during learning and adaptation.
   | 2025 | Self-Evolved Reward Learning for LLMs | ICLR | [paper](https://arxiv.org/abs/2411.00418) | [code](https://github.com/microsoft/DKI_LLM/tree/main/SER) |
   | 2025 | Sample, Predict, then Proceed: Self-Verification Sampling for Tool Use of LLMs | arXiv | [paper](https://arxiv.org/abs/2506.02918v1) | N/A |
   | 2025 | RLSR: Reinforcement Learning from Self Reward | arXiv | [paper](https://arxiv.org/abs/2505.08827) | N/A |
+  | 2025 | Right Question is Already Half the Answer: Fully Unsupervised LLM Reasoning Incentivization | NeurIPS | [paper](https://arxiv.org/abs/2504.05812) | [code](https://github.com/QingyangZhang/EMPO) |
+  | 2025 | TTRL: Test-Time Reinforcement Learning | NeurIPS | [paper](https://arxiv.org/abs/2504.16084) | [code](https://github.com/PRIME-RL/TTRL) |
+  | 2025 | Can Large Reasoning Models Self-Train? | arXiv | [paper](https://arxiv.org/abs/2505.21444) | [code](https://github.com/tajwarfahim/srt) |
+  | 2026 | Learning to Reason without External Rewards | ICLR | [paper](https://arxiv.org/abs/2505.19590) | [code](https://github.com/sunblaze-ucb/Intuitor) |
 
 </details>
 
