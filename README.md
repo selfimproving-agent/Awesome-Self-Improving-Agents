@@ -120,6 +120,10 @@ depending on **which component is improved** during learning and adaptation.
   | 2025 | TTRL: Test-Time Reinforcement Learning | NeurIPS | [paper](https://arxiv.org/abs/2504.16084) | [code](https://github.com/PRIME-RL/TTRL) |
   | 2025 | Can Large Reasoning Models Self-Train? | arXiv | [paper](https://arxiv.org/abs/2505.21444) | [code](https://github.com/tajwarfahim/srt) |
   | 2026 | Learning to Reason without External Rewards | ICLR | [paper](https://arxiv.org/abs/2505.19590) | [code](https://github.com/sunblaze-ucb/Intuitor) |
+  | 2026 | Structured Reasoning for Large Language Models | arXiv | [paper](https://arxiv.org/abs/2601.07180) | N/A |
+  | 2026 | iReasoner: Trajectory-Aware Intrinsic Reasoning Supervision for Self-Evolving Large Multimodal Models | arXiv | [paper](https://arxiv.org/abs/2601.07180) | [code](https://github.com/meghanaasunil/iReasoner) |
+  | 2026 | STRIVE: Structured Reasoning for Self-improvement in Claim Verification | machine intelligence research | [paper](https://link.springer.com/article/10.1007/s11633-025-1598-5) | N/A |
+  | 2026 | UniCorn: Towards Self-Improving Unified Multimodal Models through Self-Generated Supervision | arXiv | [paper](https://arxiv.org/abs/2601.03193) | [code]([https://github.com/meghanaasunil/iReasoner](https://github.com/Hungryyan1/UniCorn)) |
 
 </details>
 
