@@ -163,14 +163,17 @@ depending on **which component is improved** during learning and adaptation.
 
   | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
   |------:|--------|--------|--------|--------|
+  | 2023 | Language Models Meet World Models: Embodied Experiences Enhance Language Models | NeurIPS | [paper](https://arxiv.org/abs/2305.10626) | [code](https://github.com/szxiangjn/world-model-for-language-model) |
+  | 2024 | Agent Planning with World Knowledge Model | NeurIPS | [paper](https://arxiv.org/abs/2405.14205) | [code](https://github.com/zjunlp/WKM) |
+  | 2025 | Web Agents with World Models: Learning and Leveraging Environment Dynamics in Web Navigation | ICLR | [paper](https://arxiv.org/abs/2410.13232) | [code](https://github.com/kyle8581/WMA-Agents) |
   | 2025 | Understanding World or Predicting Future? A Comprehensive Survey of World Models | ACM CSUR | [paper](https://arxiv.org/abs/2411.14499) | [code](https://github.com/tsinghua-fib-lab/World-Model) |
   | 2025 | General agents contain world models | ICML | [paper](https://arxiv.org/abs/2506.01622) | N/A |
   | 2025 | WebEvolver: Enhancing Web Agent Self-Improvement with Coevolving World Model | EMNLP | [paper](https://arxiv.org/abs/2504.21024) | [code](https://github.com/Tencent/SelfEvolvingAgent) |
   | 2025 | WebSynthesis: World-Model-Guided MCTS for Efficient WebUI-Trajectory Synthesis | arXiv | [paper](https://arxiv.org/abs/2507.04370) | [code](https://github.com/LucusFigoGao/WebSynthesis) |
   | 2025 | GAWM: Global-Aware World Model for Multi-Agent Reinforcement Learning | arXiv | [paper](https://arxiv.org/abs/2501.10116) | N/A |
-  | 2023 | Language Models Meet World Models: Embodied Experiences Enhance Language Models | NeurIPS | [paper](https://arxiv.org/abs/2305.10626) | [code](https://github.com/szxiangjn/world-model-for-language-model) |
-  | 2025 | Web Agents with World Models: Learning and Leveraging Environment Dynamics in Web Navigation | ICLR | [paper](https://arxiv.org/abs/2410.13232) | [code](https://github.com/kyle8581/WMA-Agents) |
-  | 2024 | Agent Planning with World Knowledge Model | NeurIPS | [paper](https://arxiv.org/abs/2405.14205) | [code](https://github.com/zjunlp/WKM) |
+  | 2025 | WMPO: World Model-based Policy Optimization for Vision-Language-Action Models | arXiv | [paper](https://arxiv.org/abs/2511.09515) | [code](https://github.com/WM-PO/WMPO) |
+  | 2025 | Internalizing World Models via Self-Play Finetuning for Agentic RL | arXiv | [paper](https://arxiv.org/abs/2510.15047) | N/A |
+  | 2026 | AlignUSER: Human-Aligned LLM Agents via World Models for Recommender System Evaluation | arXiv | [paper](https://arxiv.org/abs/2601.00930) | N/A |
 
   </details>
   
