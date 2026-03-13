@@ -185,7 +185,7 @@ depending on **which component is improved** during learning and adaptation.
 <details open>
 <summary><b>2.1 Prompt Optimization</b></summary>
 
-- **2.1.1 Black-Box Optimization**
+- **2.1.1 Scalar-Feedback Optimization**
   <details open>
   <summary>View</summary>
 
@@ -196,7 +196,7 @@ depending on **which component is improved** during learning and adaptation.
 
   </details>
 
-- **2.1.2 Iterative Refinement**
+- **2.1.2 Qualitative-Feedback Refinement**
   <details open>
   <summary>View</summary>
 
@@ -209,7 +209,7 @@ depending on **which component is improved** during learning and adaptation.
 
   </details>
 
-- **2.1.3 Evolutionary Algorithms**
+- **2.1.3 Population-Based Evolution**
   <details open>
   <summary>View</summary>
 
@@ -222,7 +222,7 @@ depending on **which component is improved** during learning and adaptation.
 
   </details>
 
-- **2.1.4 Textual Gradient**
+- **2.1.4 Textual Gradient Optimization**
   <details open>
   <summary>View</summary>
 
