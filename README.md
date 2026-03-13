@@ -147,6 +147,13 @@ depending on **which component is improved** during learning and adaptation.
   | 2025 | Agent-RLVR: Training Software Engineering Agents via Guidance and Environment Rewards | arXiv | [paper](https://arxiv.org/abs/2506.11425) | N/A |
   | 2025 | WebRL: Training LLM Web Agents via Self-Evolving Online Curriculum Reinforcement Learning | ICLR | [paper](https://arxiv.org/abs/2411.02337) | [code](https://github.com/THUDM/WebRL) |
   | 2025 | Self-Improving Language Models for Evolutionary Program Synthesis: A Case Study on ARC-AGI | ICML | [paper](https://arxiv.org/abs/2507.14172) | [code](https://github.com/flowersteam/SOAR) |
+  | 2025 | DeepResearcher: Scaling Deep Research via Reinforcement Learning in Real-world Environments | arXiv | [paper](https://arxiv.org/abs/2504.03160) | [code](https://github.com/GAIR-NLP/DeepResearcher) |
+  | 2025 | Agentic Reasoning and Tool Integration for LLMs via Reinforcement Learning | arXiv | [paper](https://arxiv.org/abs/2505.01441v1) | N/A |
+  | 2025 | UI-Genie: A Self-Improving Approach for Iteratively Boosting MLLM-based Mobile GUI Agents | NeurIPS | [paper](https://arxiv.org/abs/2505.21496) | [code](https://github.com/Euphoria16/UI-Genie) |
+  | 2025 | RAGEN: Understanding Self-Evolution in LLM Agents via Multi-Turn Reinforcement Learning | arXiv | [paper](https://arxiv.org/abs/2504.20073) | [code](https://github.com/mll-lab-nu/RAGEN) |
+  | 2025 | SEAgent: Self-Evolving Computer Use Agent with Autonomous Learning from Experience | arXiv | [paper](https://arxiv.org/abs/2508.04700) | [code](https://github.com/SunzeY/SEAgent) |
+  | 2026 | WebGym: Scaling Training Environments for Visual Web Agents with Realistic Tasks | arXiv | [paper](https://arxiv.org/abs/2601.02439) | [code](https://github.com/microsoft/webgym) |
+  | 2026 | Kevin: Multi-Turn RL for Generating CUDA Kernels | ICLR | [paper](https://openreview.net/pdf?id=xu1XwVZtDi) | N/A |
 
   </details>
 
