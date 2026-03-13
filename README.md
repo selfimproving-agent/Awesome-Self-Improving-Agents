@@ -193,6 +193,13 @@ depending on **which component is improved** during learning and adaptation.
   |------:|--------|--------|--------|--------|
   | 2022 | Large Language Models Are Human-Level Prompt Engineers | arXiv | [paper](https://arxiv.org/abs/2211.01910) | [code](https://github.com/keirp/automatic_prompt_engineer) |
   | 2024 | Large Language Models as Optimizers | ICLR | [paper](https://arxiv.org/abs/2309.03409) | [code](https://github.com/google-deepmind/opro) |
+  | 2024 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
 
   </details>
 
@@ -206,6 +213,12 @@ depending on **which component is improved** during learning and adaptation.
   | 2023 | Chain of Hindsight Aligns Language Models with Feedback | arXiv | [paper](https://arxiv.org/abs/2302.02676) | [code](https://github.com/haoliuhl/chain-of-hindsight) |
   | 2023 | Reflexion: Language Agents with Verbal Reinforcement Learning | NeurIPS  | [paper](https://arxiv.org/abs/2303.11366) | [code](https://github.com/noahshinn/reflexion) |
   | 2024 | Self-Improving Customer Review Response Generation Based on LLMs | COLING  | [paper](https://arxiv.org/abs/2405.03845) | N/A |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
 
   </details>
 
@@ -219,6 +232,13 @@ depending on **which component is improved** during learning and adaptation.
   | 2024 | WizardLM: Empowering large pre-trained language models to follow complex instructions | ICLR | [paper](https://arxiv.org/abs/2304.12244) | [code](https://github.com/nlpxucan/WizardLM) |
   | 2025 | Tournament of Prompts: Evolving LLM Instructions Through Structured Debates and Elo Ratings | KDD | [paper](https://arxiv.org/abs/2506.00178v2) | N/A |
   | 2023 | Promptbreeder: Self-Referential Self-Improvement Via Prompt Evolution | arXiv | [paper](https://arxiv.org/abs/2309.16797) | N/A |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
 
   </details>
 
@@ -232,6 +252,12 @@ depending on **which component is improved** during learning and adaptation.
   | 2025 | metaTextGrad: Automatically optimizing language model optimizers | NeurIPS | [paper](https://arxiv.org/abs/2505.18524) | [code](https://github.com/zou-group/metatextgrad) |
   | 2023 | Automatic Prompt Optimization with "Gradient Descent" and Beam Search | EMNLP  | [paper](https://arxiv.org/abs/2305.03495) | [code](https://github.com/microsoft/LMOps/tree/main/prompt_optimization) |
   | 2024 | How to Correctly do Semantic Backpropagation on Language-based Agentic Systems | arXiv  | [paper](https://arxiv.org/abs/2412.03624) | [code](https://github.com/HishamAlyahya/semantic_backprop) |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
 
   </details>
   
@@ -253,6 +279,11 @@ depending on **which component is improved** during learning and adaptation.
   | 2025 | Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory | arXiv  | [paper](https://arxiv.org/abs/2508.09736) | [code](https://github.com/bytedance-seed/m3-agent) |
   | 2023 | Learning to Reason and Memorize with Self-Notes | NeurIPS  | [paper](https://arxiv.org/abs/2305.00833) | N/A |
   | 2025 | Dynamic Cheatsheet: Test-Time Learning with Adaptive Memory | arXiv  | [paper](https://arxiv.org/abs/2305.00833) | [code](https://github.com/suzgunmirac/dynamic-cheatsheet) |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
 
   </details>
 
@@ -269,6 +300,10 @@ depending on **which component is improved** during learning and adaptation.
   | 2022 | XMem: Long-Term Video Object Segmentation with an Atkinson-Shiffrin Memory Model | ECCV  | [paper](https://arxiv.org/abs/2207.07115) | [code](https://github.com/hkchengrex/XMem) |
   | 2024 | MovieChat: From Dense Token to Sparse Memory for Long Video Understanding | CVPR | [paper](https://arxiv.org/abs/2307.16449) | [code](https://github.com/rese1f/MovieChat) |
   | 2025 | Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory | arXiv | [paper](https://arxiv.org/abs/2504.19413) | [code](https://mem0.ai/research) |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
 
   </details>
 
@@ -285,6 +320,10 @@ depending on **which component is improved** during learning and adaptation.
   | 2025 | A-MEM: Agentic Memory for LLM Agents | NeurIPS | [paper](https://arxiv.org/abs/2502.12110) | [code](https://github.com/WujiangXu/A-mem-sys) |
   | 2023 | Generative Agents: Interactive Simulacra of Human Behavior | UIST | [paper](https://arxiv.org/abs/2304.03442) | [code](https://github.com/joonspk-research/generative_agents) |
   | 2025 | G-Memory: Tracing Hierarchical Memory for Multi-Agent Systems | arXiv | [paper](https://arxiv.org/abs/2506.07398) | [code](https://github.com/bingreeky/GMemory) |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
 
   </details>
 
@@ -307,6 +346,10 @@ depending on **which component is improved** during learning and adaptation.
   | 2025 | MCP-Flow: Facilitating LLM Agents to Master Real-World, Diverse and Scaling MCP Tools | arXiv | [paper](https://arxiv.org/abs/2510.24284) | [code](https://github.com/wwh0411/MCP-Flow) |
   | 2025 | In-the-Flow Agentic System Optimization for Effective Planning and Tool Use | NeurIPS | [paper](https://arxiv.org/abs/2510.05592) | [code](https://github.com/lupantech/AgentFlow) |
   | 2025 | MassTool: A Multi-Task Search-Based Tool Retrieval Framework for Large Language Models | arXiv | [paper](https://arxiv.org/abs/2507.00487) | [code](https://github.com/wxydada/MassTool) |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
 
 
   </details>
@@ -321,6 +364,12 @@ depending on **which component is improved** during learning and adaptation.
   | 2025 | SkillWeaver: Web Agents can Self-Improve by Discovering and Honing Skills | arXiv | [paper](https://arxiv.org/abs/2504.07079) | [code](https://github.com/OSU-NLP-Group/SkillWeaver) |
   | 2025 | PyVision: Agentic Vision with Dynamic Tooling | arXiv | [paper](https://arxiv.org/abs/2507.07998) | [code](https://github.com/agents-x-project/PyVision) |
   | 2025 | From Exploration to Mastery: Enabling LLMs to Master Tools via Self-Driven Interactions | ICLR | [paper](https://arxiv.org/abs/2410.08197) | [code](https://github.com/quchangle1/DRAFT) |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
 
   </details>
 
@@ -337,6 +386,11 @@ depending on **which component is improved** during learning and adaptation.
   | 2024 | OS-Copilot: Towards Generalist Computer Agents with Self-Improvement | ICLR | [paper](https://arxiv.org/abs/2402.07456) | [code](https://github.com/OS-Copilot/OS-Copilot) |
   | 2025 | Advanced Tool Learning and Selection System (ATLASS): A Closed-Loop Framework Using LLM | SOSE | [paper](https://arxiv.org/abs/2503.10071) | N/A |
   | 2025 | Code2MCP: Transforming Code Repositories into MCP Services | arXiv | [paper](https://arxiv.org/abs/2509.05941) | [code](https://github.com/DEFENSE-SEU/Code2MCP) |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
 
   </details>
 
@@ -356,6 +410,11 @@ depending on **which component is improved** during learning and adaptation.
   | 2024 | Automated Design of Agentic Systems | NeurIPS | [paper](https://arxiv.org/abs/2408.08435) | [code](https://github.com/ShengranHu/ADAS) |
   | 2024 | Symbolic Learning Enables Self-Evolving Agents | arXiv | [paper](https://arxiv.org/abs/2406.18532) | [code](https://github.com/aiwaves-cn/agents) |
   | 2025 | Live-SWE-agent: Can Software Engineering Agents Self-Evolve on the Fly? | arXiv | [paper](https://arxiv.org/abs/2511.13646) | [code](https://github.com/OpenAutoCoder/live-swe-agent) |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Large | arXiv | [paper]() | [code]() |
   
 </details>
 
