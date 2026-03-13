@@ -119,6 +119,10 @@ depending on **which component is improved** during learning and adaptation.
   | 2025 | Right Question is Already Half the Answer: Fully Unsupervised LLM Reasoning Incentivization | NeurIPS | [paper](https://arxiv.org/abs/2504.05812) | [code](https://github.com/QingyangZhang/EMPO) |
   | 2025 | TTRL: Test-Time Reinforcement Learning | NeurIPS | [paper](https://arxiv.org/abs/2504.16084) | [code](https://github.com/PRIME-RL/TTRL) |
   | 2025 | Can Large Reasoning Models Self-Train? | arXiv | [paper](https://arxiv.org/abs/2505.21444) | [code](https://github.com/tajwarfahim/srt) |
+  | 2025 | Self Rewarding Self Improving | arXiv | [paper](https://arxiv.org/abs/2505.08827v1) | N/A |
+  | 2025 | Self-Evolving Curriculum for LLM Reasoning | arXiv | [paper](https://arxiv.org/abs/2505.14970) | [code](https://github.com/ServiceNow/sec) |
+  | 2025 | Reflect, Retry, Reward: Self-Improving LLMs via Reinforcement Learning | arXiv | [paper](https://arxiv.org/abs/2505.24726) | N/A |
+  | 2025 | Adaptive Self-improvement LLM Agentic System for ML Library Development | ICML | [paper](https://arxiv.org/abs/2502.02534) | [code](https://github.com/zhang677/PCL-lite) |
   | 2026 | Learning to Reason without External Rewards | ICLR | [paper](https://arxiv.org/abs/2505.19590) | [code](https://github.com/sunblaze-ucb/Intuitor) |
   | 2026 | Structured Reasoning for Large Language Models | arXiv | [paper](https://arxiv.org/abs/2601.07180) | N/A |
   | 2026 | iReasoner: Trajectory-Aware Intrinsic Reasoning Supervision for Self-Evolving Large Multimodal Models | arXiv | [paper](https://arxiv.org/abs/2601.07180) | [code](https://github.com/meghanaasunil/iReasoner) |
