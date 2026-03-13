@@ -193,9 +193,9 @@ depending on **which component is improved** during learning and adaptation.
   |------:|--------|--------|--------|--------|
   | 2022 | Large Language Models Are Human-Level Prompt Engineers | arXiv | [paper](https://arxiv.org/abs/2211.01910) | [code](https://github.com/keirp/automatic_prompt_engineer) |
   | 2024 | Large Language Models as Optimizers | ICLR | [paper](https://arxiv.org/abs/2309.03409) | [code](https://github.com/google-deepmind/opro) |
-  | 2024 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2024 | Prompt Refinement with Image Pivot for Text-to-Image Generation | ACL | [paper](https://arxiv.org/abs/2407.00247) | [code](https://github.com/jingtaozhan/PromptReformulate) |
+  | 2024 | Learning from Contrastive Prompts: Automated Optimization and Adaptation | arXiv | [paper](https://arxiv.org/abs/2409.15199) | N/A |
+  | 2024 | PRompt Optimization in Multi-Step Tasks (PROMST): Integrating Human Feedback and Heuristic-based Sampling | EMNLP | [paper](https://arxiv.org/abs/2402.08702) | [code](https://github.com/yongchao98/PROMST) |
   | 2025 | Large | arXiv | [paper]() | [code]() |
   | 2025 | Large | arXiv | [paper]() | [code]() |
   | 2025 | Large | arXiv | [paper]() | [code]() |
