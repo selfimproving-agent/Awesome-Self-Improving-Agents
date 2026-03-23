@@ -196,10 +196,9 @@ depending on **which component is improved** during learning and adaptation.
   | 2024 | Prompt Refinement with Image Pivot for Text-to-Image Generation | ACL | [paper](https://arxiv.org/abs/2407.00247) | [code](https://github.com/jingtaozhan/PromptReformulate) |
   | 2024 | Learning from Contrastive Prompts: Automated Optimization and Adaptation | arXiv | [paper](https://arxiv.org/abs/2409.15199) | N/A |
   | 2024 | PRompt Optimization in Multi-Step Tasks (PROMST): Integrating Human Feedback and Heuristic-based Sampling | EMNLP | [paper](https://arxiv.org/abs/2402.08702) | [code](https://github.com/yongchao98/PROMST) |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | The Prompt Alchemist: Automated LLM-Tailored Prompt Optimization for Test Case Generation | arXiv | [paper](https://arxiv.org/abs/2501.01329) | N/A |
+  | 2025 | DRO-InstructZero: Distributionally Robust Prompt Optimization for Large Language Models | arXiv | [paper](https://arxiv.org/abs/2510.15260) | N/A |
+  | 2025 | CoolPrompt: Automatic Prompt Optimization Framework for Large Language Models | FRUCT | [paper](https://ieeexplore.ieee.org/document/11239071) | N/A |
 
   </details>
 
