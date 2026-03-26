@@ -212,12 +212,11 @@ depending on **which component is improved** during learning and adaptation.
   | 2023 | Chain of Hindsight Aligns Language Models with Feedback | arXiv | [paper](https://arxiv.org/abs/2302.02676) | [code](https://github.com/haoliuhl/chain-of-hindsight) |
   | 2023 | Reflexion: Language Agents with Verbal Reinforcement Learning | NeurIPS  | [paper](https://arxiv.org/abs/2303.11366) | [code](https://github.com/noahshinn/reflexion) |
   | 2024 | Self-Improving Customer Review Response Generation Based on LLMs | COLING  | [paper](https://arxiv.org/abs/2405.03845) | N/A |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2024 | Prompt Optimization with Human Feedback | ICML Workshop | [paper](https://arxiv.org/abs/2405.17346) | [code](https://github.com/xqlin98/APOHF) |
+  | 2024 | Optimizing Instructions and Demonstrations for Multi-Stage Language Model Programs | EMNLP | [paper](https://arxiv.org/abs/2406.11695) | [code](https://dspy.ai/) |
+  | 2025 | CriSPO: Multi-Aspect Critique-Suggestion-guided Automatic Prompt Optimization for Text Generation | AAAI | [paper](https://arxiv.org/abs/2410.02748) | [code](https://github.com/amazon-science/CriSPO) |
+  | 2025 | Boosting Private Domain Understanding of Efficient MLLMs: A Tuning-free, Adaptive, Universal Prompt Optimization Framework | arXiv | [paper](https://arxiv.org/abs/2412.19684) | N/A |
+  | 2026 | GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning | ICLR | [paper](https://arxiv.org/abs/2507.19457) | [code](https://github.com/gepa-ai/gepa) |
 
   </details>
 
