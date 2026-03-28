@@ -230,13 +230,8 @@ depending on **which component is improved** during learning and adaptation.
   | 2024 | WizardLM: Empowering large pre-trained language models to follow complex instructions | ICLR | [paper](https://arxiv.org/abs/2304.12244) | [code](https://github.com/nlpxucan/WizardLM) |
   | 2025 | Tournament of Prompts: Evolving LLM Instructions Through Structured Debates and Elo Ratings | KDD | [paper](https://arxiv.org/abs/2506.00178v2) | N/A |
   | 2023 | Promptbreeder: Self-Referential Self-Improvement Via Prompt Evolution | arXiv | [paper](https://arxiv.org/abs/2309.16797) | N/A |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | DelvePO: Direction-Guided Self-Evolving Framework for Flexible Prompt Optimization | arXiv | [paper](https://arxiv.org/abs/2510.18257) | [code](https://github.com/PasaLab/DelvePO) |
+  | 2025 | How to Auto-optimize Prompts for Domain Tasks? Adaptive Prompting and Reasoning through Evolutionary Domain Knowledge Adaptation | NeurIPS | [paper](https://arxiv.org/abs/2510.21148) | [code](https://github.com/miemieyanga/EGO-Prompt) |
 
   </details>
 
@@ -246,16 +241,14 @@ depending on **which component is improved** during learning and adaptation.
 
   | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
   |------:|--------|--------|--------|--------|
-  | 2025 | TextGrad: Automatic "Differentiation" via Text | Nature | [paper](https://arxiv.org/abs/2406.07496) | [code](https://github.com/zou-group/textgrad) |
-  | 2025 | metaTextGrad: Automatically optimizing language model optimizers | NeurIPS | [paper](https://arxiv.org/abs/2505.18524) | [code](https://github.com/zou-group/metatextgrad) |
   | 2023 | Automatic Prompt Optimization with "Gradient Descent" and Beam Search | EMNLP  | [paper](https://arxiv.org/abs/2305.03495) | [code](https://github.com/microsoft/LMOps/tree/main/prompt_optimization) |
   | 2024 | How to Correctly do Semantic Backpropagation on Language-based Agentic Systems | arXiv  | [paper](https://arxiv.org/abs/2412.03624) | [code](https://github.com/HishamAlyahya/semantic_backprop) |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2024 | Trace is the Next AutoDiff: Generative Optimization with Rich Feedback, Execution Traces, and LLMs | NeurIPS | [paper](https://arxiv.org/abs/2406.16218) | [code](https://github.com/microsoft/trace) |
+  | 2025 | TextGrad: Automatic "Differentiation" via Text | Nature | [paper](https://arxiv.org/abs/2406.07496) | [code](https://github.com/zou-group/textgrad) |
+  | 2025 | metaTextGrad: Automatically optimizing language model optimizers | NeurIPS | [paper](https://arxiv.org/abs/2505.18524) | [code](https://github.com/zou-group/metatextgrad) |
+  | 2025 | MAPGD: Multi-Agent Prompt Gradient Descent for Collaborative Prompt Optimization | NeurIPS Workshop | [paper](https://openreview.net/pdf?id=FywYwwH5z9) | N/A |
+  | 2025 | Scaling Textual Gradients via Sampling-Based Momentum | ICML | [paper](https://arxiv.org/abs/2506.00400) | N/A |
+  | 2026 | Pick Your Textual Gradients | arXiv | [paper](https://openreview.net/pdf?id=ydTwv5D536) | N/A |
 
   </details>
   
