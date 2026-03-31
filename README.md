@@ -263,18 +263,20 @@ depending on **which component is improved** during learning and adaptation.
 
   | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
   |------:|--------|--------|--------|--------|
-  | 2024 | Agent Workflow Memory | arXiv | [paper](https://arxiv.org/abs/2409.07429) | [code](https://github.com/zorazrw/agent-workflow-memory) |
-  | 2025 | ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory | arXiv | [paper](https://arxiv.org/abs/2509.25140) | N/A |
+  | 2023 | Learning to Reason and Memorize with Self-Notes | NeurIPS  | [paper](https://arxiv.org/abs/2305.00833) | N/A |
   | 2024 | ExpeL: LLM Agents Are Experiential Learners | AAAI  | [paper](https://arxiv.org/abs/2308.10144) | [code](https://github.com/LeapLabTHU/ExpeL) |
   | 2024 | A Human-Inspired Reading Agent with Gist Memory of Very Long Contexts | ICML  | [paper](https://arxiv.org/abs/2402.09727) | N/A |
+  | 2024 | CodeAgent: Enhancing Code Generation with Tool-Integrated Agent Systems for Real-World Repo-level Coding Challenges | ACL | [paper](https://arxiv.org/abs/2401.07339) | N/A |
+  | 2024 | MEMORYLLM: Towards Self-Updatable Large Language Models | ICML | [paper](https://arxiv.org/abs/2402.04624) | [code](https://github.com/wangyu-ustc/MemoryLLM) |
+  | 2025 | Agent Workflow Memory | ICML | [paper](https://arxiv.org/abs/2409.07429) | [code](https://github.com/zorazrw/agent-workflow-memory) |
+  | 2025 | ReasoningBank: Scaling Agent Self-Evolving with Reasoning Memory | arXiv | [paper](https://arxiv.org/abs/2509.25140) | N/A |
   | 2025 | Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory | arXiv  | [paper](https://arxiv.org/abs/2508.09736) | [code](https://github.com/bytedance-seed/m3-agent) |
-  | 2023 | Learning to Reason and Memorize with Self-Notes | NeurIPS  | [paper](https://arxiv.org/abs/2305.00833) | N/A |
   | 2025 | Dynamic Cheatsheet: Test-Time Learning with Adaptive Memory | arXiv  | [paper](https://arxiv.org/abs/2305.00833) | [code](https://github.com/suzgunmirac/dynamic-cheatsheet) |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | PRIME: Planning and Retrieval-Integrated Memory for Enhanced Reasoning | AAAI | [paper](https://arxiv.org/abs/2509.22315) | N/A |
+  | 2025 | Contextual Memory Reweaving in Large Language Models Using Layered Latent State Reconstruction | arXiv | [paper]() | [code]() |
+  | 2025 | MemGen: Weaving Generative Latent Memory for Self-Evolving Agents | arXiv | [paper](https://arxiv.org/abs/2509.24704) | [code](https://github.com/bingreeky/MemGen) |
+  | 2025 | M+: Extending MemoryLLM with Scalable Long-Term Memory | arXiv | [paper](https://arxiv.org/abs/2502.00592) | [code](https://github.com/wangyu-ustc/MemoryLLM) |
+  | 2026 | Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory | ICLR | [paper](https://arxiv.org/abs/2508.09736) | [code](https://github.com/bytedance-seed/m3-agent) |
 
   </details>
 
