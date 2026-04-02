@@ -293,10 +293,17 @@ depending on **which component is improved** during learning and adaptation.
   | 2022 | XMem: Long-Term Video Object Segmentation with an Atkinson-Shiffrin Memory Model | ECCV  | [paper](https://arxiv.org/abs/2207.07115) | [code](https://github.com/hkchengrex/XMem) |
   | 2024 | MovieChat: From Dense Token to Sparse Memory for Long Video Understanding | CVPR | [paper](https://arxiv.org/abs/2307.16449) | [code](https://github.com/rese1f/MovieChat) |
   | 2025 | Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory | arXiv | [paper](https://arxiv.org/abs/2504.19413) | [code](https://mem0.ai/research) |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | G-Memory: Tracing Hierarchical Memory for Multi-Agent Systems | NeurIPS | [paper](https://arxiv.org/abs/2506.07398) | [code](https://github.com/bingreeky/GMemory) |
+  | 2025 | Zep: A Temporal Knowledge Graph Architecture for Agent Memory | arXiv | [paper](https://arxiv.org/abs/2501.13956) | N/A |
+  | 2025 | SGMem: Sentence Graph Memory for Long-Term Conversational Agents | arXiv | [paper](https://arxiv.org/abs/2509.21212) | N/A |
+  | 2025 | CausalRAG: Integrating Causal Graphs into Retrieval-Augmented Generation | ACL | [paper](https://arxiv.org/abs/2503.19878) | [code](https://github.com/Pwnb/CausalRAG) |
+  | 2025 | GraphVideoAgent: Enhancing Long-form Video Understanding with Entity Relation Graphs | MM'25 | [paper](https://dl.acm.org/doi/abs/10.1145/3746027.3755537) | N/A |
+  | 2025 | Decentralizing AI Memory: SHIMI, a Semantic Hierarchical Memory Index for Scalable Agent Reasoning | arXiv | [paper](https://arxiv.org/abs/2504.06135) | N/A |
+  | 2025 | From Knowledge to Noise: CTIM-Rover and the Pitfalls of Episodic Memory in Software Engineering Agents | ACL Workshop | [paper](https://arxiv.org/abs/2505.23422v1) | [code](https://github.com/Liqs-v2/ctim-rover) |
+  | 2023 | Generative Agents: Interactive Simulacra of Human Behavior | UIST'23 | [paper](https://dl.acm.org/doi/10.1145/3586183.3606763) | N/A |
+  | 2024 | MemoryBank: Enhancing Large Language Models with Long-Term Memory | arXiv | [paper](https://arxiv.org/abs/2305.10250) | [code](https://github.com/zhongwanjun/MemoryBank-SiliconFriend) |
+  | 2025 | In Prospect and Retrospect: Reflective Memory Management for Long-term Personalized Dialogue Agents | ACL | [paper](https://arxiv.org/abs/2503.08026) | N/A |
+  | 2025 | MrSteve: Instruction-Following Agents in Minecraft with What-Where-When Memory | ICLR | [paper](https://openreview.net/pdf?id=CjXaMI2kUH) | [code](https://github.com/frechele/MrSteve) |
 
   </details>
 
