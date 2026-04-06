@@ -313,17 +313,22 @@ depending on **which component is improved** during learning and adaptation.
 
   | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
   |------:|--------|--------|--------|--------|
-  | 2025 | SEDM: Scalable Self-Evolving Distributed Memory for Agents | ICLR | [paper](https://arxiv.org/abs/2309.08532) | [code](https://github.com/beeevita/EvoPrompt) |
+  | 2023 | Generative Agents: Interactive Simulacra of Human Behavior | UIST | [paper](https://arxiv.org/abs/2304.03442) | [code](https://github.com/joonspk-research/generative_agents) |
   | 2024 | WizardLM: Empowering large pre-trained language models to follow complex instructions | ICLR | [paper](https://arxiv.org/abs/2509.09498) | N/A |
+  | 2025 | SEDM: Scalable Self-Evolving Distributed Memory for Agents | ICLR | [paper](https://arxiv.org/abs/2309.08532) | [code](https://github.com/beeevita/EvoPrompt) |
   | 2025 | MemInsight: Autonomous Memory Augmentation for LLM Agents | arXiv | [paper](https://arxiv.org/abs/2503.21760) | N/A |
   | 2025 | MemGen: Weaving Generative Latent Memory for Self-Evolving Agents | arXiv | [paper](https://arxiv.org/abs/2509.24704) | [code](https://github.com/KANABOON1/MemGen) |
   | 2025 | A-MEM: Agentic Memory for LLM Agents | NeurIPS | [paper](https://arxiv.org/abs/2502.12110) | [code](https://github.com/WujiangXu/A-mem-sys) |
-  | 2023 | Generative Agents: Interactive Simulacra of Human Behavior | UIST | [paper](https://arxiv.org/abs/2304.03442) | [code](https://github.com/joonspk-research/generative_agents) |
   | 2025 | G-Memory: Tracing Hierarchical Memory for Multi-Agent Systems | arXiv | [paper](https://arxiv.org/abs/2506.07398) | [code](https://github.com/bingreeky/GMemory) |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | Mem0: Building Production-Ready AI Agents with Scalable Long-Term Memory | arXiv | [paper](https://arxiv.org/abs/2504.19413) | [code](https://mem0.ai/research) |
+  | 2025 | Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG | arXiv | [paper](https://arxiv.org/abs/2501.09136) | [code](https://github.com/asinghcsu/AgenticRAG-Survey) |
+  | 2025 | Memory OS of AI Agent | EMNLP | [paper](https://arxiv.org/abs/2506.06326) | [code](https://github.com/BAI-LAB/MemoryOS) |
+  | 2025 | SCM: Enhancing Large Language Model with Self-Controlled Memory Framework | DASFAA | [paper](https://arxiv.org/abs/2304.13343) | [code](https://github.com/wbbeyourself/SCM4LLMs) |
+  | 2025 | Dynamic Cheatsheet: Test-Time Learning with Adaptive Memory | arXiv | [paper](https://arxiv.org/abs/2504.07952) | [code](https://github.com/suzgunmirac/dynamic-cheatsheet) |
+  | 2025 | MLC-Agent: Cognitive Model based on Memory-Learning Collaboration in LLM Empowered Agent Simulation Environment | arXiv | [paper](https://arxiv.org/abs/2507.20215) | N/A |
+  | 2025 | MemInsight: Autonomous Memory Augmentation for LLM Agents | arXiv | [paper](https://arxiv.org/abs/2503.21760) | N/A |
+  | 2026 | Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models | ICLR | [paper](https://arxiv.org/abs/2510.04618) | [code](https://github.com/ace-agent/ace) |
+  | 2026 | MemRL: Self-Evolving Agents via Runtime Reinforcement Learning on Episodic Memory | arXiv | [paper](https://arxiv.org/abs/2601.03192) | [code](https://github.com/MemTensor/MemRL) |
 
   </details>
 
@@ -339,6 +344,7 @@ depending on **which component is improved** during learning and adaptation.
   | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
   |------:|--------|--------|--------|--------|
   | 2023 | Voyager: An Open-Ended Embodied Agent with Large Language Models | arXiv | [paper](https://arxiv.org/abs/2305.16291) | [code](https://github.com/MineDojo/Voyager) |
+  | 2024 | ToolNet: Connecting Large Language Models with Massive Tools via Tool Graph | arXiv | [paper](https://arxiv.org/abs/2403.00839) | N/A |
   | 2025 | AgentOrchestra: Orchestrating Hierarchical Multi-Agent Intelligence with the Tool-Environment-Agent(TEA) Protocol | arXiv | [paper](https://arxiv.org/abs/2506.12508) | N/A |
   | 2025 | MetaAgent: Toward Self-Evolving Agent via Tool Meta-Learning | arXiv | [paper](https://arxiv.org/abs/2508.00271) | [code](https://github.com/qhjqhj00/MetaAgent) |
   | 2025 | OrchDAG: Complex Tool Orchestration in Multi-Turn Interactions with Plan DAGs | NeurIPS Workshop | [paper](https://arxiv.org/abs/2510.24663) | N/A |
@@ -346,10 +352,19 @@ depending on **which component is improved** during learning and adaptation.
   | 2025 | MCP-Flow: Facilitating LLM Agents to Master Real-World, Diverse and Scaling MCP Tools | arXiv | [paper](https://arxiv.org/abs/2510.24284) | [code](https://github.com/wwh0411/MCP-Flow) |
   | 2025 | In-the-Flow Agentic System Optimization for Effective Planning and Tool Use | NeurIPS | [paper](https://arxiv.org/abs/2510.05592) | [code](https://github.com/lupantech/AgentFlow) |
   | 2025 | MassTool: A Multi-Task Search-Based Tool Retrieval Framework for Large Language Models | arXiv | [paper](https://arxiv.org/abs/2507.00487) | [code](https://github.com/wxydada/MassTool) |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | AgentOrchestra: Orchestrating Multi-Agent Intelligence with the Tool-Environment-Agent(TEA) Protocol | arXiv | [paper](https://arxiv.org/abs/2506.12508) | N/A |
+  | 2025 | Iterative Tool Usage Exploration for Multimodal Agents via Step-wise Preference Tuning | NeurIPS | [paper](https://arxiv.org/abs/2504.21561) | [code](https://github.com/SPORT-Agents/SPORT-Agents) |
+  | 2025 | Tool-Star: Empowering LLM-Brained Multi-Tool Reasoner via Reinforcement Learning | arXiv | [paper](https://arxiv.org/abs/2505.16410) | [code](https://github.com/RUC-NLPIR/Tool-Star) |
+  | 2025 | MCP-Zero: Active Tool Discovery for Autonomous LLM Agents | arXiv | [paper](https://arxiv.org/abs/2506.01056v4) | [code](https://github.com/xfey/MCP-Zero) |
+  | 2025 | AskToAct: Enhancing LLMs Tool Use via Self-Correcting Clarification | arXiv | [paper](https://arxiv.org/abs/2503.01940) | N/A |
+  | 2025 | MemTool: Optimizing Short-Term Memory Management for Dynamic Tool Calling in LLM Agent Multi-Turn Conversations | arXiv | [paper](https://arxiv.org/abs/2507.21428) | N/A |
+  | 2025 | Tool-Planner: Task Planning with Clusters across Multiple Tools | ICLR | [paper](https://arxiv.org/abs/2406.03807) | [code](https://github.com/OceannTwT/Tool-Planner) |
+  | 2025 | Tool-to-Agent Retrieval: Bridging Tools and Agents for Scalable LLM Multi-Agent Systems | arXiv | [paper](https://arxiv.org/abs/2511.01854) | N/A |
+  | 2025 | ToolGen: Unified Tool Retrieval and Calling via Generation | ICLR | [paper](https://arxiv.org/abs/2410.03439) | [code](https://github.com/Reason-Wang/ToolGen) |
+  | 2026 | ToolACE-R: Model-aware Iterative Training and Adaptive Refinement for Tool Learning | AAAI | [paper](https://arxiv.org/abs/2504.01400) | [code]() |
+  | 2026 | DeepAgent: A General Reasoning Agent with Scalable Toolsets | WWW | [paper](https://arxiv.org/abs/2510.21618) | [code](https://github.com/RUC-NLPIR/DeepAgent) |
+  | 2026 | DeepEyesV2: Toward Agentic Multimodal Model | ICLR | [paper](https://arxiv.org/abs/2511.05271) | [code](https://github.com/Visual-Agent/DeepEyesV2) |
+  | 2026 | In-the-Flow Agentic System Optimization for Effective Planning and Tool Use | ICLR | [paper](https://arxiv.org/abs/2510.05592) | [code](https://github.com/lupantech/AgentFlow) |
 
 
   </details>
@@ -360,16 +375,13 @@ depending on **which component is improved** during learning and adaptation.
 
   | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
   |------:|--------|--------|--------|--------|
+  | 2023 | Voyager: An Open-Ended Embodied Agent with Large Language Models | arXiv | [paper](https://arxiv.org/abs/2305.16291) | [code](https://github.com/MineDojo/Voyager) |
   | 2025 | STELLA: Self-Evolving LLM Agent for Biomedical Research | arXiv | [paper](https://arxiv.org/abs/2507.02004) | [code](https://github.com/zaixizhang/STELLA) |
   | 2025 | SkillWeaver: Web Agents can Self-Improve by Discovering and Honing Skills | arXiv | [paper](https://arxiv.org/abs/2504.07079) | [code](https://github.com/OSU-NLP-Group/SkillWeaver) |
   | 2025 | PyVision: Agentic Vision with Dynamic Tooling | arXiv | [paper](https://arxiv.org/abs/2507.07998) | [code](https://github.com/agents-x-project/PyVision) |
   | 2025 | From Exploration to Mastery: Enabling LLMs to Master Tools via Self-Driven Interactions | ICLR | [paper](https://arxiv.org/abs/2410.08197) | [code](https://github.com/quchangle1/DRAFT) |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | LLMLOOP: Improving LLM-Generated Code and Tests Through Automated Iterative Feedback Loops | ICSME | [paper](https://ieeexplore.ieee.org/document/11185878) | [code](https://github.com/ravinravi03/LLMLOOP) |
+  | 2025 | Helping LLMs Improve Code Generation Using Feedback from Testing and Static Analysis | arXiv | [paper](https://arxiv.org/abs/2412.14841) | N/A |
 
   </details>
 
@@ -379,6 +391,7 @@ depending on **which component is improved** during learning and adaptation.
 
   | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
   |------:|--------|--------|--------|--------|
+  | 2023 | Voyager: An Open-Ended Embodied Agent with Large Language Models | arXiv | [paper](https://arxiv.org/abs/2305.16291) | [code](https://github.com/MineDojo/Voyager) |
   | 2025 | Alita: Generalist Agent Enabling Scalable Agentic Reasoning with Minimal Predefinition and Maximal Self-Evolution | arXiv | [paper](https://arxiv.org/abs/2505.20286) | [code](https://github.com/CharlesQ9/Alita) |
   | 2024 | Large Language Models as Tool Makers | arXiv | [paper](https://arxiv.org/abs/2305.17126) | [code](https://github.com/ctlllll/LLM-ToolMaker) |
   | 2025 | Alita-G: Self-Evolving Generative Agent for Agent Generation | arXiv | [paper](https://arxiv.org/abs/2510.23601) | N/A |
@@ -386,11 +399,9 @@ depending on **which component is improved** during learning and adaptation.
   | 2024 | OS-Copilot: Towards Generalist Computer Agents with Self-Improvement | ICLR | [paper](https://arxiv.org/abs/2402.07456) | [code](https://github.com/OS-Copilot/OS-Copilot) |
   | 2025 | Advanced Tool Learning and Selection System (ATLASS): A Closed-Loop Framework Using LLM | SOSE | [paper](https://arxiv.org/abs/2503.10071) | N/A |
   | 2025 | Code2MCP: Transforming Code Repositories into MCP Services | arXiv | [paper](https://arxiv.org/abs/2509.05941) | [code](https://github.com/DEFENSE-SEU/Code2MCP) |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2025 | STELLA: Self-Evolving LLM Agent for Biomedical Research | arXiv | [paper](https://arxiv.org/abs/2507.02004) | [code](https://github.com/zaixizhang/STELLA) |
+  | 2025 | PyVision: Agentic Vision with Dynamic Tooling | arXiv | [paper](https://arxiv.org/abs/2507.07998) | [code](https://github.com/agents-x-project/PyVision) |
+  | 2025 | AgentOrchestra: Orchestrating Multi-Agent Intelligence with the Tool-Environment-Agent(TEA) Protocol | arXiv | [paper](https://arxiv.org/abs/2506.12508) | N/A |
 
   </details>
 
@@ -401,20 +412,19 @@ depending on **which component is improved** during learning and adaptation.
 
   | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
   |------:|--------|--------|--------|--------|
+  | 2024 | Language Agents as Optimizable Graphs | ICML | [paper](https://arxiv.org/abs/2402.16823) | [code](https://github.com/metauto-ai/gptswarm) |
+  | 2024 | Self-Taught Optimizer (STOP): Recursively Self-Improving Code Generation | COLM | [paper](https://arxiv.org/abs/2410.04444) | [code](https://github.com/microsoft/stop) |
+  | 2024 | Automated Design of Agentic Systems | NeurIPS | [paper](https://arxiv.org/abs/2408.08435) | [code](https://github.com/ShengranHu/ADAS) |
+  | 2024 | Symbolic Learning Enables Self-Evolving Agents | arXiv | [paper](https://arxiv.org/abs/2406.18532) | [code](https://github.com/aiwaves-cn/agents) |
   | 2025 | Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents | arXiv | [paper](https://arxiv.org/abs/2505.22954) | [code](https://github.com/jennyzzt/dgm) |
   | 2025 | Huxley-Gödel Machine: Human-Level Coding Agent Development by an Approximation of the Optimal Self-Improving Machine | arXiv | [paper](https://arxiv.org/abs/2510.21614) | [code](https://github.com/metauto-ai/HGM) |
   | 2025 | Gödel Agent: A Self-Referential Agent Framework for Recursive Self-Improvement | ACL | [paper](https://arxiv.org/abs/2410.04444) | [code](https://github.com/Arvid-pku/Godel_Agent) |
   | 2025 | AlphaEvolve: A coding agent for scientific and algorithmic discovery | arXiv | [paper](https://arxiv.org/abs/2506.13131) | N/A |
   | 2025 | ShinkaEvolve: Towards Open-Ended And Sample-Efficient Program Evolution | arXiv | [paper](https://arxiv.org/abs/2509.19349) | [code](https://github.com/SakanaAI/ShinkaEvolve) |
-  | 2024 | Self-Taught Optimizer (STOP): Recursively Self-Improving Code Generation | COLM | [paper](https://arxiv.org/abs/2410.04444) | [code](https://github.com/microsoft/stop) |
-  | 2024 | Automated Design of Agentic Systems | NeurIPS | [paper](https://arxiv.org/abs/2408.08435) | [code](https://github.com/ShengranHu/ADAS) |
-  | 2024 | Symbolic Learning Enables Self-Evolving Agents | arXiv | [paper](https://arxiv.org/abs/2406.18532) | [code](https://github.com/aiwaves-cn/agents) |
   | 2025 | Live-SWE-agent: Can Software Engineering Agents Self-Evolve on the Fly? | arXiv | [paper](https://arxiv.org/abs/2511.13646) | [code](https://github.com/OpenAutoCoder/live-swe-agent) |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
-  | 2025 | Large | arXiv | [paper]() | [code]() |
+  | 2026 | AgentDevel: Reframing Self-Evolving LLM Agents as Release Engineering | arXiv | [paper](https://arxiv.org/abs/2601.04620) | N/A |
+  | 2026 | JudgeFlow: Agentic Workflow Optimization via Block Judge | arXiv | [paper](https://arxiv.org/abs/2601.07477) | N/A |
+  | 2026 | RoboPhD: Self-Improving Text-to-SQL Through Autonomous Agent Evolution | arXiv | [paper](https://arxiv.org/abs/2601.01126) | [code](https://github.com/andborth/RoboPhD) |
   
 </details>
 
