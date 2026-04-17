@@ -109,10 +109,10 @@ depending on **which component is improved** during learning and adaptation.
 
   | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
   |------:|--------|--------|--------|--------|
-  | 2025 | STRIVE: Structured Reasoning for Self-Improvement in Claim Verification | MIR | [paper](https://arxiv.org/abs/2502.11959) | N/A |
-  | 2025 | Beyond Accuracy: The Role of Calibration in Self-Improving Large Language Models | arXiv | [paper](https://arxiv.org/abs/2504.02902) | N/A |
   | 2022 | Constitutional AI: Harmlessness from AI Feedback | arXiv | [paper](https://arxiv.org/abs/2212.08073) | [code](https://github.com/anthropics/ConstitutionalHarmlessnessPaper?tab=readme-ov-file) |
   | 2023 | ReST meets ReAct: Self-Improvement for Multi-Step Reasoning LLM Agent | arXiv | [paper](https://arxiv.org/abs/2312.10003) | N/A |
+  | 2025 | STRIVE: Structured Reasoning for Self-Improvement in Claim Verification | MIR | [paper](https://arxiv.org/abs/2502.11959) | N/A |
+  | 2025 | Beyond Accuracy: The Role of Calibration in Self-Improving Large Language Models | arXiv | [paper](https://arxiv.org/abs/2504.02902) | N/A |
   | 2025 | Self-Evolved Reward Learning for LLMs | ICLR | [paper](https://arxiv.org/abs/2411.00418) | [code](https://github.com/microsoft/DKI_LLM/tree/main/SER) |
   | 2025 | Sample, Predict, then Proceed: Self-Verification Sampling for Tool Use of LLMs | arXiv | [paper](https://arxiv.org/abs/2506.02918v1) | N/A |
   | 2025 | RLSR: Reinforcement Learning from Self Reward | arXiv | [paper](https://arxiv.org/abs/2505.08827) | N/A |
@@ -226,10 +226,10 @@ depending on **which component is improved** during learning and adaptation.
 
   | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
   |------:|--------|--------|--------|--------|
+  | 2023 | Promptbreeder: Self-Referential Self-Improvement Via Prompt Evolution | arXiv | [paper](https://arxiv.org/abs/2309.16797) | N/A |
   | 2024 | EvoPrompt: Connecting LLMs with Evolutionary Algorithms Yields Powerful Prompt Optimizers | ICLR | [paper](https://arxiv.org/abs/2309.08532) | [code](https://github.com/beeevita/EvoPrompt) |
   | 2024 | WizardLM: Empowering large pre-trained language models to follow complex instructions | ICLR | [paper](https://arxiv.org/abs/2304.12244) | [code](https://github.com/nlpxucan/WizardLM) |
   | 2025 | Tournament of Prompts: Evolving LLM Instructions Through Structured Debates and Elo Ratings | KDD | [paper](https://arxiv.org/abs/2506.00178v2) | N/A |
-  | 2023 | Promptbreeder: Self-Referential Self-Improvement Via Prompt Evolution | arXiv | [paper](https://arxiv.org/abs/2309.16797) | N/A |
   | 2025 | DelvePO: Direction-Guided Self-Evolving Framework for Flexible Prompt Optimization | arXiv | [paper](https://arxiv.org/abs/2510.18257) | [code](https://github.com/PasaLab/DelvePO) |
   | 2025 | How to Auto-optimize Prompts for Domain Tasks? Adaptive Prompting and Reasoning through Evolutionary Domain Knowledge Adaptation | NeurIPS | [paper](https://arxiv.org/abs/2510.21148) | [code](https://github.com/miemieyanga/EGO-Prompt) |
 
@@ -392,11 +392,11 @@ depending on **which component is improved** during learning and adaptation.
   | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
   |------:|--------|--------|--------|--------|
   | 2023 | Voyager: An Open-Ended Embodied Agent with Large Language Models | arXiv | [paper](https://arxiv.org/abs/2305.16291) | [code](https://github.com/MineDojo/Voyager) |
-  | 2025 | Alita: Generalist Agent Enabling Scalable Agentic Reasoning with Minimal Predefinition and Maximal Self-Evolution | arXiv | [paper](https://arxiv.org/abs/2505.20286) | [code](https://github.com/CharlesQ9/Alita) |
   | 2024 | Large Language Models as Tool Makers | arXiv | [paper](https://arxiv.org/abs/2305.17126) | [code](https://github.com/ctlllll/LLM-ToolMaker) |
+  | 2024 | OS-Copilot: Towards Generalist Computer Agents with Self-Improvement | ICLR | [paper](https://arxiv.org/abs/2402.07456) | [code](https://github.com/OS-Copilot/OS-Copilot) |
+  | 2025 | Alita: Generalist Agent Enabling Scalable Agentic Reasoning with Minimal Predefinition and Maximal Self-Evolution | arXiv | [paper](https://arxiv.org/abs/2505.20286) | [code](https://github.com/CharlesQ9/Alita) |
   | 2025 | Alita-G: Self-Evolving Generative Agent for Agent Generation | arXiv | [paper](https://arxiv.org/abs/2510.23601) | N/A |
   | 2025 | LLM Agents Making Agent Tools | ACL | [paper](https://arxiv.org/abs/2502.11705) | [code](https://github.com/KatherLab/ToolMaker) |
-  | 2024 | OS-Copilot: Towards Generalist Computer Agents with Self-Improvement | ICLR | [paper](https://arxiv.org/abs/2402.07456) | [code](https://github.com/OS-Copilot/OS-Copilot) |
   | 2025 | Advanced Tool Learning and Selection System (ATLASS): A Closed-Loop Framework Using LLM | SOSE | [paper](https://arxiv.org/abs/2503.10071) | N/A |
   | 2025 | Code2MCP: Transforming Code Repositories into MCP Services | arXiv | [paper](https://arxiv.org/abs/2509.05941) | [code](https://github.com/DEFENSE-SEU/Code2MCP) |
   | 2025 | STELLA: Self-Evolving LLM Agent for Biomedical Research | arXiv | [paper](https://arxiv.org/abs/2507.02004) | [code](https://github.com/zaixizhang/STELLA) |
