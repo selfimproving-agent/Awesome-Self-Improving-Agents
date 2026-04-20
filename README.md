@@ -450,7 +450,7 @@ PRs are welcome!
 
 ## 📌 Citation
 ```bibtex
-@article{your_survey_2026,
+@article{our_survey_2026,
   title={Self-Improvement in Foundation Model Based Agentic Systems: A Survey},
   author={Name1 and ...},
   journal={Preprint},
