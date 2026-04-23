@@ -452,7 +452,7 @@ PRs are welcome!
 ```bibtex
 @article{our_survey_2026,
   title={Self-Improvement in Foundation Model Based Agentic Systems: A Survey},
-  author={Name1 and ...},
+  author={...},
   journal={Preprint},
   year={2026}
 }
