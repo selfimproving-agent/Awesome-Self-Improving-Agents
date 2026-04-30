@@ -1,4 +1,4 @@
-# Awesome Self-Improving FM-Based Agents 
+# Awesome Self-Improving Modern Agentic Systems
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Discord](https://img.shields.io/badge/Discord-Join-blue?logo=discord&logoColor=white)](https://discord.gg/fn5rYJhgaz)
 [![Project Page](https://img.shields.io/badge/Project-Page-1E40AF?labelColor=555555)](https://selfimproving-agent.github.io/)
