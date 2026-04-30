@@ -6,8 +6,8 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-F59E0B?labelColor=555555)](LICENSE)
 
 
-> A curated, continuously updated resource list for **Self-Improvement in Foundation Model Based Agentic Systems**.  
-> This repo accompanies the survey paper: _"Self-Improvement in Foundation Model Based Agentic Systems: A Survey"_ (2026).
+> A curated, continuously updated resource list for **Self-Improvements in Modern Agentic Systems**.  
+> This repo accompanies the survey paper: _"Self-Improvements in Modern Agentic Systems: A Survey"_ (2026).
 
 ---
 
@@ -451,7 +451,7 @@ PRs are welcome!
 ## 📌 Citation
 ```bibtex
 @article{our_survey_2026,
-  title={Self-Improvement in Foundation Model Based Agentic Systems: A Survey},
+  title={Self-Improvements in Modern Agentic Systems: A Survey},
   author={...},
   journal={Preprint},
   year={2026}
