@@ -26,10 +26,10 @@
 
 ## 🧩 Definition & Scope
 This repository focuses on:
-- **Foundation-Model-Based Agents**: Autonomous entities leveraging LLMs/VLM as core controllers.
-- **Autonomous Self-Improvement**: Systems that enhance their own performance through internal mechanisms.
-- **Agentic RL & Policy Optimization**: Self-evolving strategies and decision-making.
-- **Scaffolding Evolution**: Growth in memory structures, tool-use capability, and prompt refinement.
+- **Foundation-Model-Based Agents**: Autonomous systems that use foundation models as cognitive cores and operate through persistent scaffolds such as prompts, memory, tools, and control logic.
+- **Self-Improvement Loops**: Agent-level update loops in which signals or artifacts produced through generation, intrinsic evaluation, or environment interaction are consolidated into persistent components of the agent.
+- **Foundation Model Improvement**: Parameter-level updates driven by intrinsic generative demonstrations, intrinsic evaluative feedback, or extrinsic exploratory experience.
+- **Scaffolding Improvement**: Persistent updates to prompts, memory, tools, workflows, or full agent scaffolds.
 
 ---
 
@@ -61,11 +61,11 @@ depending on **which component is improved** during learning and adaptation.
 
 * **🚀 Self-Improving Agents**
     * **🧠 Foundation Model Improvement**
-        * 📄 `1.1` Self-Generated Data
-        * ⚖️ `1.2` Self-Generated Supervision
-        * 🌍 `1.3` Self-Generated Experience
-            * 🤖 `1.3.1` Environment-Interactive
-            * 🔮 `1.3.2` World Models
+        * 📄 `1.1` Intrinsic Generative Demonstrations
+        * ⚖️ `1.2` Intrinsic Evaluative Feedback
+        * 🌍 `1.3` Extrinsic Exploratory Experience
+            * 🤖 `1.3.1` Grounded Interaction with Executable Environments
+            * 🔮 `1.3.2` Simulated Interaction with Generative World Models
     * **🏗️ Scaffolding Improvement**
         * ✍️ `2.1` Prompt Optimization
         * 💾 `2.2` Memory
@@ -80,7 +80,7 @@ depending on **which component is improved** during learning and adaptation.
 #### 🟦 Foundation Model Improvement
 
 <details open>
-<summary><b>1.1 Self-Generated Data</b></summary>
+<summary><b>1.1 Intrinsic Generative Demonstrations</b></summary>
 
   | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
   |------:|--------|--------|--------|--------|
@@ -105,7 +105,7 @@ depending on **which component is improved** during learning and adaptation.
 </details>
 
 <details open>
-<summary><b>1.2 Self-Generated Supervision</b></summary>
+<summary><b>1.2 Intrinsic Evaluative Feedback</b></summary>
 
   | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
   |------:|--------|--------|--------|--------|
@@ -127,12 +127,12 @@ depending on **which component is improved** during learning and adaptation.
   | 2026 | Structured Reasoning for Large Language Models | arXiv | [paper](https://arxiv.org/abs/2601.07180) | N/A |
   | 2026 | iReasoner: Trajectory-Aware Intrinsic Reasoning Supervision for Self-Evolving Large Multimodal Models | arXiv | [paper](https://arxiv.org/abs/2601.07180) | [code](https://github.com/meghanaasunil/iReasoner) |
   | 2026 | STRIVE: Structured Reasoning for Self-improvement in Claim Verification | machine intelligence research | [paper](https://link.springer.com/article/10.1007/s11633-025-1598-5) | N/A |
-  | 2026 | UniCorn: Towards Self-Improving Unified Multimodal Models through Self-Generated Supervision | arXiv | [paper](https://arxiv.org/abs/2601.03193) | [code]([https://github.com/meghanaasunil/iReasoner](https://github.com/Hungryyan1/UniCorn)) |
+  | 2026 | UniCorn: Towards Self-Improving Unified Multimodal Models through Intrinsic Evaluative Feedback | arXiv | [paper](https://arxiv.org/abs/2601.03193) | [code]([https://github.com/meghanaasunil/iReasoner](https://github.com/Hungryyan1/UniCorn)) |
 
 </details>
 
 <details open>
-<summary><b>1.3 Self-Generated Experience</b></summary>
+<summary><b>1.3 Extrinsic Exploratory Experience</b></summary>
 
 - **1.3.1 Environment -Interactive**
   <details open>
@@ -157,7 +157,7 @@ depending on **which component is improved** during learning and adaptation.
 
   </details>
 
-- **1.3.2 World Models**
+- **1.3.2 Simulated Interaction with Generative World Models**
   <details open>
   <summary>View</summary>
 
