@@ -35,7 +35,7 @@ This repository focuses on:
 
 ## 📄 Survey Paper
 🔗 **Coming soon** — Preprint in preparation.   
-*(Add arXiv link here once uploaded.)*
+*(Add arXiv link here.)*
 
 <p align="center">
   <img src="assets/fig.png" alt="Main figure of the survey" width="95%">
