@@ -437,9 +437,13 @@ depending on **which component is improved** during learning and adaptation.
 - [![Discord](https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&logoColor=white)](https://discord.gg/fn5rYJhgaz) **Discord**: Join our server 👉 https://discord.gg/fn5rYJhgaz
 - ![WeChat](https://img.shields.io/badge/WeChat-Group-07C160?logo=wechat&logoColor=white) **WeChat Group**: Scan the QR code below to join. If the QR code expires, please add the WeChat admin (**13488260597**), and we will invite you to the group.
 
-<p align="center">
-  <img src="assets/wechat_group_qr.png" alt="WeChat group QR" width="160">
-</p>
+<details>
+  <summary>📱 Show WeChat Group QR Code</summary>
+
+  <p align="center">
+    <img src="assets/wechat_group_qr.png" alt="WeChat group QR" width="160">
+  </p>
+</details>
 
 ---
 
