@@ -426,7 +426,7 @@ depending on **which component is improved** during learning and adaptation.
   | 2026 | JudgeFlow: Agentic Workflow Optimization via Block Judge | arXiv | [paper](https://arxiv.org/abs/2601.07477) | N/A |
   | 2026 | RoboPhD: Self-Improving Text-to-SQL Through Autonomous Agent Evolution | arXiv | [paper](https://arxiv.org/abs/2601.01126) | [code](https://github.com/andborth/RoboPhD) |
   | 2026 | Group-Evolving Agents: Open-Ended Self-Improvement via Experience Sharing | arXiv | [paper](https://arxiv.org/abs/2602.04837) | N/A |
-  | 2026 | Hyperagentsn | arXiv | [paper](https://arxiv.org/abs/2603.19461) | [code](https://github.com/facebookresearch/Hyperagents) |
+  | 2026 | Hyperagents | arXiv | [paper](https://arxiv.org/abs/2603.19461) | [code](https://github.com/facebookresearch/Hyperagents) |
   
 </details>
 
