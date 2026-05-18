@@ -2,7 +2,7 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Discord](https://img.shields.io/badge/Discord-Join-blue?logo=discord&logoColor=white)](https://discord.gg/fn5rYJhgaz)
 [![Project Page](https://img.shields.io/badge/Project-Page-1E40AF?labelColor=555555)](https://selfimproving-agent.github.io/)
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-EF4444?labelColor=555555)](#-survey-paper)
+[![arXiv](https://img.shields.io/badge/arXiv-Paper-B31B1B?labelColor=555555)](#-survey-paper)
 [![License: MIT](https://img.shields.io/badge/License-MIT-F59E0B?labelColor=555555)](LICENSE)
 
 
