@@ -101,6 +101,9 @@ depending on **which component is improved** during learning and adaptation.
   | 2025 | LADDER: Self-Improving LLMs Through Recursive Problem Decomposition | arXiv | [paper](https://arxiv.org/abs/2503.00735) | N/A |
   | 2025 | Self-Consistency Preference Optimization | ICML | [paper](https://arxiv.org/abs/2411.04109) | N/A |
   | 2026 | Reinforcing General Reasoning Without Verifiers | ICLR | [paper](https://arxiv.org/abs/2505.21493) | [code](https://github.com/sail-sg/VeriFree) |
+  | 2026 | SAGE: Multi-Agent Self-Evolution for LLM Reasoning | arXiv | [paper](https://arxiv.org/abs/2603.15255) | N/A |
+  | 2026 | ANDES: Agent Native Data Evolving Synthesis Tool for Autonomous Instruction Alignment | arXiv | [paper](https://arxiv.org/abs/2606.01279) | [code](https://github.com/zzy1127/ANDES) |
+  | 2026 | EvoGround: Self-Evolving Video Agents for Video Temporal Grounding | arXiv | [paper](https://arxiv.org/abs/2605.13803) | [code](https://github.com/minjoong507/EvoGround) |
 
 </details>
 
@@ -128,6 +131,8 @@ depending on **which component is improved** during learning and adaptation.
   | 2026 | iReasoner: Trajectory-Aware Intrinsic Reasoning Supervision for Self-Evolving Large Multimodal Models | arXiv | [paper](https://arxiv.org/abs/2601.07180) | [code](https://github.com/meghanaasunil/iReasoner) |
   | 2026 | STRIVE: Structured Reasoning for Self-improvement in Claim Verification | machine intelligence research | [paper](https://link.springer.com/article/10.1007/s11633-025-1598-5) | N/A |
   | 2026 | UniCorn: Towards Self-Improving Unified Multimodal Models through Intrinsic Evaluative Feedback | arXiv | [paper](https://arxiv.org/abs/2601.03193) | [code]([https://github.com/meghanaasunil/iReasoner](https://github.com/Hungryyan1/UniCorn)) |
+  | 2026 | Retrospective Progress-Aware Self-Refinement for LLM Agent Training | arXiv | [paper](https://arxiv.org/abs/2606.14302) | N/A |
+  | 2026 | EVE-Agent: Evidence-Verifiable Self-Evolving Agents | arXiv | [paper](https://arxiv.org/abs/2605.22905) | N/A |
 
 </details>
 
@@ -154,6 +159,9 @@ depending on **which component is improved** during learning and adaptation.
   | 2025 | SEAgent: Self-Evolving Computer Use Agent with Autonomous Learning from Experience | arXiv | [paper](https://arxiv.org/abs/2508.04700) | [code](https://github.com/SunzeY/SEAgent) |
   | 2026 | WebGym: Scaling Training Environments for Visual Web Agents with Realistic Tasks | arXiv | [paper](https://arxiv.org/abs/2601.02439) | [code](https://github.com/microsoft/webgym) |
   | 2026 | Kevin: Multi-Turn RL for Generating CUDA Kernels | ICLR | [paper](https://openreview.net/pdf?id=xu1XwVZtDi) | N/A |
+  | 2026 | Tool-R0: Self-Evolving LLM Agents for Tool-Learning from Zero Data | arXiv | [paper](https://arxiv.org/abs/2602.21320) | [code](https://github.com/emrecanacikgoz/Tool-R0) |
+  | 2026 | Socratic-SWE: Self-Evolving Coding Agents via Trace-Derived Agent Skills | arXiv | [paper](https://arxiv.org/abs/2606.07412) | N/A |
+  | 2026 | Self-evolving LLM Agents with In-Distribution Optimization | ICML | [paper](https://arxiv.org/abs/2606.07367) | N/A |
 
   </details>
 
@@ -174,6 +182,10 @@ depending on **which component is improved** during learning and adaptation.
   | 2025 | WMPO: World Model-based Policy Optimization for Vision-Language-Action Models | arXiv | [paper](https://arxiv.org/abs/2511.09515) | [code](https://github.com/WM-PO/WMPO) |
   | 2025 | Internalizing World Models via Self-Play Finetuning for Agentic RL | arXiv | [paper](https://arxiv.org/abs/2510.15047) | N/A |
   | 2026 | AlignUSER: Human-Aligned LLM Agents via World Models for Recommender System Evaluation | arXiv | [paper](https://arxiv.org/abs/2601.00930) | N/A |
+  | 2026 | WorldEvolver: Self-Evolving World Models for LLM Agent Planning | arXiv | [paper](https://arxiv.org/abs/2606.30639) | N/A |
+  | 2025 | NavMorph: A Self-Evolving World Model for Vision-and-Language Navigation in Continuous Environments | ICCV | [paper](https://arxiv.org/abs/2506.23468) | [code](https://github.com/Feliciaxyao/NavMorph) |
+  | 2025 | EvoWorld: Evolving Panoramic World Generation with Explicit 3D Memory | arXiv | [paper](https://arxiv.org/abs/2510.01183) | N/A |
+  | 2026 | RISE: Self-Improving Robot Policy with Compositional World Model | RSS | [paper](https://arxiv.org/abs/2602.11075) | [code](https://github.com/OpenDriveLab/RISE) |
 
   </details>
   
@@ -199,6 +211,8 @@ depending on **which component is improved** during learning and adaptation.
   | 2025 | The Prompt Alchemist: Automated LLM-Tailored Prompt Optimization for Test Case Generation | arXiv | [paper](https://arxiv.org/abs/2501.01329) | N/A |
   | 2025 | DRO-InstructZero: Distributionally Robust Prompt Optimization for Large Language Models | arXiv | [paper](https://arxiv.org/abs/2510.15260) | N/A |
   | 2025 | CoolPrompt: Automatic Prompt Optimization Framework for Large Language Models | FRUCT | [paper](https://ieeexplore.ieee.org/document/11239071) | N/A |
+  | 2026 | SePO: Self-Evolving Prompt Agent for System Prompt Optimization | arXiv | [paper](https://arxiv.org/abs/2606.04465) | [code](https://github.com/taowangcheng/SePO) |
+  | 2026 | SAGE: Stochastic Prompt Optimization via Agent-Guided Exploration | arXiv | [paper](https://arxiv.org/abs/2606.18902) | N/A |
 
   </details>
 
@@ -217,6 +231,7 @@ depending on **which component is improved** during learning and adaptation.
   | 2025 | CriSPO: Multi-Aspect Critique-Suggestion-guided Automatic Prompt Optimization for Text Generation | AAAI | [paper](https://arxiv.org/abs/2410.02748) | [code](https://github.com/amazon-science/CriSPO) |
   | 2025 | Boosting Private Domain Understanding of Efficient MLLMs: A Tuning-free, Adaptive, Universal Prompt Optimization Framework | arXiv | [paper](https://arxiv.org/abs/2412.19684) | N/A |
   | 2026 | GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning | ICLR | [paper](https://arxiv.org/abs/2507.19457) | [code](https://github.com/gepa-ai/gepa) |
+  | 2026 | FORGE: Self-Evolving Agent Memory With No Weight Updates via Population Broadcast | CAIS | [paper](https://arxiv.org/abs/2605.16233) | N/A |
 
   </details>
 
@@ -249,6 +264,9 @@ depending on **which component is improved** during learning and adaptation.
   | 2025 | MAPGD: Multi-Agent Prompt Gradient Descent for Collaborative Prompt Optimization | NeurIPS Workshop | [paper](https://openreview.net/pdf?id=FywYwwH5z9) | N/A |
   | 2025 | Scaling Textual Gradients via Sampling-Based Momentum | ICML | [paper](https://arxiv.org/abs/2506.00400) | N/A |
   | 2026 | Pick Your Textual Gradients | arXiv | [paper](https://openreview.net/pdf?id=ydTwv5D536) | N/A |
+  | 2026 | SkillOpt: Executive Strategy for Self-Evolving Agent Skills | arXiv | [paper](https://arxiv.org/abs/2605.23904) | [code](https://github.com/microsoft/SkillOpt) |
+  | 2026 | VASO: Formally Verifiable Self-Evolving Skills for Physical AI Agents | arXiv | [paper](https://arxiv.org/abs/2606.05395) | N/A |
+  | 2026 | Learning to Evolve: A Self-Improving Framework for Multi-Agent Systems | ACL Findings | [paper](https://arxiv.org/abs/2604.20714) | N/A |
 
   </details>
   
@@ -277,6 +295,8 @@ depending on **which component is improved** during learning and adaptation.
   | 2025 | MemGen: Weaving Generative Latent Memory for Self-Evolving Agents | arXiv | [paper](https://arxiv.org/abs/2509.24704) | [code](https://github.com/bingreeky/MemGen) |
   | 2025 | M+: Extending MemoryLLM with Scalable Long-Term Memory | arXiv | [paper](https://arxiv.org/abs/2502.00592) | [code](https://github.com/wangyu-ustc/MemoryLLM) |
   | 2026 | Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory | ICLR | [paper](https://arxiv.org/abs/2508.09736) | [code](https://github.com/bytedance-seed/m3-agent) |
+  | 2026 | Thought-Retriever: Don't Just Retrieve Raw Data, Retrieve Thoughts for Memory-Augmented Agentic Systems | arXiv | [paper](https://arxiv.org/abs/2604.12231) | N/A |
+  | 2026 | Better with Experience: Self-Evolving LLM Agents for Evidence-Grounded Health Community Notes | arXiv | [paper](https://arxiv.org/abs/2606.02215) | N/A |
 
   </details>
 
@@ -304,6 +324,11 @@ depending on **which component is improved** during learning and adaptation.
   | 2025 | From Knowledge to Noise: CTIM-Rover and the Pitfalls of Episodic Memory in Software Engineering Agents | ACL Workshop | [paper](https://arxiv.org/abs/2505.23422v1) | [code](https://github.com/Liqs-v2/ctim-rover) |
   | 2025 | In Prospect and Retrospect: Reflective Memory Management for Long-term Personalized Dialogue Agents | ACL | [paper](https://arxiv.org/abs/2503.08026) | N/A |
   | 2025 | MrSteve: Instruction-Following Agents in Minecraft with What-Where-When Memory | ICLR | [paper](https://openreview.net/pdf?id=CjXaMI2kUH) | [code](https://github.com/frechele/MrSteve) |
+  | 2026 | EvolveMem: Self-Evolving Memory Architecture via AutoResearch for LLM Agents | arXiv | [paper](https://arxiv.org/abs/2605.13941) | [code](https://github.com/aiming-lab/SimpleMem) |
+  | 2026 | SAGE: A Self-Evolving Agentic Graph-Memory Engine for Structure-Aware Associative Memory | arXiv | [paper](https://arxiv.org/abs/2605.12061) | N/A |
+  | 2026 | Prism: An Evolutionary Memory Substrate for Multi-Agent Open-Ended Discovery | arXiv | [paper](https://arxiv.org/abs/2604.19795) | N/A |
+  | 2026 | DecentMem: Self-Evolving Multi-Agent Systems via Decentralized Memory | arXiv | [paper](https://arxiv.org/abs/2605.22721) | N/A |
+  | 2026 | EXG: Self-Evolving Agents with Experience Graphs | arXiv | [paper](https://arxiv.org/abs/2605.17721) | N/A |
 
   </details>
 
@@ -329,6 +354,12 @@ depending on **which component is improved** during learning and adaptation.
   | 2025 | MemInsight: Autonomous Memory Augmentation for LLM Agents | arXiv | [paper](https://arxiv.org/abs/2503.21760) | N/A |
   | 2026 | Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models | ICLR | [paper](https://arxiv.org/abs/2510.04618) | [code](https://github.com/ace-agent/ace) |
   | 2026 | MemRL: Self-Evolving Agents via Runtime Reinforcement Learning on Episodic Memory | arXiv | [paper](https://arxiv.org/abs/2601.03192) | [code](https://github.com/MemTensor/MemRL) |
+  | 2026 | TMEM: Scaling Self-Evolving Agents via Parametric Memory | arXiv | [paper](https://arxiv.org/abs/2606.04536) | N/A |
+  | 2026 | MemQ: Integrating Q-Learning into Self-Evolving Memory for LLM Agents | arXiv | [paper](https://arxiv.org/abs/2605.08374) | [code](https://github.com/jwliao-ai/MemQ) |
+  | 2026 | Memory Beyond Recall: A Dual-Process Cognitive Memory System for Self-Evolving Agents | arXiv | [paper](https://arxiv.org/abs/2606.09483) | N/A |
+  | 2026 | AEL: Agent Evolving Learning for Open-Ended Environments | arXiv | [paper](https://arxiv.org/abs/2604.21725) | [code](https://github.com/WujiangXu/AEL) |
+  | 2026 | Metis: Bridging Text and Code Memory for Self-Evolving Agents | arXiv | [paper](https://arxiv.org/abs/2606.24151) | N/A |
+  | 2026 | Mem^2Evolve: Towards Self-Evolving Agents via Co-Evolutionary Capability Expansion and Experience Distillation | arXiv | [paper](https://arxiv.org/abs/2604.10923) | [code](https://github.com/BUAA-IRIP-LLM/Mem2Evolve) |
 
   </details>
 
@@ -365,6 +396,8 @@ depending on **which component is improved** during learning and adaptation.
   | 2026 | DeepAgent: A General Reasoning Agent with Scalable Toolsets | WWW | [paper](https://arxiv.org/abs/2510.21618) | [code](https://github.com/RUC-NLPIR/DeepAgent) |
   | 2026 | DeepEyesV2: Toward Agentic Multimodal Model | ICLR | [paper](https://arxiv.org/abs/2511.05271) | [code](https://github.com/Visual-Agent/DeepEyesV2) |
   | 2026 | In-the-Flow Agentic System Optimization for Effective Planning and Tool Use | ICLR | [paper](https://arxiv.org/abs/2510.05592) | [code](https://github.com/lupantech/AgentFlow) |
+  | 2026 | GenericAgent: A Token-Efficient Self-Evolving LLM Agent via Contextual Information Density Maximization | arXiv | [paper](https://arxiv.org/abs/2604.17091) | [code](https://github.com/lsdefine/GenericAgent) |
+  | 2026 | ANDES: Agent Native Data Evolving Synthesis Tool for Autonomous Instruction Alignment | arXiv | [paper](https://arxiv.org/abs/2606.01279) | [code](https://github.com/zzy1127/ANDES) |
 
 
   </details>
@@ -382,6 +415,10 @@ depending on **which component is improved** during learning and adaptation.
   | 2025 | From Exploration to Mastery: Enabling LLMs to Master Tools via Self-Driven Interactions | ICLR | [paper](https://arxiv.org/abs/2410.08197) | [code](https://github.com/quchangle1/DRAFT) |
   | 2025 | LLMLOOP: Improving LLM-Generated Code and Tests Through Automated Iterative Feedback Loops | ICSME | [paper](https://ieeexplore.ieee.org/document/11185878) | [code](https://github.com/ravinravi03/LLMLOOP) |
   | 2025 | Helping LLMs Improve Code Generation Using Feedback from Testing and Static Analysis | arXiv | [paper](https://arxiv.org/abs/2412.14841) | N/A |
+  | 2026 | RewardHarness: Self-Evolving Agentic Post-Training | arXiv | [paper](https://arxiv.org/abs/2605.08703) | [code](https://github.com/TIGER-AI-Lab/RewardHarness) |
+  | 2026 | MUSE-Autoskill: Self-Evolving Agents via Skill Creation, Memory, Management, and Evaluation | arXiv | [paper](https://arxiv.org/abs/2605.27366) | N/A |
+  | 2026 | CODESKILL: Learning Self-Evolving Skills for Coding Agents | arXiv | [paper](https://arxiv.org/abs/2605.25430) | N/A |
+  | 2026 | PFAgent: A Tractable and Self-Evolving Power-Flow Agent for Interactive Grid Analysis | arXiv | [paper](https://arxiv.org/abs/2604.10846) | N/A |
 
   </details>
 
@@ -402,6 +439,10 @@ depending on **which component is improved** during learning and adaptation.
   | 2025 | STELLA: Self-Evolving LLM Agent for Biomedical Research | arXiv | [paper](https://arxiv.org/abs/2507.02004) | [code](https://github.com/zaixizhang/STELLA) |
   | 2025 | PyVision: Agentic Vision with Dynamic Tooling | arXiv | [paper](https://arxiv.org/abs/2507.07998) | [code](https://github.com/agents-x-project/PyVision) |
   | 2025 | AgentOrchestra: Orchestrating Multi-Agent Intelligence with the Tool-Environment-Agent(TEA) Protocol | arXiv | [paper](https://arxiv.org/abs/2506.12508) | N/A |
+  | 2026 | OpenSkill: Open-World Self-Evolution for LLM Agents | arXiv | [paper](https://arxiv.org/abs/2606.06741) | [code](https://github.com/OpenLAIR/OpenSkill) |
+  | 2026 | EvoDS: Self-Evolving Autonomous Data Science Agent with Skill Learning and Context Management | arXiv | [paper](https://arxiv.org/abs/2606.03841) | [code](https://github.com/usail-hkust/EvoDS) |
+  | 2026 | Autonomous Evolution of EDA Tools: Multi-Agent Self-Evolved ABC | DAC | [paper](https://arxiv.org/abs/2604.15082) | N/A |
+  | 2026 | CoEvoSkills: Self-Evolving Agent Skills via Co-Evolutionary Verification | arXiv | [paper](https://arxiv.org/abs/2604.01687) | [code](https://github.com/Zhang-Henry/CoEvoSkills) |
 
   </details>
 
@@ -427,6 +468,11 @@ depending on **which component is improved** during learning and adaptation.
   | 2026 | RoboPhD: Self-Improving Text-to-SQL Through Autonomous Agent Evolution | arXiv | [paper](https://arxiv.org/abs/2601.01126) | [code](https://github.com/andborth/RoboPhD) |
   | 2026 | Group-Evolving Agents: Open-Ended Self-Improvement via Experience Sharing | arXiv | [paper](https://arxiv.org/abs/2602.04837) | N/A |
   | 2026 | Hyperagents | arXiv | [paper](https://arxiv.org/abs/2603.19461) | [code](https://github.com/facebookresearch/Hyperagents) |
+  | 2026 | Adaptive Auto-Harness: Sustained Self-Improvement for Agentic System Deployment on Open-Ended Task Streams | arXiv | [paper](https://arxiv.org/abs/2606.01770) | [code](https://github.com/A-EVO-Lab/AdaptiveHarness) |
+  | 2026 | MOSS: Self-Evolution through Source-Level Rewriting in Autonomous Agent Systems | arXiv | [paper](https://arxiv.org/abs/2605.22794) | [code](https://github.com/dav-joy-thon/MOSS) |
+  | 2026 | Recursive Self-Evolving Agents via Held-Out Selection | arXiv | [paper](https://arxiv.org/abs/2606.28374) | N/A |
+  | 2026 | Continual Harness: Online Adaptation for Self-Improving Foundation Agents | arXiv | [paper](https://arxiv.org/abs/2605.09998) | [code](https://github.com/sethkarten/continual-harness) |
+  | 2026 | The Red Queen Gödel Machine: Co-Evolving Agents and Their Evaluators | arXiv | [paper](https://arxiv.org/abs/2606.26294) | N/A |
   
 </details>
 
