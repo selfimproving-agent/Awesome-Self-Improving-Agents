@@ -134,7 +134,7 @@ depending on **which component is improved** during learning and adaptation.
 <details open>
 <summary><b>1.3 Extrinsic Exploratory Experience</b></summary>
 
-- **1.3.1 Environment -Interactive**
+- **1.3.1 Interaction with Grounded Task Environments**
   <details open>
   <summary>View</summary>
 
