@@ -64,8 +64,8 @@ depending on **which component is improved** during learning and adaptation.
         * 📄 `1.1` Intrinsic Generative Demonstrations
         * ⚖️ `1.2` Intrinsic Evaluative Feedback
         * 🌍 `1.3` Extrinsic Exploratory Experience
-            * 🤖 `1.3.1` Grounded Interaction with Executable Environments
-            * 🔮 `1.3.2` Simulated Interaction with Generative World Models
+            * 🤖 `1.3.1` Interaction with Grounded Task Environments
+            * 🔮 `1.3.2` Interaction with Simulated Proxy Environments
     * **🏗️ Scaffolding Improvement**
         * ✍️ `2.1` Prompt Optimization
         * 💾 `2.2` Memory
@@ -157,7 +157,7 @@ depending on **which component is improved** during learning and adaptation.
 
   </details>
 
-- **1.3.2 Simulated Interaction with Generative World Models**
+- **1.3.2 Interaction with Simulated Proxy Environments**
   <details open>
   <summary>View</summary>
 
