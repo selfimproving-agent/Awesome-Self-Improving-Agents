@@ -1,268 +1,244 @@
-# Instructions for AI Agents
+# Agent Guide to *Self-Improvements in Modern Agentic Systems: A Survey*
 
-## Scope
+## Purpose
 
-This file provides instructions for AI agents working with the manuscript
-source under the `Paper/` directory.
+This file is an agent-oriented companion to the survey. It helps readers and AI assistants:
 
-Unless explicitly requested otherwise:
+- understand the paper's definitions and taxonomy;
+- locate the relevant sections, figures, and cited works;
+- compare self-improvement mechanisms on a common basis;
+- build grounded reading lists from the survey bibliography; and
+- cite the survey without inventing metadata.
 
-- Modify only files under `Paper/`.
-- Do not modify the repository-level `README.md`.
-- Do not modify the repository-level curated resource list.
-- Do not modify website files, assets, workflows, or other project resources.
-- Do not reorganize the repository structure.
+Use the manuscript as the primary source. This guide is a navigation layer, not a substitute for the paper.
 
-Before editing the manuscript, inspect the existing directory structure and
-read the relevant source files.
+## Quick Start
 
-## Repository Context
+For a reliable overview, read in this order:
 
-This repository contains resources associated with:
+1. `Paper/tex/Definitions.tex` — formal model of an FM-based agent and self-improvement;
+2. `Paper/tex/tax_v2.tex` — the active taxonomy used by the manuscript;
+3. `Paper/tex/FM.tex` — foundation-model improvement;
+4. `Paper/tex/scaffolding.tex` — prompt, memory, tool, and full-scaffolding improvement;
+5. `Paper/tex/evaluation.tex` — how improvement should be measured;
+6. `Paper/tex/discussion_and_conclusion.tex` — design implications and future directions.
 
-**Self-Improvements in Modern Agentic Systems: A Survey**
+The complete manuscript entry point is `Paper/self_improving_agents.tex`. Bibliographic records are stored in `Paper/references.bib`.
 
-The repository serves more than one purpose. Its root directory contains the
-project description and curated resources, while `Paper/` contains the LaTeX
-source code, bibliography, figures, and supporting files for the manuscript.
+> **Important:** the main manuscript includes `Paper/tex/tax_v2.tex`. Treat `Paper/tex/taxonomy.tex` as non-canonical unless a maintainer explicitly says otherwise.
 
-The goal of work under `Paper/` is to maintain the manuscript in a consistent,
-verifiable, and reproducible form.
+## Survey Scope and Core Definition
 
-## Canonical Files and Directories
+The survey focuses on **foundation-model-based agents**, represented at iteration `t` as:
 
-The canonical manuscript files are:
+- **Agent configuration:** $\mathcal{A}_t=(\theta_t,\Sigma_t)$
+- **Foundation-model parameters:** $\theta_t$
+- **Operational scaffold:** $\Sigma_t=(p_t,m_t,\mathcal{T}_t,g_t)$
+  - $p_t$: prompts and persistent instruction structures
+  - $m_t$: memory and its read/write/update policies
+  - $\mathcal{T}_t$: tools and their invocation interfaces
+  - $g_t$: control logic, routing, scheduling, and safety constraints
 
-- Main LaTeX entry point:
-  `Paper/colm2025_conference.tex`
-- Bibliography database:
-  `Paper/colm2025_conference.bib`
-- Section source files:
-  `Paper/tex/`
-- Figures and figure-related LaTeX files:
-  `Paper/fig/`
-- Shared mathematical commands:
-  `Paper/math_commands.tex`
-- Document style:
-  `Paper/colm2025_conference.sty`
-- Bibliography style:
-  `Paper/colm2025_conference.bst`
-- Local package dependencies:
-  `Paper/natbib.sty` and `Paper/fancyhdr.sty`
+The transient execution state $X_t$—for example, a temporary dialogue history, intermediate plan, or key-value cache—is **not** itself considered a persistent self-improvement.
 
-The normally generated manuscript is:
+The paper defines self-improvement as a **durable, self-induced update** produced from signals arising through the agent's own execution. A method belongs to the survey's central scope when it commits a persistent change to $\theta$ or $\Sigma$, rather than merely improving one answer within a single episode.
 
-```text
-Paper/colm2025_conference.pdf
-```
+## Taxonomy at a Glance
 
-The generated PDF is a build artifact rather than a canonical source file.
+### 1. Foundation-Model Improvement: the Parametric Slow Loop
 
-Do not assume that files or directories named `main.tex`, `references.bib`,
-`sections/`, or `figures/` exist.
+The scaffold remains fixed while the model parameters change:
 
-## Compilation
+$\theta_t \rightarrow \theta_{t+1}$, with $\Sigma_{t+1}=\Sigma_t$.
 
-Run compilation commands from the `Paper/` directory.
+The survey organizes these methods by the form of the self-induced learning signal:
 
-Preferred workflow:
+- **Intrinsic generative demonstrations ($\mathcal{D}_t$)** — the agent generates training examples, demonstrations, reasoning traces, or augmented datasets for supervised-style updates.
+- **Intrinsic evaluative feedback ($e_t$)** — the agent produces rewards, preferences, critiques, consistency signals, rubrics, or corrections that guide optimization.
+- **Extrinsic exploratory experience ($\tau_t$)** — the agent learns from trajectories grounded in task environments or simulated proxy environments/world models.
 
-```bash
-cd Paper
-latexmk -pdf -interaction=nonstopmode -halt-on-error colm2025_conference.tex
-```
+This pathway is generally slower and more computationally expensive, but it can consolidate gains into model weights and amortize them across future tasks.
 
-Manual alternative:
+### 2. Scaffolding Improvement: the Non-Parametric Fast Loop
 
-```bash
-cd Paper
-pdflatex -interaction=nonstopmode -halt-on-error colm2025_conference.tex
-bibtex colm2025_conference
-pdflatex -interaction=nonstopmode -halt-on-error colm2025_conference.tex
-pdflatex -interaction=nonstopmode -halt-on-error colm2025_conference.tex
-```
+The foundation model remains fixed while the operational scaffold changes:
 
-To remove ordinary build artifacts:
+$\Sigma_t \rightarrow \Sigma_{t+1}$, with $\theta_{t+1}=\theta_t$.
 
-```bash
-cd Paper
-latexmk -c colm2025_conference.tex
-```
+The survey organizes these methods by the component being updated:
 
-Do not claim that compilation succeeded unless the compilation command
-completed successfully.
+- **Prompt improvement** — scalar-feedback search, qualitative-feedback refinement, population-based evolution, and textual-gradient optimization.
+- **Memory improvement** — evolution of memory objects, memory structures, and memory processing; the processing lifecycle covers creation, reading, updating, and deletion.
+- **Tool improvement** — dynamic tool routing, iterative tool refinement, and autonomous tool creation.
+- **Full-scaffolding improvement** — modification of the agent's broader operational logic or codebase, including self-referential improvers that can evolve with the scaffold they modify.
 
-If LaTeX, BibTeX, required fonts, or other dependencies are unavailable,
-report the missing dependency clearly instead of claiming that the manuscript
-has been validated.
+These updates are usually faster, more inspectable, and easier to roll back, but can be task-specific and vulnerable to prompt drift, memory poisoning, tool-interface changes, or unsafe code modification.
 
-## Editing Rules
+### 3. Skills Cut Across Both Pathways
 
-- Preserve the paper title unless a title change is explicitly requested.
-- Preserve author names, author order, affiliations, email addresses, and
-  corresponding-author designations unless explicitly instructed otherwise.
-- Preserve the existing LaTeX style, notation, labels, and directory layout.
-- Keep changes minimal and limited to the requested task.
-- Do not perform unrelated rewriting or reformatting.
-- Do not rename source files, citation keys, labels, or figure files without a
-  compelling reason and corresponding updates to every reference.
-- Avoid modifying `.sty`, `.bst`, and local package files unless the requested
-  task specifically concerns formatting or compilation.
-- Do not remove citations solely to shorten the manuscript.
-- Do not substantially change technical claims without supporting evidence.
-- Do not add unverified performance numbers, publication dates, acceptance
-  status, or bibliographic information.
-- Keep terminology and mathematical notation consistent throughout the paper.
-- Do not include confidential peer-review, submission, or editorial information.
-- Do not add or change publication-status claims unless they have been verified
-against an authoritative source and explicitly approved by the maintainers.
-- Do not assume that the repository-level license automatically determines the
-  license of the manuscript, figures, or third-party materials.
-- Do not alter copyright or licensing notices without maintainer approval.
+The survey treats a **skill** as a reusable, serialized update rather than a separate substrate. A skill may be stored in model weights, prompts, memory, tools, or control logic. When discussing skills, identify both:
 
-## Bibliography Rules
+1. the capability or reusable update; and
+2. the substrate in which it is retained.
 
-1. Add new references only to `Paper/colm2025_conference.bib`.
-   Every new reference must correspond to a real, independently verifiable
-   work. Never fabricate citations, authors, titles, venues, dates, DOIs,
-   URLs, arXiv identifiers, or other bibliographic metadata.
-2. Do not manually write complete bibliographic records in the manuscript
-   body. Before citing a work in the manuscript, verify that the bibliographic
-   record and the cited claim are supported by the actual source.
-3. Preserve existing BibTeX citation keys unless correcting an error.
-4. Before adding an entry, check for duplicates using the title, DOI, arXiv ID,
-   and author list.
-5. Prefer metadata from authoritative sources such as:
-   - the publisher;
-   - the official conference or journal website;
-   - DBLP;
-   - Crossref;
-   - the official arXiv page;
-   - the authors' official project page.
-6. Preserve author names, title capitalization, venue, year, page numbers,
-   DOI, URL, and arXiv identifiers when available.
-7. Use braces in BibTeX titles when needed to preserve capitalization of terms
-   such as `LLM`, `AI`, `GPT`, and proper names.
-8. Do not invent missing bibliographic fields.
-9. Do not cite a paper that has not been verified.
-10. Do not silently replace a cited paper with a different work.
-11. When replacing a preprint record with its published version, verify that
-    both records refer to the same work.
-12. Preserve the existing citation key when updating a preprint to its
-    published version whenever practical.
-13. Do not change an author's name spelling merely to normalize formatting
-    without checking the authoritative publication record.
+## Reading Map
 
-## Figure Rules
+| Reader's question | Primary source |
+|---|---|
+| What counts as a self-improving agent? | `Paper/tex/Definitions.tex` |
+| What does *not* count as persistent self-improvement? | `Paper/tex/Definitions.tex` and the domain discussions in `applications.tex` |
+| Where did the idea come from historically? | `Paper/tex/background.tex` |
+| What is the paper's organizing taxonomy? | `Paper/tex/tax_v2.tex` and `Paper/fig/fig_main.pdf` |
+| How can an agent improve its foundation model? | `Paper/tex/FM.tex` |
+| How can it improve prompts, memory, tools, or its full scaffold? | `Paper/tex/scaffolding.tex` |
+| Where are these mechanisms applied? | `Paper/tex/applications.tex` |
+| How should improvement be evaluated? | `Paper/tex/evaluation.tex` |
+| What are the main design and safety implications? | `Paper/tex/discussion_and_conclusion.tex` |
+| What notation does the paper use? | `Paper/tex/notation.tex` |
+| What is the full bibliographic record for a citation key? | `Paper/references.bib` |
 
-- Store manuscript figures and figure-related source files under `Paper/fig/`.
-- Treat existing PDF files under `Paper/fig/` as source assets, not disposable
-  build artifacts.
-- Prefer vector PDF figures over low-resolution screenshots.
-- Do not replace a vector figure with a rasterized version unless explicitly
-  requested.
-- Ensure that every figure referenced by LaTeX exists in the repository.
-- Preserve figure filenames, labels, captions, and cross-references unless the
-  requested change requires updating them.
-- Do not add third-party figures without checking their license and reuse
-  permissions.
-- Do not crop, compress, recolor, or redraw figures in a way that changes their
-  scientific meaning.
-- Do not delete apparently unused figures without verifying that they are not
-  referenced indirectly by an included LaTeX file.
+The application section covers six domains: software engineering, web navigation and automation, games and strategic reasoning, scientific discovery, embodied AI and robotics, and general computer control.
 
-## Validation Checklist
+## How to Use the Survey with an AI Agent
 
-After making changes:
+An agent can use this repository to perform four common tasks.
 
-1. Compile the complete manuscript.
-2. Check the build log for LaTeX errors.
-3. Check for undefined citations.
-4. Check for undefined references.
-5. Check for duplicate BibTeX entries.
-6. Confirm that all figures render correctly.
-7. Confirm that the table of contents and cross-references are updated.
-8. Confirm that author names, author order, and affiliations remain unchanged
-   unless their modification was explicitly requested.
-9. From the repository root, run:
+### Explain a Concept
 
-   ```bash
-   git diff --check
-   git status --short
-   ```
+Locate the relevant section, explain the concept in the paper's terminology, and distinguish it from nearby concepts. For example, separate:
 
-10. Review the complete Git diff.
-11. Remove unrelated formatting and whitespace changes.
-12. Confirm that no files outside `Paper/` were modified unless explicitly
-    requested.
-13. Report warnings, unresolved issues, and checks that could not be completed.
+- persistent scaffold updates from transient in-context adaptation;
+- evaluation environments from self-improving methods;
+- model-weight updates from prompt, memory, tool, or control-logic updates;
+- a reusable skill from the substrate in which the skill is stored.
 
-## Generated Files
+### Find Relevant Literature
 
-Do not commit ordinary temporary LaTeX build files, including:
+1. Identify the relevant taxonomy branch and subsection.
+2. Extract citation keys from the surrounding manuscript text.
+3. Resolve those keys in `Paper/references.bib`.
+4. Explain why each work is relevant based on the survey's discussion—not only its title.
+5. If a detailed claim about an individual paper is required, consult the original paper before attributing that claim to it.
 
-```text
-Paper/*.aux
-Paper/*.blg
-Paper/*.fdb_latexmk
-Paper/*.fls
-Paper/*.log
-Paper/*.lof
-Paper/*.lot
-Paper/*.out
-Paper/*.synctex.gz
-Paper/*.toc
-```
+A work should be described as **covered by the survey** only when its citation key appears in the active manuscript source. Its presence in `references.bib` alone is insufficient.
 
-Do not commit the following unless explicitly requested:
+### Compare Methods
+
+Compare methods along explicit dimensions used in the survey:
+
+- update target: $\theta$ or a component of $\Sigma$;
+- learning signal: demonstrations, evaluative feedback, trajectories, critiques, scores, or execution errors;
+- persistence and reversibility;
+- computational and interaction cost;
+- transfer beyond the improvement environment;
+- attribution of gains;
+- regression, reward-hacking, and safety risks.
+
+Do not reduce comparison to final benchmark scores when the paper emphasizes learning trajectories, budgets, transfer, and regressions.
+
+### Build a Reading Path
+
+Start with the taxonomy section, then select the mechanism subsection, application domain, and evaluation protocol most relevant to the reader's goal. Present a short ordered list and explain the role of each paper: foundational concept, representative mechanism, application system, benchmark, or safety/evaluation work.
+
+## Grounding Rules for Agent Responses
+
+When answering from this repository:
+
+1. **Ground claims in the active manuscript.** Name the relevant section or source file.
+2. **Separate three layers clearly:**
+   - claims made by this survey;
+   - claims attributed to papers cited by the survey; and
+   - the agent's own synthesis or external knowledge.
+3. **Do not infer a paper's contribution from its title alone.** Use the local survey context and, when necessary, the original paper.
+4. **Never fabricate references or metadata.** Do not invent authors, titles, venues, dates, DOIs, URLs, or arXiv identifiers.
+5. **Do not mix versions.** A preprint and its published version may have different metadata; use one coherent record.
+6. **Label additions outside the survey.** If newer or external works are introduced, mark them as “not currently covered by the survey.”
+7. **State uncertainty.** If the manuscript does not support an answer, say so rather than filling the gap with speculation.
+
+A useful response structure is:
+
+- **Answer**
+- **Evidence from the survey** — section/file and the relevant distinction
+- **Relevant cited works** — titles and citation keys
+- **Outside-survey additions** — only when requested, clearly labeled
+- **Limitations or uncertainty**
+
+## Evaluation Lens Used by the Survey
+
+The paper treats self-improvement as a trajectory over iterations, not a single terminal score. When analyzing an evaluation claim, check whether it reports:
+
+- performance across update iterations under a fixed resource budget;
+- held-out transfer beyond the data or signal used for improvement;
+- compute, API, tool-use, wall-clock, and human-supervision costs;
+- regressions on previously solved tasks;
+- safety violations and tail risks;
+- attribution to the updated component;
+- evaluator independence when an LLM or agent judge is used.
+
+The survey distinguishes **metric-based evaluation** with executable or deterministic checks from **judge-based evaluation** with a parameterized evaluator and rubric. It also distinguishes **mechanism benchmarks**, which isolate an update channel, from **domain benchmarks**, which evaluate complete systems in realistic environments.
+
+## Design Implications and Research Frontiers
+
+The discussion emphasizes three system-level principles:
+
+- use fast scaffold-level exploration together with slower parametric consolidation;
+- treat the critic or verifier as governed infrastructure, separate from the generator it evaluates;
+- gate persistent updates through layered validation, permission boundaries, regression testing, and rollback.
+
+The six future directions identified by the survey are:
+
+1. test-time continual adaptation;
+2. active exploration and curiosity;
+3. parametric distillation and joint optimization of $\theta$ and $\Sigma$;
+4. resource-constrained improvement dynamics;
+5. multi-agent cooperative co-evolution; and
+6. robustness under open-world distribution drift.
+
+## Citing the Survey
+
+Use the newest canonical public record linked from the project page:
+
+- Project page: <https://selfimproving-agent.github.io/>
+- Repository: <https://github.com/selfimproving-agent/awesome-Self-Improving-Agents>
+
+The manuscript title is:
+
+> **Self-Improvements in Modern Agentic Systems: A Survey**
+
+Before a canonical DOI or arXiv identifier is available, a provisional citation may be written as:
+
+> Zhe Ren et al. “Self-Improvements in Modern Agentic Systems: A Survey.” Preprint, 2026.
+
+Do not invent a DOI, arXiv identifier, venue, acceptance status, or publication date. Once a canonical preprint or published version is listed on the project page, prefer its generated citation metadata. When a peer-reviewed version becomes available, cite that version unless the preprint itself is the object being discussed.
+
+## Example Prompts
 
 ```text
-Paper/colm2025_conference.pdf
-Paper/*.bbl
-Paper/*.dvi
-Paper/*.ps
+Read README_AGENT.md and the survey source. Explain the paper's formal
+definition of self-improvement and why transient in-context adaptation alone
+does not qualify. Cite the relevant source files and equations.
 ```
 
-A `.bbl` file may occasionally be required by a submission platform. Commit it
-only when the maintainers explicitly request it.
+```text
+Using the survey's taxonomy, find the works most relevant to self-improving
+agent memory. Group them by memory object, structure, and processing, and give
+the BibTeX citation key for each work.
+```
 
-PDF files under `Paper/fig/` are manuscript source figures and must not be
-deleted or ignored merely because they use the `.pdf` extension.
+```text
+Compare foundation-model improvement with scaffolding improvement in terms of
+update signals, persistence, cost, reversibility, transfer, and safety risks.
+Ground the comparison in the survey rather than external intuition.
+```
 
-## Sensitive and Private Files
+```text
+Build a reading path for self-improving software-engineering agents. Separate
+benchmarks and evaluation substrates from methods that perform persistent
+updates to the model or scaffold.
+```
 
-Never commit:
-
-- private review correspondence;
-- reviewer identities or comments;
-- confidential TMLR submission information;
-- submission-system screenshots;
-- private submission identifiers;
-- API keys, passwords, tokens, or credentials;
-- private Overleaf history;
-- local backup files;
-- local editor settings containing personal information;
-- unpublished author correspondence;
-- files containing information that the authors have not approved for public
-  release.
-
-## Completion Criteria
-
-A task is complete only when:
-
-- the requested change has been made;
-- the manuscript compiles successfully, or missing build dependencies have
-  been clearly reported;
-- no new undefined citations or references were introduced;
-- no unrelated files were modified;
-- files outside `Paper/` were left unchanged unless explicitly requested;
-- the final Git diff was reviewed;
-- all remaining warnings and limitations were disclosed.
-
-When reporting completion, briefly summarize:
-
-1. what was changed;
-2. which files were modified;
-3. which validation commands were run;
-4. whether compilation succeeded;
-5. any unresolved warnings or limitations.
+```text
+Identify the evaluation requirements this survey recommends for a new
+self-improving agent. Turn them into an experiment checklist and state which
+requirements are unsupported by the proposed experiment.
+```
