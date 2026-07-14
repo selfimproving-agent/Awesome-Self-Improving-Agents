@@ -1,0 +1,149 @@
+% Algorithm 1 v3 (aligned + more inclusive, no overflow)
+\ifnum\AlgoSel=3
+\begin{wrapfigure}{r}{0.52\columnwidth}
+\vspace{-\intextsep}
+\centering
+
+\scalebox{0.52}{%
+\begin{minipage}{\columnwidth}
+\begin{mdframed}[
+  backgroundcolor=algobg,
+  roundcorner=5pt,
+  linewidth=0pt,
+  innerleftmargin=4pt,
+  innerrightmargin=4pt,
+  innertopmargin=4pt,
+  innerbottommargin=4pt
+]
+\begingroup
+\SetAlFnt{\large}   
+\SetAlCapFnt{\large}  
+\SetAlCapNameFnt{\large} 
+\begin{algorithm}[H]
+\caption{Foundation\mbox{-}Model Improvement}
+\label{alg:foundation_model_improvement}
+
+\SetKwInOut{Input}{Input}
+\SetKwInOut{Output}{Output}
+\Input{Initial agent state $\mathcal{A}_0=(\theta_0,\Sigma)$; maximum iterations $T$}
+\Output{Improved agent $\mathcal{A}_T=(\theta_T,\Sigma)$}
+
+\BlankLine
+\For{$t \leftarrow 0$ \KwTo $T-1$}{
+
+  \textcolor{RoyalBlue}{\tcp{1) Construct or collect learning signal $\mathcal{S}_t$}}
+  $\mathcal{S}_t \leftarrow \emptyset$
+
+  \If{subcategory includes intrinsic generative demonstrations}{%
+    $\mathcal{S}_t \leftarrow \mathcal{S}_t \cup \textsc{GenerateDemonstrations}(\mathcal{A}_t)$
+    \tcp*{\S \ref{sec:Intrinsic_Generative_Demonstrations}}
+  }
+  \If{subcategory includes intrinsic evaluative feedback}{%
+    $\mathcal{S}_t \leftarrow \mathcal{S}_t \cup \textsc{GenerateEvaluativeFeedback}(\mathcal{A}_t)$
+    \tcp*{\S \ref{sec:Intrinsic_Evaluative_Feedback}}
+  }
+  \If{subcategory includes extrinsic exploratory experience}{%
+    $\mathcal{S}_t \leftarrow \mathcal{S}_t \cup \textsc{CollectExperience}(\mathcal{A}_t,\text{env})$
+    \tcp*{\S \ref{sec:Extrinsic_Exploratory_Experience}}
+  }
+
+  \textcolor{gray}{\tcp{Optional: quality control / weighting of signals}}
+  $\mathcal{S}_t \leftarrow \textsc{FilterOrWeight}(\mathcal{S}_t)$
+
+  \textcolor{RoyalBlue}{\tcp{2) Parameter update}}
+  $\theta_{t+1} \leftarrow \textsc{Update}(\theta_{1:t},\mathcal{S}_t)$
+
+  \textcolor{RoyalBlue}{\tcp{3) State update}}
+  $\mathcal{A}_{t+1} \leftarrow (\theta_{t+1},\Sigma)$
+
+  \If{\textsc{Converged}($\mathcal{A}_{t+1}$)}{break}
+}
+\Return{$\mathcal{A}_T$}
+\end{algorithm}
+\endgroup
+\end{mdframed}
+\end{minipage}%
+}
+
+\vspace{-10pt}
+\end{wrapfigure}
+\fi
+
+
+% Algorithm 2 v3 (aligned + more inclusive, no overflow)
+\ifnum\AlgoSel=4
+\begin{wrapfigure}{r}{0.52\columnwidth}
+\vspace{-\intextsep}
+\centering
+
+\scalebox{0.52}{%
+\begin{minipage}{\columnwidth}
+\begin{mdframed}[
+  backgroundcolor=algobg,
+  roundcorner=5pt,
+  linewidth=0pt,
+  innerleftmargin=4pt,
+  innerrightmargin=4pt,
+  innertopmargin=4pt,
+  innerbottommargin=4pt
+]
+\begingroup
+\SetAlFnt{\large}   
+\SetAlCapFnt{\large}  
+\SetAlCapNameFnt{\large} 
+\begin{algorithm}[H]
+\caption{Scaffolding Improvement}
+\label{alg:scaffolding_improvement}
+
+\SetKwInOut{Input}{Input}
+\SetKwInOut{Output}{Output}
+\Input{Initial agent state $\mathcal{A}_0=(\theta,\Sigma_0)$; max iterations $T$}
+\Output{Improved agent $\mathcal{A}_T=(\theta,\Sigma_T)$}
+
+\BlankLine
+\For{$t \leftarrow 0$ \KwTo $T-1$}{
+
+  \textcolor{RoyalBlue}{\tcp{1) Collect scaffolding learning signal $\mathcal{S}_t$}}
+  $\mathcal{S}_t \leftarrow \textsc{InteractAndEvaluate}(\mathcal{A}_t,\text{env})$
+  \tcp*{\footnotesize traces, critiques, success/failure, cost}
+
+  \textcolor{gray}{\tcp{Optional: quality control / weighting of signals}}
+  $\mathcal{S}_t \leftarrow \textsc{FilterOrWeight}(\mathcal{S}_t)$
+
+  \textcolor{RoyalBlue}{\tcp{2) Scaffolding update (keep $\theta$ fixed)}}
+  \uIf{subcategory = Full scaffolding}{%
+    $\Sigma_{t+1} \leftarrow \IMPROVE_{\Sigma}(\Sigma_{1:t};\mathcal{S}_t)$
+    \tcp*{\S~\ref{sec:Full_Scaffolding}}
+  }
+  \Else{%
+    $p_{t+1} \leftarrow p_t$; $m_{t+1} \leftarrow m_t$; $\mathcal{T}_{t+1} \leftarrow \mathcal{T}_t$
+
+    \If{subcategory includes Prompt-based}{%
+      $p_{t+1} \leftarrow \IMPROVE_{p}(p_t;\mathcal{S}_t)$
+      \tcp*{\S~\ref{sec:Prompt_Optimization}}
+    }
+    \If{subcategory includes Memory-based}{%
+      $m_{t+1} \leftarrow \IMPROVE_{m}(m_t;\mathcal{S}_t)$
+      \tcp*{\S~\ref{sec:Memory}}
+    }
+    \If{subcategory includes Tool-based}{%
+      $\mathcal{T}_{t+1} \leftarrow \IMPROVE_{\mathcal{T}}(\mathcal{T}_t;\mathcal{S}_t)$
+      \tcp*{\S~\ref{sec:Tool}}
+    }
+
+    $\Sigma_{t+1} \leftarrow (p_{t+1},\, m_{t+1},\, \mathcal{T}_{t+1})$
+  }
+
+  \textcolor{RoyalBlue}{\tcp{3) State update}}
+  $\mathcal{A}_{t+1} \leftarrow (\theta,\Sigma_{t+1})$
+}
+\Return{$\mathcal{A}_T$}
+\end{algorithm}
+\endgroup
+\end{mdframed}
+\end{minipage}%
+}
+
+\vspace{-16pt}
+\end{wrapfigure}
+\fi

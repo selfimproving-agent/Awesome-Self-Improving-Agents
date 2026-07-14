@@ -1,0 +1,70 @@
+\section{A Taxonomy of Existing Approaches}
+\label{sec:A_Taxonomy_of_Self_Improvement_Mechanisms}
+
+Building on the definitions introduced in
+Section~\ref{sec:Definitions}, we now introduce a taxonomy to organize existing approaches to self-improvement in FM-based agents. This section serves as a \emph{methodological classification} that provides a common reference frame for comparing a rapidly growing and heterogeneous literature. In the remainder of this section, we use $\IMPROVE_{target}(\,\cdot\,;\mathcal{S}_t)$ to denote an abstract self-improvement procedure in the sense of SI-FMA. Here $\mathcal{S}_t$ denotes an update signal produced through the agent’s own execution (the operator $\mathcal{E}$ in Section~\ref{sec:Definitions}), such as interaction trajectories, critiques, preferences, or other self-generated artifacts. This notation organizes existing approaches first by the target of modification, separating foundation-model updates from scaffolding updates. Within each target, approaches are further distinguished by the form of the self-induced learning signal that drives the update. For scaffolding improvement, we additionally group methods by the scaffold component being modified, such as prompts, memory, tools, or full scaffolding.
+
+\subsection{Foundation Model Improvement}
+\label{subsec:Foundation_Model_Improvement_(The_Parametric_Slow_Loop)}
+
+Foundation model improvement targets the parameters of the underlying foundation model while leaving the agent-level scaffold unchanged:
+\begin{equation}
+    \theta_{t+1} = \IMPROVE_{\theta}(\theta_{1:t}; \mathcal{S}_{t}),
+    \qquad
+    \Sigma_{t+1} = \Sigma_{t}.
+\end{equation}
+In this paradigm, the agent’s own execution under its induced policy $\pi_{\theta_t,\Sigma_t}$ generates learning signals that are subsequently consumed by a parameter-update procedure. By committing the update directly into $\theta_t$, the agent internalizes the learned capabilities. This allows the adaptation cost to be amortized across future interactions, though such parametric updates typically operate on longer time scales and incur higher computational overhead. $\theta_{1:t}$ denotes the parameter history, enabling validation and rollback (e.g., reverting to a prior checkpoint) when a proposed update degrades performance or violates constraints.
+
+
+
+\paragraph{Classification by signal form.}
+As detailed in Section \ref{sec:Foundation_Model_Improvement}, we further categorize foundation model improvement according to the form of the self-induced signal $\mathcal{S}_t$:
+\begin{itemize}
+    \item \textbf{Intrinsic Generative Demonstrations} (primary update signal: $\mathcal{D}_t$):
+    the agent synthesizes explicit training instances (e.g., demonstrations or augmented datasets) that are used for supervised-style learning
+    ~\citep{wang2022self, lu2023self, zhao2024selfguidebettertaskspecificinstruction, shi2025taskcraft}.
+
+    \item \textbf{Intrinsic Evaluative Feedback} (primary update signal: $e_t$):
+    the agent constructs supervisory signals such as scalar rewards, preference pairs, or critiques to guide optimization and alignment
+    ~\citep{gong2025strive, huang2025beyond, bai2022constitutional, bensal2025reflect, zhang2025adaptive}.
+
+    \item \textbf{Extrinsic Exploratory Experience} (primary update signal: $\tau_t$):
+    the agent learns from interaction trajectories and environment-grounded outcomes produced during execution
+    ~\citep{wei2025codearc, dong2025tool, da2025agent, sun2025seagentselfevolvingcomputeruse}.
+\end{itemize}
+
+\subsection{Scaffolding Improvement}
+\label{subsec:Scaffolding_Improvement_(The_Non_Parametric_Fast_Loop)}
+
+Scaffolding improvement targets the agent’s operational scaffold while keeping the foundation model parameters fixed:
+\begin{equation}
+    \Sigma_{t+1} = \IMPROVE_{\Sigma}(\Sigma_{1:t}; \mathcal{S}_{t}),
+    \qquad
+    \theta_{t+1} = \theta_{t}.
+\end{equation}
+Here, $\IMPROVE$ commits structural changes into $\Sigma_t=(p_t,m_t,\mathcal{T}_t,g_t)$,
+thereby reshaping how the frozen model is conditioned, grounded, and constrained during all subsequent executions. This paradigm typically yields fast, reversible, and task-specific adaptation without the risks of catastrophic forgetting.
+
+\paragraph{Classification by scaffold component.}
+Crucially, each of the following modifications represents a structural update to the agent's intrinsic configuration, distinguishing it from transient shifts in working memory. As detailed in Section~\ref{sec:Scaffolding_Improvement}, we further decompose scaffolding improvement according to which component of $\Sigma_t$ is targeted:
+\begin{itemize}
+    \item \textbf{Prompt Optimization ($p_t \rightarrow p_{t+1}$):}
+     edits to structured prompts or in-context exemplars,
+    $p_{t+1}=\IMPROVE_{p}(p_{1:t}; \mathcal{S}_t)$
+    ~\citep{yuksekgonul2024textgradautomaticdifferentiationtext, guo2025evopromptconnectingllmsevolutionary, fernando2024promptbreeder, zhou2022large}.
+
+    \item \textbf{Memory Evolution ($m_t \rightarrow m_{t+1}$):}
+     updates to how experience is stored, consolidated, and retrieved,
+    $m_{t+1}=\IMPROVE_{m}(m_{1:t}; \mathcal{S}_t)$
+    ~\citep{chhikara2025mem0buildingproductionreadyai, wang2024agentworkflowmemory, zhang2025memgenweavinggenerativelatent, zhong2024memorybank}.
+
+    \item \textbf{Tool Governance ($\mathcal{T}_t \rightarrow \mathcal{T}_{t+1}$):}
+     refinement or expansion of the agent’s action space through tool creation or selection,
+    $\mathcal{T}_{t+1}=\IMPROVE_{\mathcal{T}}(\mathcal{T}_{1:t}; \mathcal{S}_t)$
+    ~\citep{haque2025advancedtoollearningselection, wang2025toolgenunifiedtoolretrieval, dong2025tool, zhang2025agentorchestraorchestratinghierarchicalmultiagent}.
+
+    \item \textbf{Full Scaffolding Update ($\Sigma_t \rightarrow \Sigma_{t+1}$):}
+    holistic reconfiguration of the agent’s operational architecture,
+    $\Sigma_{t+1}=\IMPROVE_{\Sigma}(\Sigma_{1:t}; \mathcal{S}_t)$
+    ~\citep{hu2025automateddesignagenticsystems, zhang2025darwingodelmachineopenended, novikov2025alphaevolvecodingagentscientific, xia2025livesweagentsoftwareengineeringagents}.
+\end{itemize}
