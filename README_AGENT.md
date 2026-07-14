@@ -10,7 +10,7 @@ This file is an agent-oriented companion to the survey. It helps readers and AI 
 - find relevant papers in the survey bibliography;
 - compare different approaches to autonomous improvement;
 - classify new papers using the taxonomy introduced in the survey;
-- produce grounded summaries and literature reviews; and
+- produce grounded summaries and literature reviews;
 - cite the survey and the works it covers.
 
 Use the manuscript as the primary source. This guide is a navigation and usage layer, not a substitute for the paper.
