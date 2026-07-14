@@ -1,0 +1,583 @@
+% base
+\tikzstyle{my-box}=[
+    rectangle,
+    draw=hidden-black,
+    rounded corners,
+    text opacity=1,
+    minimum height=1.5em,
+    minimum width=5em,
+    inner sep=2pt,
+    align=center,
+    fill opacity=.3,  % 透明度
+    line width=0.8pt,
+]
+\tikzstyle{leaf}=[my-box, minimum height=1.5em,
+    fill=fm-blue, text=sia-color, align=left,font=\normalsize,
+    inner xsep=2pt,
+    inner ysep=4pt,
+    line width=0.8pt, 
+]
+\tikzstyle{leaf1}=[my-box, minimum height=1.5em,
+    fill=sf-green, text=sia-color, align=left,font=\normalsize,
+    inner xsep=2pt,
+    inner ysep=4pt,
+    line width=0.8pt,
+]
+\tikzstyle{leaf2}=[my-box, minimum height=1.5em,
+    fill=eval-purple, text=sia-color, align=left,font=\normalsize,
+    inner xsep=2pt,
+    inner ysep=4pt,
+    line width=0.8pt,
+]
+
+% show
+\begin{figure*}[t]
+    \vspace{-2mm}
+    \centering
+    \resizebox{\textwidth}{!}
+    {
+        \begin{forest}
+            forked edges,
+            for tree={
+                child anchor=west,
+                parent anchor=east,
+                grow'=east,
+                anchor=west,
+                base=left,
+                font=\large,
+                rectangle,
+                rounded corners,
+                align=left,
+                edge+={darkgray, line width=1pt},
+                s sep=3pt, 
+                inner xsep=4pt,
+                inner ysep=4pt,
+                line width=0.8pt,
+                ver/.style={
+                    rotate=90, 
+                    child anchor=north, 
+                    parent anchor=south, 
+                    anchor=center
+                },
+            },
+            where level=0{font=\normalsize, text width=11em, text=white, fill=sia-color, fill opacity=1, draw=hidden-black}{},
+            where level=1{font=\normalsize, text width=9em, fill=orange!20, fill opacity=0.4, draw=hidden-black}{},
+            where level=2{font=\normalsize, text width=9.5em, fill=yellow!25, fill opacity=0.4, draw=hidden-black}{},
+            where level=3{font=\normalsize, text width=9.5em, fill=blue!10, fill opacity=0.4, draw=hidden-black}{},
+            where level=4{font=\normalsize, text width=16em, fill=blue!20, fill opacity=0.4, draw=hidden-black}{},
+            [
+                Self-Improving Agents, ver
+                [
+                    Foundation Model\\Improvement(\S \ref{sec:Foundation_Model_Improvement}) , leaf
+                    [
+                        Intrinsic Generative\\Demonstrations(\S \ref{sec:Intrinsic_Generative_Demonstrations}) , leaf
+                        [
+                            % \textit{}~\citep{}{, }
+                            \textit{Self-Instruct}~\citep{wang2022self}{, }
+                            \textit{LMSI}~\citep{huang2023large}{, }
+                            \textit{Orca}~\citep{mukherjee2023orca}{, }
+                            \textit{Self}~\citep{lu2023self}{, }\\
+                            \textit{Self-Guide}~\citep{zhao2024selfguidebettertaskspecificinstruction}{, }
+                            % \textit{ReST}~\citep{singh2023beyond}{, }
+                            \textit{MoAA}~\citep{wang2025improvingmodelalignmentcollective}{, }
+                            \textit{IMM}~\citep{yuan2025superficial}{, }
+                            \textit{SICOG}~\citep{zhang2025will}{, }\\
+                            \textit{TaskCraft}~\citep{shi2025taskcraft}{, }
+                            \textit{AReaL-SEA}~\citep{gao2026selfevolvingsyntheticdataverifiablereward}{, }
+                            \textit{RENT}~\citep{prabhudesai2025maximizing}{, }
+                            \textit{Ladder}~\citep{simonds2025ladder}{, }\\
+                            \textit{DIVE}~\citep{qin2025dive}{, }
+                            \textit{SEAL}~\citep{zweiger2025selfadapting}{, }
+                            \textit{MM-UPT}~\citep{wei2025unsupervised}{, }
+                            \textit{SPORT}~\citep{li2025iterative}{, } \textit{EvoGround}~\citep{jung2026evogroundselfevolvingvideoagents}{, }\\
+                            \textit{SCPO}~\citep{pmlr-v267-prasad25a}{, }
+                            \textit{VeriFree}~\citep{zhou2026reinforcing}{, }
+                            \textit{SAGE}~\citep{xu-etal-2026-sage}{, } \textit{RAGShaper}~\citep{tao2026ragshaperelicitingsophisticatedagentic}{, }
+                            \textit{ANDES}~\citep{zhao2026andesagentnativedata}{, }\\
+                            % \textit{ANDES}~\citep{zhao2026andesagentnativedata}{, }
+                            % \textit{EvoGround}~\citep{jung2026evogroundselfevolvingvideoagents}{, }
+                            % \textit{}~\citep{}{, }
+                            % \textit{}~\citep{}{, }
+                            % \textit{}~\citep{}{, }
+                            , leaf, text width=63em, text=darkgray!80                    
+                        ]
+                    ]
+                    [
+                        Intrinsic Evaluative\\Feedback(\S \ref{sec:Intrinsic_Evaluative_Feedback}) , leaf
+                        [
+                            % \textit{}~\citep{}{, }
+                            \textit{Constitutional AI}~\citep{bai2022constitutional}{, }
+                            \textit{Rest Meets React}~\citep{aksitov2023rest}{, }
+                            \textit{Intuitor}~\citep{zhao2025learning}{, }
+                            \textit{SRT}~\citep{shafayat2025can}{, }\\                            
+                            \textit{Strive}~\citep{gong2025strive}{, }
+                            \textit{SCR}~\citep{han2026structuredreasoninglargelanguage}{, }
+                            \textit{SER}~\citep{huang2025selfevolved}{, }
+                            \textit{UniCorn}~\citep{han2026unicornselfimprovingunifiedmultimodal}{, }
+                            \textit{RePro}~\citep{ma2026retrospective}{, }\\
+                            \textit{EMPO}~\citep{zhang2025right}{, }
+                            \textit{iReasoner}~\citep{sunil2026ireasonertrajectoryawareintrinsicreasoning}{, }
+                            \textit{TTRL}~\citep{zuo2025ttrl}{, }
+                            \textit{DyMo}~\citep{guo2025sample}{, }
+                            \textit{SEC}~\citep{chen2025self}{, }
+                            \\
+                            \textit{SRSI}~\citep{simonds2025self}{, }
+                            \textit{Reflect, Retry, Reward}~\citep{bensal2025reflect}{, }
+                            \textit{PCL-lite}~\citep{zhang2025adaptive}
+                            \textit{EVE-Agent}~\citep{arai2026eveagentevidenceverifiableselfevolvingagents}{, }
+                            \\
+                            % \textit{RePro}~\citep{ma2026retrospective}{, }
+                            % \textit{EVE-Agent}~\citep{arai2026eveagentevidenceverifiableselfevolvingagents}{, }
+                            % \textit{}~\citep{}{, }
+                            % \textit{}~\citep{}{, }
+                            % \textit{}~\citep{}{, }
+                            % \textit{}~\citep{}{, }
+                            , leaf, text width=63em, text=darkgray!80                          
+                        ]
+                    ]
+                    [
+                        Extrinsic Exploratory\\Experience(\S \ref{sec:Extrinsic_Exploratory_Experience}) , leaf
+                        [
+                            Grounded Task\\Environments(\S \ref{sec:Grounded_Interaction_with_Verifiable_Environments}) , leaf
+                            [
+                                % \textit{}~\citep{}{, }
+                                \textit{RoboCat}~\citep{bousmalis2023robocatselfimprovinggeneralistagent}{, }
+                                \textit{Tool-Star}~\citep{dong2025tool}{, }
+                                \textit{CodeARC}~\citep{wei2025codearc}{, }\\
+                                \textit{RLFT}~\citep{schmied2025llms}{, }
+                                \textit{Agent-RLVR}~\citep{da2025agent}{, }
+                                % \textit{WEBRL}~\citep{qi2025webrl}{, }
+                                % \textit{SEAgent}~\citep{sun2025seagentselfevolvingcomputeruse}{, }
+                                \textit{ARTIST}~\citep{singh2025agenticreasoningtoolintegration}{, }
+                                \\
+                                \textit{Tool-R0}~\citep{acikgoz2026toolr0selfevolvingllmagents}{, }
+                                % \textit{SOAR}~\citep{pourcel2025selfimproving}{, }
+                                \textit{DeepResearcher}~\citep{zheng2025deepresearcher}{, }
+                                \textit{Kevin-32B}~\citep{baronio2025kevinmultiturnrlgenerating}{, }\\
+                                % \textit{ARTIST}~\citep{singh2025agenticreasoningtoolintegration}{, }
+                                \textit{SEAgent}~\citep{sun2025seagentselfevolvingcomputeruse}{, }
+                                \textit{UI-Genie}~\citep{xiao2025uigenie}{, }
+                                \textit{RAGEN}~\citep{wang2025ragenunderstandingselfevolutionllm}{, }
+                                \textit{SOAR}~\citep{pourcel2025selfimproving}{, }
+                                % \textit{Tool-R0}~\citep{acikgoz2026toolr0selfevolvingllmagents}{, }
+                                \\ 
+                                \textit{WebGym}~\citep{bai2026webgymscalingtrainingenvironments}{, }
+                                \textit{WEBRL}~\citep{qi2025webrl}{, }
+                                % \textit{SEAgent}~\citep{sun2025seagentselfevolvingcomputeruse}{, }
+                                \textit{Q-Evolve}~\citep{zhang2026selfevolvingllmagentsindistribution}{, }
+                                \textit{Socratic-SWE}~\citep{xiao2026socraticsweselfevolvingcodingagents}{, }
+                                \\
+                                % \textit{Tool-R0}~\citep{acikgoz2026toolr0selfevolvingllmagents}{, }
+                                % \textit{Socratic-SWE}~\citep{xiao2026socraticsweselfevolvingcodingagents}{, }
+                                , leaf, text width=52em, text=darkgray!80                          
+                            ]
+                        ]
+                        [
+                            Simulated Proxy\\Environment(\S \ref{sec:Efficient_Interaction_with_Simulated_Environments}) , leaf
+                            [
+                                \textit{Understanding World}~\citep{ding2025understanding}{, }
+                                \textit{General Agents Need World}~\citep{richens2025general}{, }\\
+                                \textit{WebEvolver}~\citep{fang2025webevolver}{, }
+                                \textit{WebSynthesis}~\citep{gao2025websynthesisworldmodelguidedmctsefficient}{, }
+                                \textit{GAWM}~\citep{shi2025gawmglobalawareworldmodel}{, }\\
+                                \textit{WMA}~\citep{chae2025webagentsworldmodels}{, }
+                                \textit{AlignUSER}~\citep{bougie2026alignuserhumanalignedllmagents}{, }
+                                \textit{World-knowledge model}~\citep{qiao2024agent}{, }\\
+                                \textit{WMPO}~\citep{zhu2025wmpoworldmodelbasedpolicy}{, }
+                                \textit{SPA}~\citep{chen2025internalizingworldmodelsselfplay}{, }
+                                \textit{EvoWorld}~\citep{wang2025evoworldevolvingpanoramicworld}{, }\\
+                                \textit{NavMorph}~\citep{yao2025navmorphselfevolvingworldmodel}{, }
+                                \textit{WorldEvolver}~\citep{zhang2026selfevolvingworldmodelsllm}{, }
+                                \textit{RISE}~\citep{yang2026riseselfimprovingrobotpolicy}{, }
+                                , leaf, text width=52em, text=darkgray!80                              
+                            ]
+                        ]
+                    ]
+                ]
+                [
+                    Scaffolding\\Improvement(\S \ref{sec:Scaffolding_Improvement}) , leaf1
+[
+    Prompt\\Optimization (\S \ref{sec:Prompt_Optimization}) , leaf1
+    [
+        Scalar-Feedback\\Optimization(\S \ref{sec:Scalar_Feedback_Optimization}), leaf1
+        [
+            % \textit{}~\citep{}{, }
+    \textit{APE}~\citep{zhou2022large}{, }
+    \textit{OPRO}~\citep{yang2023large}{, }
+            \textit{PRIP}~\citep{zhan2024promptrefinementimagepivot}{, }
+            \textit{SAGE}~\citep{zhu2026sage}{, }\\
+            \textit{LCP}~\citep{li2024learningcontrastivepromptsautomated}{, }
+            \textit{PROMST}~\citep{chen2024promptoptimizationmultisteptasks}{, }
+            \textit{MAPS}~\citep{gao2025promptalchemistautomatedllmtailored}{, }
+            \textit{SePO}~\citep{tao2026seposelfevolvingpromptagent}{, }\\
+            \textit{DRO-InstructZero}~\citep{li2025droinstructzerodistributionallyrobustprompt}{, }
+            \textit{CoolPrompt}~\citep{anonymous2025coolprompt}{, }
+            , leaf1, text width=52em, text=darkgray!80
+        ]
+    ]
+    [
+        Qualitative-Feedback\\Refinement(\S \ref{sec:Qualitative_Feedback_Refinement}), leaf1
+        [
+            % \textit{}~\citep{}{, }
+    \textit{Self-Refine}~\citep{madaan2023self}{, }
+    \textit{Multi-Agent Debate}~\citep{liang2023debate}{, }
+    \textit{CoH}~\citep{liu2023chain}{, }\\
+    \textit{Reflexion}~\citep{shinn2023reflexionlanguageagentsverbal}{, }
+    \textit{Scrable}~\citep{azov2024selfimprovingcustomerreviewresponse}{, }
+            \textit{APOHF}~\citep{lin2024promptoptimizationhumanfeedback}{, }\\
+            \textit{GEPA}~\citep{agrawal2025gepareflectivepromptevolution}{, }
+            \textit{IDEALPrompt}~\citep{liu2025boostingprivatedomainunderstanding}{, }
+            \textit{CriSPO}~\citep{he2025crispomultiaspectcritiquesuggestionguidedautomatic}{, }\\
+            \textit{MIPRO}~\citep{opsahlong2024optimizinginstructionsdemonstrationsmultistage}{, }
+            \textit{FORGE}~\citep{Bogdanov_2026}{, }
+            , leaf1, text width=52em, text=darkgray!80
+        ]
+    ]
+    [
+        Population-Based\\Evolution(\S \ref{sec:Population_Based_Evolution}), leaf1
+        [
+            % \textit{}~\citep{}{, }
+    \textit{Evo-Prompt}~\citep{guo2025evopromptconnectingllmsevolutionary}{, }
+    \textit{Evol-Instruct}~\citep{xu2024wizardlm}{, }
+    \textit{Promptbreeder}~\citep{fernando2024promptbreeder}{, }\\
+    \textit{STOP}~\citep{zelikman2024self}{, }
+    \textit{GPTSwarm}~\citep{10.5555/3692070.3694667}
+    \textit{DelvePO}~\citep{tao2025delvepodirectionguidedselfevolvingframework}{, }\\
+    \textit{EGO-Prompt}~\citep{zhao2025autooptimizepromptsdomaintasks}{, }
+    \textit{DEEVO}~\citep{nair2025tournamentpromptsevolvingllm}
+            , leaf1, text width=52em, text=darkgray!80
+        ]
+    ]
+    [
+        Textual Gradient\\Optimization(\S \ref{sec:Textual_Gradient_Optimization}), leaf1
+        [
+            % \textit{}~\citep{}{, }
+        \textit{APO}~\citep{pryzant2023automaticpromptoptimizationgradient}{, }
+    \textit{TextGrad}~\citep{yuksekgonul2024textgradautomaticdifferentiationtext}{, }
+            \textit{OPTO}~\citep{cheng2024traceautodiffgenerativeoptimization}{, }\\
+    \textit{metaTextGrad}~\citep{xu2025metatextgradautomaticallyoptimizinglanguage}{, }
+    \textit{MAPGD}~\citep{han2025mapgdmultiagentpromptgradient}{, }
+    \textit{GASO}~\citep{wang2024correctlysemanticbackpropagationlanguagebased}{, }
+    \textit{TPGO}~\citep{he2026learningevolveselfimprovingframework}{, }
+    \\
+            \textit{TSGD-M}~\citep{ding2025scalingtextualgradientssamplingbased}{, }
+            \textit{STEVE}~\citep{xu2025pick}{, }
+            \textit{SkillOpt}~\citep{yang2026skilloptexecutivestrategyselfevolving}{, }
+            \textit{VASO}~\citep{yang2026vasoformallyverifiableselfevolving}{, }
+            \\
+            % \textit{VASO}~\citep{yang2026vasoformallyverifiableselfevolving}{, }
+            % \textit{TPGO}~\citep{he2026learningevolveselfimprovingframework}{, }
+            , leaf1, text width=52em, text=darkgray!80
+        ]
+    ]
+]
+[
+    Memory (\S \ref{sec:Memory}) , leaf1
+    [
+        Memory\\Object(\S \ref{sec:Memory_Object}), leaf1
+        [
+            % \textit{}~\citep{}{, }
+    \textit{AWM}~\citep{wang2024agentworkflowmemory}{, }
+    \textit{ReasoningBank}~\citep{ouyang2025reasoningbankscalingagentselfevolving}{, }
+    \textit{ExpeL}~\citep{zhao2024expel}{, }\\
+    \textit{ReadAgent}~\citep{lee2024humaninspiredreadingagentgist}{, }
+    \textit{M3-Agent}~\citep{long2025seeinglisteningrememberingreasoning}{, }
+    \textit{Self-Notes}~\citep{lanchantin2023learningreasonmemorizeselfnotes}{, }\\
+    \textit{DC}~\citep{suzgun2025dynamiccheatsheettesttimelearning}{, }
+    \textit{PRIME}~\citep{tran2025primeplanningretrievalintegratedmemory}{, }
+    \textit{CodeAgent}~\citep{zhang-etal-2024-codeagent}{, }\\
+    \textit{CMR}~\citep{dillon2025contextualmemoryreweavinglarge}{, }
+    \textit{MemGen}~\citep{zhang2025memgenweavinggenerativelatent}{, }
+    \textit{M+}~\citep{wang2025mextendingmemoryllmscalable}\\
+    \textit{MemoryLLM}~\citep{wang2024memoryllmselfupdatablelargelanguage}{, }
+    \textit{Thought-Retriever}~\citep{feng2026thoughtretrieverdontjustretrieve}{, }
+    \textit{EvoNote}~\citep{fu2026betterexperienceselfevolvingllm}{, }
+            , leaf1, text width=52em, text=darkgray!80
+        ]
+    ]
+    [
+        Memory\\Structure(\S \ref{sec:Memory_Structure}), leaf1
+        [
+            % \textit{}~\citep{}{, }
+    \textit{SCM}~\citep{wang2025scmenhancinglargelanguage}{, }
+    \textit{MobileGPT}~\citep{lee2024exploreselectderiverecall}{, }
+    \textit{H-MEM}~\citep{sun2025hierarchicalmemoryhighefficiencylongterm}{, }
+    \textit{Prism}~\citep{mishra2026prismevolutionarymemorysubstrate}{, }
+    \\
+    \textit{SALM}~\citep{koley2025salmmultiagentframeworklanguage}{, }
+    \textit{XMem}~\citep{cheng2022xmemlongtermvideoobject}{, }
+    \textit{MovieChat}~\citep{song2024moviechatdensetokensparse}{, }
+    \textit{EXG}~\citep{jin2026exgselfevolvingagentsexperience}{, }
+    \\
+    \textit{Mem0}~\citep{chhikara2025mem0buildingproductionreadyai}{, }
+    \textit{G-Memory}~\citep{zhang2025gmemorytracinghierarchicalmemory}{, }
+    \textit{Zep}~\citep{rasmussen2025zeptemporalknowledgegraph}{, }\\
+    \textit{SGMem}~\citep{wu2025sgmemsentencegraphmemory}{, }
+    \textit{CausalRAG}~\citep{wang2025causalragintegratingcausalgraphs}{, }
+    \textit{GraphVideoAgent}~\citep{10.1145/3746027.3755537}{, }\\
+    \textit{Scene-MMKG}~\citep{10531671}{, }
+    \textit{SHIMI}~\citep{helmi2025decentralizingaimemoryshimi}{, }
+    \textit{CTIM-Rover}~\citep{lindenbauer2025knowledgenoisectimroverpitfalls}\\
+    \textit{Generative Agents}~\citep{park2023generativeagentsinteractivesimulacra}{, }
+    \textit{MemoryBank}~\citep{zhong2024memorybank}{, }
+    % \textit{RMM}~\citep{tan2025prospectretrospectreflectivememory}{, }
+    \textit{EvolveMem}~\citep{liu2026evolvememselfevolvingmemoryarchitectureautoresearch}{, }
+    \\
+    \textit{MrSteve}~\citep{park2025mrsteveinstructionfollowingagentsminecraft}{, }
+    % \textit{EvolveMem}~\citep{liu2026evolvememselfevolvingmemoryarchitectureautoresearch}{, }
+    \textit{RMM}~\citep{tan2025prospectretrospectreflectivememory}{, }
+    \textit{SAGE}~\citep{wang2026sageselfevolvingagenticgraphmemory}{, }
+    \textit{DecentMem}~\citep{hao2026selfevolvingmultiagentsystemsdecentralized}{, }
+    \\
+    % \textit{Prism}~\citep{mishra2026prismevolutionarymemorysubstrate}{, }
+    % \textit{DecentMem}~\citep{hao2026selfevolvingmultiagentsystemsdecentralized}{, }
+    % \textit{EXG}~\citep{jin2026exgselfevolvingagentsexperience}{, }
+            , leaf1, text width=52em, text=darkgray!80
+        ]
+    ]
+    [
+        Memory\\Processing(\S \ref{sec:Memory_Processing}), leaf1
+        [
+            % \textit{}~\citep{}{, }
+    \textit{MemRL}~\citep{zhang2026memrlselfevolvingagentsruntime}{, }
+    \textit{SEDM}~\citep{xu2025sedmscalableselfevolvingdistributed}{, }
+    \textit{SAGE}~\citep{liang2025selfevolvingagentsreflectivememoryaugmented}{, }\\
+    \textit{Mem0}~\citep{chhikara2025mem0buildingproductionreadyai}{, }
+    \textit{MemGen}~\citep{zhang2025memgenweavinggenerativelatent}{, }
+    \textit{A-MEM}~\citep{xu2025amemagenticmemoryllm}{, }\\
+    \textit{Generative Agents}~\citep{park2023generativeagentsinteractivesimulacra}{, }
+    \textit{G-Memory}~\citep{zhang2025gmemorytracinghierarchicalmemory}{, }
+    \textit{Mem2Evolve}~\citep{cheng2026mem2evolveselfevolvingagentscoevolutionary}{, }
+    \\
+    \textit{Agentic RAG}~\citep{ravuru2024agenticretrievalaugmentedgenerationtime, singh2025agenticretrievalaugmentedgenerationsurvey}{, }
+    \textit{MemoryOS}~\citep{kang2025memory}\\
+    \textit{SCM}~\citep{wang2025scmenhancinglargelanguage}{, }
+    \textit{DC}~\citep{suzgun2025dynamiccheatsheettesttimelearning}{, }
+    \textit{ACE}~\citep{zhang2025agenticcontextengineeringevolving}{, }
+    \textit{Metis}~\citep{dai2026metisbridgingtextcode}{, }
+    \\
+    \textit{MLC-Agent}~\citep{zhang2025mlcagentcognitivemodelbased}{, }
+    \textit{Co-Forgetting Protocol}~\citep{bach2025pbftbackedsemanticvotingmultiagent}{, }
+    \textit{MemInsight}~\citep{salama2025meminsightautonomousmemoryaugmentation}
+    \\
+    \textit{TMEM}~\citep{ren2026scalingselfevolvingagentsparametric}{, }
+    \textit{MemQ}~\citep{liao2026memqintegratingqlearningselfevolving}{, }
+    \textit{DCPM}~\citep{fei2026memoryrecalldualprocesscognitive}{, }
+    \textit{AEL}~\citep{xu2026aelagentevolvinglearning}{, }\\
+    % \textit{Metis}~\citep{dai2026metisbridgingtextcode}{, }
+    % \textit{Mem2Evolve}~\citep{cheng2026mem2evolveselfevolvingagentscoevolutionary}{, }
+            , leaf1, text width=52em, text=darkgray!80
+        ]
+    ]
+]
+[
+    Tool (\S \ref{sec:Tool}) , leaf1
+    [
+        Dynamic Tool\\Routing(\S \ref{sec:Dynamic_Tool_Routing}), leaf1
+        [
+            % \textit{}~\citep{}{, }
+    \textit{AgentOrchestra}~\citep{zhang2025agentorchestraorchestratinghierarchicalmultiagent}{, }
+    \textit{Tool-Planner}~\citep{liu2025toolplannertaskplanningclusters}{, }
+    \textit{GenericAgent}~\citep{liang2026genericagenttokenefficientselfevolvingllm}{, }\\
+    \textit{ASKTOACT}~\citep{zhang2025asktoactenhancingllmstool}{, }
+    \textit{MetaAgent}~\citep{qian2025metaagentselfevolvingagenttool}{, }
+    \textit{ToolACE-R}~\citep{zeng2025toolacermodelawareiterativetraining}{, }\\
+    \textit{MCP-Flow}~\citep{wang2025mcpflowfacilitatingllmagents}{, }
+    \textit{AgentFlow}~\citep{li2025intheflowagenticoptimizationeffective}{, }
+    \textit{ANDES}~\citep{zhao2026andesagentnativedata}{, }\\
+    \textit{Sport}~\citep{li2025iterativetoolusageexploration}{, }
+    \textit{MassTool}~\citep{lin2025masstoolmultitasksearchbasedtool}{, }
+    \textit{ToolNet}~\citep{liu2024toolnetconnectinglargelanguage}{, }
+    \textit{TAR}~\citep{lumer2025tooltoagentretrievalbridgingtools}{, }\\
+    \textit{MCP-Zero}~\citep{fei2025mcpzeroactivetooldiscovery}{, }
+    \textit{Tool-Star}~\citep{dong2025tool}{, }
+    \textit{MemTool}~\citep{lumer2025memtooloptimizingshorttermmemory}{, }\\
+    \textit{DeepAgent}~\citep{li2025deepagentgeneralreasoningagent}{, }
+    \textit{Voyager}~\citep{wang2023voyageropenendedembodiedagent}{, }
+    \textit{ToolGen}~\citep{wang2025toolgenunifiedtoolretrieval}{, }\\
+    \textit{AutoTIR}~\citep{wei2025autotirautonomoustoolsintegrated}{, }
+    \textit{OrchDAG}~\citep{lu2025orchdagcomplextoolorchestration}{, }
+    \textit{DeepEyesV2}~\citep{hong2025deepeyesv2agenticmultimodalmodel}
+            , leaf1, text width=52em, text=darkgray!80
+        ]
+    ]
+    [
+        Iterative Tool\\Refinement(\S \ref{sec:Iterative_Tool_Refinement}), leaf1
+        [
+            % \textit{}~\citep{}{, }
+    \textit{LLMLoop}~\citep{11185878}{, }
+    \textit{Help LLMs Improve Code}~\citep{dolcetti2025helpingllmsimprovecode}{, }
+    \textit{SEABC}~\citep{yu2026autonomousevolutionedatools}{, }\\
+    \textit{VOYAGER}~\citep{wang2023voyageropenendedembodiedagent}{, }
+    \textit{STELLA}~\citep{jin2025stellaselfevolvingllmagent}{, }
+    \textit{SkillWeaver}~\citep{zheng2025skillweaverwebagentsselfimprove}{, }\\
+    \textit{PyVision}~\citep{zhao2025pyvisionagenticvisiondynamic}{, }
+    \textit{DRAFT}~\citep{qu2025explorationmasteryenablingllms}{, }
+    \textit{RewardHarness}~\citep{zhang2026rewardharnessselfevolvingagenticposttraining}{, }\\
+    \textit{MUSE-Autoskill}~\citep{lin2026museautoskillselfevolvingagentsskill}{, }
+    \textit{CodeSkill}~\citep{li2026codeskilllearningselfevolvingskills}{, }
+    \textit{PFAgent}~\citep{she2026pfagenttractableselfevolvingpowerflow}{, }
+            , leaf1, text width=52em, text=darkgray!80
+        ]
+    ]
+    [
+        Autonomous Tool\\Creation(\S \ref{sec:Autonomous_Tool_Creation}), leaf1
+        [
+            % \textit{}~\citep{}{, }
+    \textit{Alita}~\citep{qiu2025alitageneralistagentenabling}{, }
+    \textit{Alita-G}~\citep{qiu2025alitagselfevolvinggenerativeagent}{, }
+    \textit{Code2MCP}~\citep{ouyang2025code2mcptransformingcoderepositories}\\
+    \textit{Toolmaker}~\citep{wölflein2025llmagentsmakingagent}{, }
+    \textit{Voyager}~\citep{wang2023voyageropenendedembodiedagent}{, }
+    \textit{Friday}~\citep{wu2024oscopilotgeneralistcomputeragents}{, }\\
+    \textit{Atlass}~\citep{haque2025advancedtoollearningselection}{, }
+    \textit{PyVision}~\citep{zhao2025pyvisionagenticvisiondynamic}{, }
+    \textit{Stella}~\citep{jin2025stellaselfevolvingllmagent}{, }
+    \textit{EvoDS}~\citep{yang2026evods}{, }
+    \\
+    \textit{AgentOrchestra}~\citep{zhang2025agentorchestraorchestratinghierarchicalmultiagent}{, }
+    \textit{CoEvoSkills}~\citep{zhang2026coevoskillsselfevolvingagentskills}{, }
+    \textit{OpenSkill}~\citep{yan2026openskillopenworldselfevolutionllm}{, }\\
+    % \textit{EvoDS}~\citep{yang2026evods}{, }
+            , leaf1, text width=52em, text=darkgray!80
+        ]
+    ]
+]
+                    [
+                        Full\\Scaffolding (\S \ref{sec:Full_Scaffolding}) , leaf1
+                        [
+                                % \textit{}~\citep{}{, }
+    \textit{GPTSwarm}~\citep{10.5555/3692070.3694667}{, }
+    \textit{Darwin Gödel Machine}~\citep{zhang2025darwingodelmachineopenended}{, }
+    \textit{Gödel Agent}~\citep{yin2025godel}{, }\\
+    \textit{AlphaEvolve}~\citep{novikov2025alphaevolvecodingagentscientific}{, }
+    \textit{ShinkaEvolve}~\citep{lange2025shinkaevolveopenendedsampleefficientprogram}{, }
+    % \textit{ADAS}~\citep{hu2025automateddesignagenticsystems}{, }
+    \textit{Live-SWE-Agent}~\citep{xia2025livesweagentsoftwareengineeringagents}{, }
+    \textit{Auto-Harness}~\citep{liu2026adaptiveautoharnesssustainedselfimprovement}{, }\\
+    \textit{Self-Taught Optimizer (STOP)}~\citep{zelikman2024self}{, }
+    \textit{Agent Symbolic Learning}~\citep{ou2025symbolic}{, }
+    % \textit{MOSS}~\citep{cai2026mossselfevolutionsourcelevelrewriting}{, }
+    \textit{Continual Harness}~\citep{karten2026continualharnessonlineadaptation}{, }
+    \\
+    \textit{Huxley-Gödel Machine}~\citep{wang2025huxleygodelmachinehumanlevelcoding}{, }
+    \textit{AgentDevel}~\citep{zhang2026agentdevelreframingselfevolvingllm}{, }
+    \textit{JudgeFlow}~\citep{ma2026judgeflowagenticworkflowoptimization}{, }
+    \textit{RSEA}~\citep{nguyen2026recursiveselfevolvingagentsheldout}{, }\\
+    % \textit{Live-SWE-Agent}~\citep{xia2025livesweagentsoftwareengineeringagents}{, }
+    \textit{ADAS}~\citep{hu2025automateddesignagenticsystems}{, }
+    \textit{RoboPhD}~\citep{borthwick2026robophdselfimprovingtexttosqlautonomous}{, }
+    % \textit{Continual Harness}~\citep{karten2026continualharnessonlineadaptation}{, }
+    \textit{MOSS}~\citep{cai2026mossselfevolutionsourcelevelrewriting}{, }
+    \textit{The Red Queen G\"odel Machine}~\citep{iacob2026redqueengodelmachine}{, }
+    \\
+    % \textit{The Red Queen G\"odel Machine}~\citep{iacob2026redqueengodelmachine}{, }
+                                , leaf1, text width=63em, text=darkgray!80                                
+                        ]
+                    ]
+                ]
+                [
+                    Evaluation \&\\Benchmarking(\S \ref{sec:Evaluation}) , leaf2
+                    [
+                        Measuring\\Improvement(\S \ref{sec:Measuring_Improvement}) , leaf2
+                        [
+                            Metric-Based\\Measurement(\S \ref{sec:Metric_based_measurement}) , leaf2
+                            [
+                                % trajectory, budget, held-out transfer, executable oracle, regression/safety
+                                \textit{AgentGym}~\citep{xi2024agentgym}{, }
+                                \textit{CORE-Bench}~\citep{siegel2024corebenchfosteringcredibilitypublished}{, }
+                                \textit{SWE-bench+}~\citep{aleithan2024swebenchenhancedcodingbenchmark}{, }\\
+                                \textit{Mind2Web}~\citep{deng2023mindweb}{, }
+                                \textit{WebLINX}~\citep{lu2024weblinx}{, }
+                                \textit{ManiSkill2}~\citep{gu2023maniskill2unifiedbenchmarkgeneralizable}{, }
+                                \textit{GAIA}~\citep{mialon2023gaiabenchmarkgeneralai}{, }\\
+                                \textit{GitTaskBench}~\citep{ni2025gittaskbenchbenchmarkcodeagents}{, }
+                                \textit{MINT}~\citep{wang2024mintevaluatingllmsmultiturn}{, }
+                                \textit{WorkArena}~\citep{drouin2024workarenacapablewebagents}{, }\\
+                                \textit{DrunkAgent}~\citep{yang2025drunkagentstealthymemorycorruption}{, }
+                                \textit{ST-WebAgentBench}~\citep{levy2025stwebagentbenchbenchmarkevaluatingsafety}{, }
+                                \textit{SafeAgentBench}~\citep{yin2025safeagentbenchbenchmarksafetask}{, }
+                                , leaf2, text width=52em, text=darkgray!80
+                            ]
+                        ]
+                        [
+                            Judge-Based\\Measurement(\S \ref{sec:Judge_based_measurement}) , leaf2
+                            [
+                                % parameterized evaluators for open-ended / long-horizon agent trajectories
+                                \textit{Agent-as-a-Judge}~\citep{zhuge2024agentasajudgeevaluateagentsagents}{, }
+                                \textit{Evaluation Agent}~\citep{zhang-etal-2025-evaluation}{, }
+                                \textit{EvalAgents}~\citep{wadhwa2025evalagentdiscoveringimplicitevaluation}{, }\\
+                                \textit{ARJudge}~\citep{xu-etal-2025-learning}{, }
+                                \textit{VerifiAgent}~\citep{han2025verifiagentunifiedverificationagent}{, }
+                                , leaf2, text width=52em, text=darkgray!80
+                            ]
+                        ]
+                    ]
+                    [
+                        Benchmarking\\Improvement(\S \ref{sec:Benchmarking_Improvement}) , leaf2
+                        [
+                            Mechanism\\Benchmarks(\S \ref{sec:Mechanism_Benchmarks}) , leaf2
+                            [
+                                \textbf{FM-Level:}
+                                \textit{SWE-bench+}~\citep{aleithan2024swebenchenhancedcodingbenchmark}{, }
+                                \textit{GitTaskBench}~\citep{ni2025gittaskbenchbenchmarkcodeagents}{, }\\
+                                \textit{Risks of LM Agents}~\citep{ruan2024identifyingriskslmagents}{; }\\
+                                \textbf{Scaffold-Level:}
+                                \textit{DrunkAgent}~\citep{yang2025drunkagentstealthymemorycorruption}{, }
+                                \textit{Tool-use Eval.}~\citep{patil2025the}{, }
+                                % \textit{MetaTool Benchmark}~\citep{huang2024metatoolbenchmarklargelanguage}{, }
+                                \textit{TaskBench}~\citep{shen2024taskbenchbenchmarkinglargelanguage}{, }\\
+                                \textit{MetaTool Benchmark}~\citep{huang2024metatoolbenchmarklargelanguage}{, }
+                                \textit{MINT}~\citep{wang2024mintevaluatingllmsmultiturn}{, }
+                                , leaf2, text width=52em, text=darkgray!80
+                            ]
+                        ]
+                        [
+                            Domain\\Benchmarks(\S \ref{sec:Domain_Benchmarks}) , leaf2
+                            [
+                                \textbf{Software Engineering:}
+                                \textit{SWE-bench}~\citep{jimenez2024swebenchlanguagemodelsresolve}{, }
+                                \textit{SWE-bench+}~\citep{aleithan2024swebenchenhancedcodingbenchmark}{, }\\
+                                \textit{LoCoBench}~\citep{qiu2025locobenchagentinteractivebenchmarkllm}{, }
+                                \textit{SWT-bench}~\citep{mündler2025swtbenchtestingvalidatingrealworld}{, }
+                                \textit{TDD-bench}~\citep{ahmed2024tddbenchverifiedllmsgenerate}{; }\\
+                                \textbf{Web Navigation:}
+                                \textit{WebArena}~\citep{zhou2024webarena}{, }
+                                \textit{VisualWebArena}~\citep{koh2024visualwebarenaevaluatingmultimodalagents}{, }
+                                \textit{Mind2Web}~\citep{deng2023mindweb}{, }\\
+                                \textit{WebCanvas}~\citep{pan2024webcanvas}{, }
+                                \textit{ST-WebAgentBench}~\citep{levy2025stwebagentbenchbenchmarkevaluatingsafety}{; }\\
+                                \textbf{Gaming \& Strategy:}
+                                \textit{Clembench}~\citep{chalamalasetti-etal-2023-clembench}{, }
+                                \textit{Clembench 2024}~\citep{beyer2024clembench2024challengingdynamiccomplementary}{, }\\
+                                \textit{GameBench}~\citep{costarelli2024gamebench}{, }
+                                \textit{LLM Deliberation}~\citep{abdelnabi2024llmdeliberation}{, }
+                                \textit{GTBench}~\citep{duan2024gtbenchuncoveringstrategicreasoning}{; }\\
+                                \textbf{Scientific Discovery:}
+                                \textit{CORE-Bench}~\citep{siegel2024corebenchfosteringcredibilitypublished}{, }
+                                \textit{ASTA-Bench}~\citep{bragg2025astabenchrigorousbenchmarkingai}{, }\\
+                                \textit{PaperBench}~\citep{starace2025paperbenchevaluatingaisability}{, }
+                                \textit{DiscoveryWorld}~\citep{jansen2024discoveryworldvirtualenvironmentdeveloping}{, }
+                                \textit{PhysGym}~\citep{chen2025physgym}{; }\\
+                                \textbf{Embodied AI:}
+                                \textit{SafeAgentBench}~\citep{yin2025safeagentbenchbenchmarksafetask}{, }
+                                \textit{ManiSkill2}~\citep{gu2023maniskill2unifiedbenchmarkgeneralizable}{, }
+                                \textit{EmbodiedBench}~\citep{yang2025embodiedbenchcomprehensivebenchmarkingmultimodal}{; }\\
+                                \textbf{General Computer Control:}
+                                \textit{OSWorld}~\citep{xie2024osworldbenchmarkingmultimodalagents}{, }
+                                \textit{WindowsAgentArena}~\citep{bonatti2024windowsagentarenaevaluating}{, }\\
+                                \textit{AppWorld}~\citep{trivedi2024appworldcontrollableworldapps}{, }
+                                \textit{Tool-use Eval.}~\citep{patil2025the}{, }
+                                \textit{MetaTool Benchmark}~\citep{huang2024metatoolbenchmarklargelanguage}{, }\\
+                                \textit{Risks of LM Agents}~\citep{ruan2024identifyingriskslmagents}{, }
+                                , leaf2, text width=52em, text=darkgray!80
+                            ]
+                        ]
+                    ]
+                ]
+            ]
+        \end{forest}
+    }
+    \caption{A unified taxonomy of self-improving agents spanning foundation-model updates, scaffold updates, and evaluation benchmarks.}
+    \label{fig:self_improving_taxonomy}
+\end{figure*}

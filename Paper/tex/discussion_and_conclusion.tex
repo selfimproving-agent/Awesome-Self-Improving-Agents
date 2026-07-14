@@ -1,0 +1,69 @@
+\section{Discussion}
+\label{sec:Discussion}
+Self-improving agents are closed-loop dynamical systems~\citep{xie2024osworldbenchmarkingmultimodalagents}. According to our formulation, an agent $\mathcal{A}_t=(\theta_t, \Sigma_t)$ progresses by executing a signal-generation procedure and applying a stable update rule to induce new policy. Consequently, the goal of the study is no longer the static agent but the mechanism driving its evolution~\citep{yampolskiy2015seed, robeyns2025selfimprovingcodingagent, pan2025trainingsoftwareengineeringagents}. Building on the rigorous evaluation protocols established in Section~\ref{sec:Evaluation}, we examine the architecture of such systems and outline key directions for future research.
+
+
+\subsection{Implications for System Design}
+\label{sec:Discussion_Implications}
+\paragraph{From Fast Exploration to Slow Consolidation.}
+Modifying the operational scaffold ($\Sigma$) drives a fast adaptation loop. Prompt edits, memory writes, and tool adjustments have minimal computational overhead and are reversible. In contrast, parameter updates ($\theta$) are much slower. While weight modifications excel at transferring capabilities across distinct domains, they inherently obscure credit assignment: a bad prompt is easily reverted, but a regression absorbed into model parameters is notoriously difficult to trace.
+
+
+This structural asymmetry necessitates specific deployment strategies. When environmental feedback is noisy, it's better to confine updates within the scaffold and validate them through rigorous execution tests.  Parametric consolidation (through distillation or fine-tuning) can be deferred until the new behavior has proven stable~\citep{qiu2025agentdistilltrainingfreeagentdistillation, lyu2025correctionmasteryreinforceddistillation}. However, parametric consolidation is a lossy compression. Distilling complex trajectories into neural weights inherently biases the model toward average-case execution. This process often discards the rare but crucial error-recovery strategies discovered during exploration. As a result, any update to $\theta$ invalidates prior safety bounds, necessitating renewed adversarial testing to verify that edge-case resilience was preserved~\citep{dou2025rerestreflectionreinforcedselftraininglanguage, wu2024avataroptimizingllmagents}.
+
+
+\paragraph{The Critic as Governed Infrastructure.} A critic embedded within a closed loop operates as an attack surface, not a passive benchmark. As the agent optimizes against the critic, it inherently develops incentives to discover shortcuts. Therefore, the ceiling of an agent's capability is usually bottlenecked by the critic's exploit-resistance~\citep{zhan2024injecagentbenchmarkingindirectprompt, zhang2025agentsecuritybenchasb}. This perspective treats the critic as governed infrastructure. If an agent conflates the roles of proposing updates and accepting them, it collapses into a self-confirming loop. Therefore, critics can be decoupled from the generators. Furthermore, while the critic itself can evolve (e.g., generating stricter test cases), its updates can not be under the unconstrained control of the agent it evaluates. Evolving critics should be restricted to monotone changes (e.g., purely additive test generation) and gated by human audit trails~\citep{fang2025webevolver, li2025visionaccesscontrolllmbased}.
+
+
+\paragraph{Safety through Layered Gating.} Self-improvement can complicate AI alignment because the object being aligned is non-stationary. \textcolor{red}{A core challenge in recursive self-improvement is how a weaker system can reliably reason about more capable successor systems~\citep{fallenstein2015vingean}.} The risks are most severe under full-scaffolding self-improvement, where the agent can modify its own source code or operational logic~\citep{xi2024agentgym}. In this regime, standard transient exploits (like a one-off prompt injection) can evolve into persistent architectural vulnerabilities, as poisoned memories or hijacked tool logics are committed as stable updates. Consequently, a self-improving agent should be conceptualized as untrusted code executing in a protected runtime environment. Security cannot rely solely on the initial alignment of the foundation model. Instead, systems require layered gating—a strict permission system for self-modification. Before any structural update is committed to $\Sigma_{t+1}$ or $\theta_{t+1}$, the proposed patch must pass verifier-gated checks, covering functional correctness, tool permission boundaries, and robustness to random state perturbations. Improvement is only permitted within an explicitly defined and continuously audited safety boundaries.
+
+
+
+\subsection{Future Directions}
+Self-improving agents require reliable and stable update cycles that are immune to distribution shifts, strict computational constraints, and severely degraded reward signals~\citep{zhuge2026ai}.This survey categorizes the path forward into two central bottlenecks, yielding six critical directions for future research.
+
+
+
+\vspace{0.35em}
+\noindent\textbf{Theme A: Algorithmic Paradigms for Lifelong Adaptation}
+\vspace{0.2em}
+
+\begin{itemize}[leftmargin=*, label={}, itemsep=0.9em, topsep=0.2em]
+\item \textbf{\textcolor{RoyalBlue}{1. Test-Time Continual Adaptation.}} 
+The separation between training and deployment phases often compromises an agent's practical robustness in the real world. Addressing this requires scalable test-time adaptation mechanisms \citep{xia2025livesweagentsoftwareengineeringagents, yang2026ttcstesttimecurriculumsynthesis} that allow models to update their retrieval, routing, and memory policies dynamically during execution. Yet, implementing such on-the-fly patching introduces a critical trade-off: we should manage these localized updates carefully to prevent them from subtly eroding the system's long-term global performance.
+
+
+
+\item \textbf{\textcolor{RoyalBlue}{2. Active Exploration and Curiosity.}}  
+Self-improving agents should autonomously seek out valuable experiences rather than passively accepting human-curated tasks. In sparse feedback domains, agents can improve sample efficiency by assigning intrinsic value to interactions with high prediction errors or verifier disagreement ~\citep{schmidhuber1991possibility, zhao2026curious}. Future work could focus on developing intrinsic reward mechanisms to safely drive exploration and avoid falling into a degenerate, self-deceptive cycle.
+
+
+\item \textbf{\textcolor{RoyalBlue}{3.  Parametric Distillation and Joint Optimization.}} Scaffold-level improvements good at discovering complex, multi-step recovery strategies (e.g., iterative debugging or self-reflection), but they usually incur prohibitive context and latency costs. A profound future direction is automating the transfer of these ``System 2'' algorithmic structures into the ``System 1'' parametric weights of smaller models~\citep{qiu2025alitageneralistagentenabling}. Besides, another research direction is joint optimization, where both the foundation model weights ($\theta$) and the external scaffold ($\Sigma$) are updated concurrently within the same self-improvement loop~\citep{hebbar2026sia}. Realizing this co-adaptation requires solving a formidable credit assignment problem: when the agent fails, the improvement operator should autonomously decide whether the better fix is to refine a prompt, rewrite a tool wrapper, or compute a gradient update.
+\end{itemize}
+
+\vspace{0.55em}
+\noindent\textbf{Theme B: Complexity, Constraints, and Open-World Robustness}
+\vspace{0.2em}
+
+\begin{itemize}[leftmargin=*, label={}, itemsep=0.9em, topsep=0.2em]
+\item \textbf{\textcolor{RoyalBlue}{4. Resource-Constrained Improvement Dynamics.}} 
+In open-ended scenarios, current methods usually lead to unproductive exploration, exhausting computational budgets and token limits without reliably advancing the underlying policy. Consequently, evaluating these systems requires moving beyond static peak performance to prioritize improvement efficiency. This reframes self-improvement as a resource optimization problem, where overhead can be mitigated by dynamically allocating context, gating expensive neural evaluations behind lightweight invariant checks, and  penalizing wasted iterations \citep{feng2026agentocrreimaginingagenthistory}.
+
+
+\item \textbf{\textcolor{RoyalBlue}{5. Multi-Agent Cooperative Co-Evolution.}} Single-agent exploration is extremely inefficient with vast search spaces. One research direction is to explore collaborative improvement architectures, where specialized agents co-evolve by sharing reusable artifacts such as generated regression tests, successful code patches, or improved tool wrappers~\citep{chen2025multiagentevolvellmselfimprove, wang2026metagenselfevolvingrolestopologies}. Realizing this vision requires establishing secure, version-controlled protocols (e.g., artifact repositories). This enables agents to inherit collective knowledge without single points of failure or cascading attacks on multi-agent reward mechanisms.
+
+
+\item \textbf{\textcolor{RoyalBlue}{6. Surviving Open-World Distribution Drift.}} The robustness of self-improvement depends on the environment that drives it. Current testing platforms  rely heavily on static repositories or unchanging simulators~\citep{sunil2026memorypoisoningattackdefense}. However, real-world deployments need to cope with constantly changing APIs, redesigned user interfaces, and adversarial user input. Future infrastructure should abandon static leaderboards in favor of non-stationary simulators, allowing the interface to drift continuously~\citep{anonymous2026gaia}. Exposing agents to these open-world perturbations will force the development of self-improvement loops that resist catastrophic forgetting and environmental non-stationarity. \textcolor{red}{At the substrate level, neural-computer formulations further suggest replacing fixed external execution interfaces with learned runtime states that unify computation, memory, and I/O, pointing beyond agents that merely operate computers toward adaptive neural runtimes \citep{zhuge2026neural, rivard2026neuralossimulatingoperatingsystems}.}
+\end{itemize}
+
+\vspace{0.35em}
+\noindent
+In summary, we should transition from building stateless AI tools that reset after every interaction to designing systems capable of continuous self-improvement. Realizing this vision goes beyond simply scaling foundation models. It necessitates robust feedback mechanisms, safe architectures for self-modification, and a fundamental rethinking of evaluation as an ongoing, integrated process rather than a static benchmark.
+
+
+\section{Conclusion}
+\label{sec:Conclusion}
+
+The vision for machines that can improve themselves is an enduring theme in artificial intelligence. Building upon early successful implementations, the advent of large foundation models has substantially broadened the scale, versatility, and scope of self-improving systems. This survey synthesized this paradigm shift through a unified systems lens, distinguishing two primary pathways: \textit{(1)} foundation-model improvement as a parametric, slower loop (driven by intrinsic generative demonstrations, intrinsic evaluative feedback, or extrinsic exploratory experience), and \textit{(2)} scaffolding improvement as a non-parametric, faster loop (updating prompts, memory, tools, and full scaffolds).
+
+Looking ahead, the journey toward truly self-improving agents is entering a decisive phase. Technical challenges such as scalable and secure evaluation, alignment under continuous adaptation, and the integration of these fast and slow improvement loops remain open and pressing. Crucially, as agents progress to self-referential architectures—modifying not only their behavior but also their own reasoning structures—we are invited to imagine a future in which AI does not merely execute human-defined tasks, but evolves to meet them. We hope this survey serves as both a roadmap and a catalyst for that future, equipping researchers with a common language to build self-improving systems that are measurable, attributable, safely bounded, and capable of progressively expanding the frontiers of machine autonomy.
