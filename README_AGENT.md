@@ -113,19 +113,22 @@ has been validated.
 - Do not add unverified performance numbers, publication dates, acceptance
   status, or bibliographic information.
 - Keep terminology and mathematical notation consistent throughout the paper.
-- Do not introduce private TMLR review information, submission identifiers,
-  reviewer comments, or confidential correspondence.
-- Do not state that the paper has been accepted or peer reviewed unless this
-  status has been verified and the maintainers explicitly request the update.
+- Do not include confidential peer-review, submission, or editorial information.
+- Do not add or change publication-status claims unless they have been verified
+against an authoritative source and explicitly approved by the maintainers.
 - Do not assume that the repository-level license automatically determines the
   license of the manuscript, figures, or third-party materials.
 - Do not alter copyright or licensing notices without maintainer approval.
 
 ## Bibliography Rules
 
-1. Add new references to `Paper/colm2025_conference.bib`.
+1. Add new references only to `Paper/colm2025_conference.bib`.
+   Every new reference must correspond to a real, independently verifiable
+   work. Never fabricate citations, authors, titles, venues, dates, DOIs,
+   URLs, arXiv identifiers, or other bibliographic metadata.
 2. Do not manually write complete bibliographic records in the manuscript
-   body.
+   body. Before citing a work in the manuscript, verify that the bibliographic
+   record and the cited claim are supported by the actual source.
 3. Preserve existing BibTeX citation keys unless correcting an error.
 4. Before adding an entry, check for duplicates using the title, DOI, arXiv ID,
    and author list.
