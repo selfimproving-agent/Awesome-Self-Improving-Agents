@@ -50,6 +50,24 @@ This repository focuses on:
 
 ## 🧭 Taxonomy
 
+### What Is an Agent?
+
+Before introducing self-improving agents, we first clarify what distinguishes an **agent** from a standalone **foundation model**.
+
+<p align="center">
+  <a href="assets/agentvsfm.gif">
+    <img
+      src="assets/agentvsfm.gif"
+      alt="Animated comparison between a standalone foundation model and an agent"
+      width="70%"
+    >
+  </a>
+  <br>
+  <em>
+    An illustration of the distinction between a standalone foundation model and an agent.
+  </em>
+</p>
+
 To ground our taxonomy, we first introduce a formal abstraction of a foundation model–based agent,
 which serves as the basic unit for all self-improving agentic systems considered in this survey.
 
