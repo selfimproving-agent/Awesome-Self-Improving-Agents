@@ -95,7 +95,7 @@ depending on **which component is improved** during learning and adaptation.
   </em>
 </p>
 
-### Papers List
+### 🔖 Papers List
 
 #### 🟦 Foundation Model Improvement
 
