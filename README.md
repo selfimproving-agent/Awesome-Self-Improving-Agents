@@ -2,12 +2,13 @@
 [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 [![Discord](https://img.shields.io/badge/Discord-Join-blue?logo=discord&logoColor=white)](https://discord.gg/fn5rYJhgaz)
 [![Project Page](https://img.shields.io/badge/Project-Page-1E40AF?labelColor=555555)](https://selfimproving-agent.github.io/)
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-B31B1B?labelColor=555555)](#-survey-paper)
+[![arXiv](https://img.shields.io/badge/arXiv-2607.13104-B31B1B?labelColor=555555)](https://arxiv.org/abs/2607.13104)
 [![License: MIT](https://img.shields.io/badge/License-MIT-F59E0B?labelColor=555555)](LICENSE)
 
 
 > A curated, continuously updated resource list for **Self-Improvements in Modern Agentic Systems**.  
-> This repo accompanies the survey paper: _"Self-Improvements in Modern Agentic Systems: A Survey"_ (2026).
+> This repository accompanies the survey paper
+> [_Self-Improvements in Modern Agentic Systems: A Survey_](https://arxiv.org/abs/2607.13104).
 
 ---
 
@@ -34,8 +35,11 @@ This repository focuses on:
 ---
 
 ## 📄 Survey Paper
-🔗 **Coming soon** — Preprint in preparation.   
-*(Add arXiv link here.)*
+
+**[Self-Improvements in Modern Agentic Systems: A Survey](https://arxiv.org/abs/2607.13104)**(arXiv:2607.13104, 2026).
+
+📄 [LaTeX source](./Paper/)
+· [Agent-oriented guide](./README_AGENT.md)
 
 <p align="center">
   <img src="assets/fig.png" alt="Main figure of the survey" width="95%">
