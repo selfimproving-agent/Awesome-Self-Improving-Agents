@@ -41,7 +41,7 @@ This repository focuses on:
 · [Agent-oriented guide](./README_AGENT.md)
 
 <p align="center">
-  <img src="assets/fig.png" alt="Main figure of the survey" width="95%">
+  <img src="assets/fig-si-main.png" alt="Main figure of the survey" width="95%">
   <br>
   <em>Overview of self-improvement mechanisms in foundation model–based agentic systems.</em>
 </p>
