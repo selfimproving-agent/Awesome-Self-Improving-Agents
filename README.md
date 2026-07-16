@@ -1,14 +1,59 @@
-# Awesome Self-Improving Modern Agentic Systems
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![Discord](https://img.shields.io/badge/Discord-Join-blue?logo=discord&logoColor=white)](https://discord.gg/fn5rYJhgaz)
-[![Project Page](https://img.shields.io/badge/Project-Page-1E40AF?labelColor=555555)](https://selfimproving-agent.github.io/)
-[![arXiv](https://img.shields.io/badge/arXiv-2607.13104-B31B1B?labelColor=555555)](https://arxiv.org/abs/2607.13104)
-[![License: MIT](https://img.shields.io/badge/License-MIT-F59E0B?labelColor=555555)](LICENSE)
+<h1 align="center">
+  Awesome Self-Improving Modern Agentic Systems
+</h1>
 
+<p align="center">
+  <strong>
+    A curated and continuously updated map of self-improving agentic systems
+  </strong>
+  <br>
+</p>
 
-> A curated, continuously updated resource list for **Self-Improvements in Modern Agentic Systems**.  
-> This repository accompanies the survey paper
-> [_Self-Improvements in Modern Agentic Systems: A Survey_](https://arxiv.org/abs/2607.13104).
+<p align="center">
+  <a href="https://arxiv.org/abs/2607.13104">
+    <img
+      src="https://img.shields.io/badge/READ_THE_PAPER-arXiv%3A2607.13104-B31B1B?style=for-the-badge&logo=arxiv&logoColor=white"
+      alt="Read the paper"
+    >
+  </a>
+  <a href="https://selfimproving-agent.github.io/">
+    <img
+      src="https://img.shields.io/badge/PROJECT_PAGE-Explore-1D4ED8?style=for-the-badge&logo=googlechrome&logoColor=white"
+      alt="Project page"
+    >
+  </a>
+  <a href="#-key-literature">
+    <img
+      src="https://img.shields.io/badge/PAPER_LIST-Browse-0F766E?style=for-the-badge&logo=readthedocs&logoColor=white"
+      alt="Paper list"
+    >
+  </a>
+  <a href="https://discord.gg/fn5rYJhgaz">
+    <img
+      src="https://img.shields.io/badge/COMMUNITY-Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white"
+      alt="Discord"
+    >
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://awesome.re">
+    <img src="https://awesome.re/badge.svg" alt="Awesome">
+  </a>
+  <a href="LICENSE">
+    <img
+      src="https://img.shields.io/badge/License-MIT-F59E0B?labelColor=555555"
+      alt="MIT License"
+    >
+  </a>
+</p>
+
+<p align="center">
+  This repository accompanies
+  <a href="https://arxiv.org/abs/2607.13104">
+    <em>Self-Improvements in Modern Agentic Systems: A Survey</em>
+  </a>.
+</p>
 
 ---
 
