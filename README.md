@@ -16,6 +16,12 @@
       alt="Read the paper"
     >
   </a>
+  <a href="https://huggingface.co/papers/2607.13104">
+    <img
+      src="https://img.shields.io/badge/HUGGING_FACE-Daily_Papers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=FFD21E"
+      alt="Hugging Face Daily Papers"
+    >
+  </a>
   <a href="https://selfimproving-agent.github.io/">
     <img
       src="https://img.shields.io/badge/PROJECT_PAGE-Explore-1D4ED8?style=for-the-badge&logo=googlechrome&logoColor=white"
