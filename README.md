@@ -19,6 +19,7 @@
 - [Key Literature](#-key-literature)
   - [🟦 Foundation Model Improvement](#-foundation-model-improvement)
   - [🟩 Scaffolding Improvement](#-scaffolding-improvement)
+- [Evaluation & Benchmarking](#evaluation)
 - [Contact & Community](#-contact--community)
 - [Contribute](#-contribute)
 - [Citation](#-citation)
@@ -517,6 +518,22 @@ depending on **which component is improved** during learning and adaptation.
   | 2026 | The Red Queen Gödel Machine: Co-Evolving Agents and Their Evaluators | arXiv | [paper](https://arxiv.org/abs/2606.26294) | N/A |
   
 </details>
+
+---
+
+<a id="evaluation"></a>
+
+## 📊 Evaluation & Benchmarking
+
+<p align="center">
+  <a href="assets/fig-si-matrix-001.png">
+    <img
+      src="assets/fig-si-matrix-001.png"
+      alt="Paper-benchmark incidence matrix for self-improving agents"
+      width="100%"
+    >
+  </a>
+</p>
 
 ---
 
