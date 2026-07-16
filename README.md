@@ -596,7 +596,7 @@ A representative paper–benchmark matrix for self-improving agents, illustratin
     <summary>📱 Show WeChat Group QR Code</summary>
   
     <p align="center">
-      <img src="assets/wechat_group_qr.png" alt="WeChat group QR" width="160">
+      <img src="assets/wechat-group-qr.png" alt="WeChat group QR" width="160">
     </p>
   </details>
 
