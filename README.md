@@ -78,7 +78,24 @@ depending on **which component is improved** during learning and adaptation.
 ---
 
 ## 📚 Key Literature
-### Core Papers
+### 🛣️ Evolution of Self-Improving Agents
+
+<p align="center">
+  <a href="assets/fig-si-rw-001.png">
+    <img
+      src="assets/fig-si-rw-001.png"
+      alt="Timeline of representative self-improving agent systems"
+      width="100%"
+    >
+  </a>
+  <br>
+  <em>
+    Timeline of representative self-improving agent systems, organized by
+    foundation model improvement and scaffolding improvement.
+  </em>
+</p>
+
+### Papers List
 
 #### 🟦 Foundation Model Improvement
 
