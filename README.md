@@ -50,21 +50,27 @@ This repository focuses on:
 
 ## 🧭 Taxonomy
 
-Before introducing self-improving agents, we first clarify what distinguishes an **FM-Based agent** from a standalone **foundation model**.
+If you are not yet familiar with agents, this simple illustration shows how an **FM-based agent** differs from a standalone **foundation model** (e.g., an LLM).
 
-<p align="center">
-  <a href="assets/agentvsfm.gif">
-    <img
-      src="assets/agentvsfm.gif"
-      alt="Animated comparison between a standalone foundation model and an agent"
-      width="70%"
-    >
-  </a>
+<details>
+  <summary><strong>View the animated comparison</strong></summary>
+
   <br>
-  <em>
-    An illustration of the distinction between a standalone foundation model and an FM-Based agent.
-  </em>
-</p>
+
+  <p align="center">
+    <a href="assets/agentvsfm.gif">
+      <img
+        src="assets/agentvsfm.gif"
+        alt="Animated comparison between a standalone foundation model and an agent"
+        width="70%"
+      >
+    </a>
+    <br>
+    <em>
+      An illustration of the distinction between a standalone foundation model and an FM-Based agent.
+    </em>
+  </p>
+</details>
 
 To ground our taxonomy, we first introduce a formal abstraction of a foundation model–based agent,
 which serves as the basic unit for all self-improving agentic systems considered in this survey.
