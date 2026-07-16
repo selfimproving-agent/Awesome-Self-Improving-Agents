@@ -50,7 +50,7 @@ This repository focuses on:
 
 ## 🧭 Taxonomy
 
-Before introducing self-improving agents, we first clarify what distinguishes an **agent** from a standalone **foundation model**.
+Before introducing self-improving agents, we first clarify what distinguishes an **FM-Based agent** from a standalone **foundation model**.
 
 <p align="center">
   <a href="assets/agentvsfm.gif">
@@ -62,7 +62,7 @@ Before introducing self-improving agents, we first clarify what distinguishes an
   </a>
   <br>
   <em>
-    An illustration of the distinction between a standalone foundation model and an agent.
+    An illustration of the distinction between a standalone foundation model and an FM-Based agent.
   </em>
 </p>
 
