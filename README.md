@@ -525,6 +525,8 @@ depending on **which component is improved** during learning and adaptation.
 
 ## 📊 Evaluation & Benchmarking
 
+A representative paper–benchmark matrix for self-improving agents, illustrating which benchmarks are used across different methods. See the **Evaluation** section of our survey for further details.
+
 <p align="center">
   <a href="assets/fig-si-matrix-001.png">
     <img
