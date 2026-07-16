@@ -50,8 +50,6 @@ This repository focuses on:
 
 ## 🧭 Taxonomy
 
-### What Is an Agent?
-
 Before introducing self-improving agents, we first clarify what distinguishes an **agent** from a standalone **foundation model**.
 
 <p align="center">
