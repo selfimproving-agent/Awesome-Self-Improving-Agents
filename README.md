@@ -37,9 +37,7 @@ This repository focuses on:
 
 ## 📄 Survey Paper
 
-**[Self-Improvements in Modern Agentic Systems: A Survey](https://arxiv.org/abs/2607.13104)**(arXiv:2607.13104, 2026).
-· [LaTeX source](./Paper/)
-· [Agent-oriented guide](./README_AGENT.md)
+|**[Self-Improvements in Modern Agentic Systems: A Survey](https://arxiv.org/abs/2607.13104)** | `arXiv:2607.13104` | [LaTeX source](./Paper/) | [Agent-oriented guide](./README_AGENT.md)|
 
 <p align="center">
   <img src="assets/fig-si-main-001.png" alt="Main figure of the survey" width="95%">
