@@ -192,6 +192,7 @@ depending on **which component is improved** during learning and adaptation.
   | 2025 | First SFT, Second RL, Third UPT: Continual Improving Multi-Modal LLM Reasoning via Unsupervised Post-Training | NeurIPS | [paper](https://arxiv.org/pdf/2505.22453) | [code](https://github.com/waltonfuture/MM-UPT) |
   | 2025 | LADDER: Self-Improving LLMs Through Recursive Problem Decomposition | arXiv | [paper](https://arxiv.org/abs/2503.00735) | N/A |
   | 2025 | Self-Consistency Preference Optimization | ICML | [paper](https://arxiv.org/abs/2411.04109) | N/A |
+  | 2025 | Adapting While Learning: Grounding LLMs for Scientific Problems with Tool Usage Adaptation | ICML | [paper](https://arxiv.org/abs/2411.00412) | [code](https://github.com/Rose-STL-Lab/Adapting-While-Learning) |
   | 2026 | Reinforcing General Reasoning Without Verifiers | ICLR | [paper](https://arxiv.org/abs/2505.21493) | [code](https://github.com/sail-sg/VeriFree) |
   | 2026 | SAGE: Multi-Agent Self-Evolution for LLM Reasoning | arXiv | [paper](https://arxiv.org/abs/2603.15255) | N/A |
   | 2026 | ANDES: Agent Native Data Evolving Synthesis Tool for Autonomous Instruction Alignment | arXiv | [paper](https://arxiv.org/abs/2606.01279) | [code](https://github.com/zzy1127/ANDES) |
@@ -531,6 +532,7 @@ depending on **which component is improved** during learning and adaptation.
   | 2025 | STELLA: Self-Evolving LLM Agent for Biomedical Research | arXiv | [paper](https://arxiv.org/abs/2507.02004) | [code](https://github.com/zaixizhang/STELLA) |
   | 2025 | PyVision: Agentic Vision with Dynamic Tooling | arXiv | [paper](https://arxiv.org/abs/2507.07998) | [code](https://github.com/agents-x-project/PyVision) |
   | 2025 | AgentOrchestra: Orchestrating Multi-Agent Intelligence with the Tool-Environment-Agent(TEA) Protocol | arXiv | [paper](https://arxiv.org/abs/2506.12508) | N/A |
+  | 2025 | Enhancing Open-Domain Task-Solving Capability of LLMs via Autonomous Tool Integration from GitHub | ACL | [paper](https://arxiv.org/abs/2312.17294) | [code](https://github.com/OpenBMB/OpenAct) |
   | 2026 | OpenSkill: Open-World Self-Evolution for LLM Agents | arXiv | [paper](https://arxiv.org/abs/2606.06741) | [code](https://github.com/OpenLAIR/OpenSkill) |
   | 2026 | EvoDS: Self-Evolving Autonomous Data Science Agent with Skill Learning and Context Management | arXiv | [paper](https://arxiv.org/abs/2606.03841) | [code](https://github.com/usail-hkust/EvoDS) |
   | 2026 | Autonomous Evolution of EDA Tools: Multi-Agent Self-Evolved ABC | DAC | [paper](https://arxiv.org/abs/2604.15082) | N/A |
@@ -585,6 +587,12 @@ A representative paper–benchmark matrix for self-improving agents, illustratin
     >
   </a>
 </p>
+
+### 🧪 Benchmarks
+
+  | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
+  |------:|--------|--------|--------|--------|
+  | 2026 | MLS-Bench: A Holistic and Rigorous Assessment of AI Systems on Building Better AI | arXiv | [paper](https://arxiv.org/abs/2605.08678) | [code](https://github.com/Imbernoulli/MLS-Bench) |
 
 ---
 
