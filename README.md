@@ -102,7 +102,7 @@ This repository focuses on:
 
 If you are not yet familiar with agents, this simple illustration shows how an **FM-based agent** differs from a standalone **foundation model** (e.g., an LLM).
 
-<details>
+<details open>
   <summary><strong>View the animated comparison</strong></summary>
 
   <br>
