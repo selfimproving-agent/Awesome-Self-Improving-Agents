@@ -390,6 +390,7 @@ depending on **which component is improved** during learning and adaptation.
   | 2026 | Seeing, Listening, Remembering, and Reasoning: A Multimodal Agent with Long-Term Memory | ICLR | [paper](https://arxiv.org/abs/2508.09736) | [code](https://github.com/bytedance-seed/m3-agent) |
   | 2026 | Thought-Retriever: Don't Just Retrieve Raw Data, Retrieve Thoughts for Memory-Augmented Agentic Systems | arXiv | [paper](https://arxiv.org/abs/2604.12231) | N/A |
   | 2026 | Better with Experience: Self-Evolving LLM Agents for Evidence-Grounded Health Community Notes | arXiv | [paper](https://arxiv.org/abs/2606.02215) | N/A |
+  | 2026 | Agon: An Autonomous Large-Scale Omnidisciplinary Research System Built on Prompt Economy | arXiv | [paper](https://arxiv.org/abs/2606.24177) | [code](https://github.com/AutoResearch-Factory/Agon) |
 
   </details>
 
