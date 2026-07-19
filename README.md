@@ -423,6 +423,7 @@ depending on **which component is improved** during learning and adaptation.
   | 2026 | Prism: An Evolutionary Memory Substrate for Multi-Agent Open-Ended Discovery | arXiv | [paper](https://arxiv.org/abs/2604.19795) | N/A |
   | 2026 | DecentMem: Self-Evolving Multi-Agent Systems via Decentralized Memory | arXiv | [paper](https://arxiv.org/abs/2605.22721) | N/A |
   | 2026 | EXG: Self-Evolving Agents with Experience Graphs | arXiv | [paper](https://arxiv.org/abs/2605.17721) | N/A |
+  | 2026 | CLAG: Adaptive Memory Organization via Agent-Driven Clustering for Small Language Model Agents | ACL Findings | [paper](https://arxiv.org/abs/2603.15421) | [code](https://github.com/dmis-lab/CLAG) |
 
   </details>
 
