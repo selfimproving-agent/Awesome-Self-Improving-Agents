@@ -728,6 +728,22 @@ The literature is organized along two complementary perspectives:
 
 ---
 
+## 🔗 Related Resources
+
+### 🎓 Thesis
+
+- **[Multimodal Agents: From Automation toward Open-Ended Self-Improvement](https://repository.kaust.edu.sa/items/0bff44ae-653f-4381-a25a-78b990c3ab5c)**  
+  Mingchen Zhuge, Ph.D. Dissertation, King Abdullah University of Science and Technology (KAUST), 2026.  
+  [[Defense page](https://cemse.kaust.edu.sa/events/by-type/phd-dissertation-defense/2026/05/09/multimodal-agents-automation-toward-open-ended)]
+
+### 🧑‍🏫 Workshop
+
+- **[ICLR 2026 Workshop on AI with Recursive Self-Improvement (RSI 2026)](https://recursive-workshop.github.io/)**  
+  A workshop dedicated to recursive self-improving AI, held on April 26, 2026, in Rio de Janeiro, Brazil.  
+  Lead organizer: Mingchen Zhuge.
+
+---
+
 ## 📬 Contact & Community
 
 - [![Discord](https://img.shields.io/badge/Discord-Join-5865F2?logo=discord&logoColor=white)](https://discord.gg/fn5rYJhgaz) **Discord**: Join our server 👉 https://discord.gg/fn5rYJhgaz
