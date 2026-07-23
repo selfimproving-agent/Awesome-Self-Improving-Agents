@@ -9,7 +9,7 @@
   <br>
   <sub>
     This repository brings together
-    📄 Papers · 📊 Benchmarks · ✍️ Blogs & Essays · 🎙️ Podcasts ·
+    📄 Papers · 📊 Benchmarks · ✍️ Blogs · 🎙️ Podcasts ·
     💬 Interviews · 🎥 Videos · 🧑‍🏫 Workshops & Courses
   </sub>
   <br>
