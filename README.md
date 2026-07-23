@@ -71,6 +71,7 @@
   - [🟦 Foundation Model Improvement](#-foundation-model-improvement)
   - [🟩 Scaffolding Improvement](#-scaffolding-improvement)
 - [Evaluation & Benchmarking](#evaluation)
+- [Related Resources](#-related-resources)
 - [Contact & Community](#-contact--community)
 - [Contribute](#-contribute)
 - [Citation](#-citation)
@@ -590,11 +591,139 @@ A representative paper–benchmark matrix for self-improving agents, illustratin
   </a>
 </p>
 
-### 🧪 Benchmarks
+The literature is organized along two complementary perspectives:
 
-  | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
-  |------:|--------|--------|--------|--------|
-  | 2026 | MLS-Bench: A Holistic and Rigorous Assessment of AI Systems on Building Better AI | arXiv | [paper](https://arxiv.org/abs/2605.08678) | [code](https://github.com/Imbernoulli/MLS-Bench) |
+- **Measuring Improvement** studies how agent progress is assessed, either through explicit metrics or learned/agentic judges.
+- **Benchmarking Improvement** groups benchmarks by the improvement mechanism they probe or by the application domain they cover.
+
+> [!NOTE]
+> A benchmark may appear in more than one subsection because the taxonomy is multi-perspective. For example, a benchmark can provide metric-based measurement while also targeting a specific domain or improvement mechanism.
+
+### 📏 Measuring Improvement
+
+<details open>
+<summary><b>Metric-Based Measurement</b></summary>
+
+| 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
+|------:|--------|--------|--------|--------|
+| 2023 | Mind2Web: Towards a Generalist Agent for the Web | NeurIPS | [paper](https://arxiv.org/abs/2306.06070) | [code](https://github.com/OSU-NLP-Group/Mind2Web) |
+| 2023 | ManiSkill2: A Unified Benchmark for Generalizable Manipulation Skills | ICLR | [paper](https://openreview.net/forum?id=b_CQDy9vrD1) | [code](https://github.com/mani-skill/ManiSkill) |
+| 2024 | CORE-Bench: Fostering the Credibility of Published Research Through a Computational Reproducibility Agent Benchmark | TMLR | [paper](https://openreview.net/forum?id=BsMMc4MEGS) | [code](https://github.com/siegelz/core-bench) |
+| 2024 | SWE-Bench+: Enhanced Coding Benchmark for LLMs | arXiv | [paper](https://arxiv.org/abs/2410.06992) | N/A |
+| 2024 | WebLINX: Real-World Website Navigation with Multi-Turn Dialogue | ICML | [paper](https://openreview.net/forum?id=mUSPhG4uDW) | [code](https://github.com/McGill-NLP/weblinx) |
+| 2024 | GAIA: A Benchmark for General AI Assistants | ICLR | [paper](https://openreview.net/forum?id=fibxvahvs3) | N/A |
+| 2024 | MINT: Evaluating LLMs in Multi-Turn Interaction with Tools and Language Feedback | ICLR | [paper](https://openreview.net/forum?id=jp3gWrMuIZ) | [code](https://github.com/xingyaoww/mint-bench) |
+| 2024 | WorkArena: How Capable Are Web Agents at Solving Common Knowledge Work Tasks? | ICML | [paper](https://openreview.net/forum?id=BRfqYrikdo) | [code](https://github.com/ServiceNow/WorkArena) |
+| 2025 | AgentGym: Evolving Large Language Model-Based Agents across Diverse Environments | ACL | [paper](https://arxiv.org/abs/2406.04151) | [code](https://github.com/WooooDyy/AgentGym) |
+| 2025 | GitTaskBench: A Benchmark for Code Agents Solving Real-World Tasks Through Code Repository Leveraging | arXiv | [paper](https://arxiv.org/abs/2508.18993) | [code](https://github.com/QuantaAlpha/GitTaskBench) |
+| 2025 | SafeAgentBench: A Benchmark for Safe Task Planning of Embodied LLM Agents | arXiv | [paper](https://arxiv.org/abs/2412.13178) | [code](https://github.com/shengyin1224/SafeAgentBench) |
+| 2026 | DrunkAgent: Stealthy Memory Corruption in LLM-Powered Recommender Agents | WWW | [paper](https://arxiv.org/abs/2503.23804) | N/A |
+| 2026 | ST-WebAgentBench: A Benchmark for Evaluating Safety and Trustworthiness in Web Agents | ICLR | [paper](https://openreview.net/forum?id=MuCDzH0ctf) | [code](https://github.com/segev-shlomov/ST-WebAgentBench) |
+
+</details>
+
+<details open>
+<summary><b>Judge-Based Measurement</b></summary>
+
+| 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
+|------:|--------|--------|--------|--------|
+| 2025 | Agent-as-a-Judge: Evaluate Agents with Agents | ICML | [paper](https://proceedings.mlr.press/v267/zhuge25a.html) | [code](https://github.com/metauto-ai/agent-as-a-judge) |
+| 2025 | Evaluation Agent: Efficient and Promptable Evaluation Framework for Visual Generative Models | ACL | [paper](https://aclanthology.org/2025.acl-long.374/) | [code](https://github.com/Vchitect/Evaluation-Agent) |
+| 2025 | EvalAgent: Discovering Implicit Evaluation Criteria from the Web | COLM | [paper](https://openreview.net/forum?id=erGpkHCybv) | [code](https://github.com/ManyaWadhwa/EvalAgent) |
+| 2025 | Learning to Align Multi-Faceted Evaluation: A Unified and Robust Framework (ARJudge) | ACL Findings | [paper](https://aclanthology.org/2025.findings-acl.494/) | N/A |
+| 2025 | VerifiAgent: A Unified Verification Agent in Language Model Reasoning | EMNLP Findings | [paper](https://aclanthology.org/2025.findings-emnlp.891/) | [code](https://github.com/Jiuzhouh/VerifiAgent) |
+
+</details>
+
+### 🧪 Benchmarking Improvement
+
+<details open>
+<summary><b>Mechanism Benchmarks</b></summary>
+
+#### Foundation-Model-Level
+
+| 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
+|------:|--------|--------|--------|--------|
+| 2024 | SWE-Bench+: Enhanced Coding Benchmark for LLMs | arXiv | [paper](https://arxiv.org/abs/2410.06992) | N/A |
+| 2024 | Identifying the Risks of LM Agents with an LM-Emulated Sandbox | ICLR | [paper](https://openreview.net/forum?id=GEcwtMk1uA) | [code](https://github.com/ryoungj/ToolEmu) |
+| 2025 | GitTaskBench: A Benchmark for Code Agents Solving Real-World Tasks Through Code Repository Leveraging | arXiv | [paper](https://arxiv.org/abs/2508.18993) | [code](https://github.com/QuantaAlpha/GitTaskBench) |
+
+#### Scaffold-Level
+
+| 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
+|------:|--------|--------|--------|--------|
+| 2024 | MINT: Evaluating LLMs in Multi-Turn Interaction with Tools and Language Feedback | ICLR | [paper](https://openreview.net/forum?id=jp3gWrMuIZ) | [code](https://github.com/xingyaoww/mint-bench) |
+| 2024 | TaskBench: Benchmarking Large Language Models for Task Automation | NeurIPS | [paper](https://arxiv.org/abs/2311.18760) | [code](https://github.com/microsoft/JARVIS/tree/main/taskbench) |
+| 2024 | MetaTool Benchmark for Large Language Models: Deciding Whether to Use Tools and Which to Use | ICLR | [paper](https://arxiv.org/abs/2310.03128) | [code](https://github.com/HowieHwong/MetaTool) |
+| 2025 | The Berkeley Function Calling Leaderboard (BFCL): From Tool Use to Agentic Evaluation of Large Language Models | ICML | [paper](https://openreview.net/forum?id=2GmDdhBdDk) | [code](https://github.com/ShishirPatil/gorilla/tree/main/berkeley-function-call-leaderboard) |
+| 2026 | DrunkAgent: Stealthy Memory Corruption in LLM-Powered Recommender Agents | WWW | [paper](https://arxiv.org/abs/2503.23804) | N/A |
+
+</details>
+
+<details open>
+<summary><b>Domain Benchmarks</b></summary>
+
+#### Software Engineering
+
+| 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
+|------:|--------|--------|--------|--------|
+| 2024 | SWE-bench: Can Language Models Resolve Real-World GitHub Issues? | ICLR | [paper](https://openreview.net/forum?id=VTF8yNQM66) | [code](https://github.com/SWE-bench/SWE-bench) |
+| 2024 | SWE-Bench+: Enhanced Coding Benchmark for LLMs | arXiv | [paper](https://arxiv.org/abs/2410.06992) | N/A |
+| 2024 | SWT-Bench: Testing and Validating Real-World Bug-Fixes with Code Agents | NeurIPS | [paper](https://openreview.net/forum?id=9Y8zUO11EQ) | [code](https://github.com/logic-star-ai/swt-bench) |
+| 2024 | TDD-Bench Verified: Can LLMs Generate Tests for Issues Before They Get Resolved? | arXiv | [paper](https://arxiv.org/abs/2412.02883) | [code](https://github.com/IBM/TDD-Bench-Verified) |
+| 2025 | LoCoBench-Agent: An Interactive Benchmark for LLM Agents in Long-Context Software Engineering | arXiv | [paper](https://arxiv.org/abs/2511.13998) | [code](https://github.com/SalesforceAIResearch/LoCoBench-Agent) |
+
+#### Web Navigation
+
+| 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
+|------:|--------|--------|--------|--------|
+| 2023 | Mind2Web: Towards a Generalist Agent for the Web | NeurIPS | [paper](https://arxiv.org/abs/2306.06070) | [code](https://github.com/OSU-NLP-Group/Mind2Web) |
+| 2024 | WebArena: A Realistic Web Environment for Building Autonomous Agents | ICLR | [paper](https://openreview.net/forum?id=oKn9c6ytLx) | [code](https://github.com/web-arena-x/webarena) |
+| 2024 | VisualWebArena: Evaluating Multimodal Agents on Realistic Visual Web Tasks | ICLR Workshop | [paper](https://openreview.net/forum?id=RPKxrKTJbj) | [code](https://github.com/web-arena-x/visualwebarena) |
+| 2024 | WebCanvas: Benchmarking Web Agents in Online Environments | ICML Workshop | [paper](https://arxiv.org/abs/2406.12373) | [code](https://github.com/iMeanAI/WebCanvas) |
+| 2026 | ST-WebAgentBench: A Benchmark for Evaluating Safety and Trustworthiness in Web Agents | ICLR | [paper](https://openreview.net/forum?id=MuCDzH0ctf) | [code](https://github.com/segev-shlomov/ST-WebAgentBench) |
+
+#### Gaming & Strategy
+
+| 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
+|------:|--------|--------|--------|--------|
+| 2023 | clembench: Using Game Play to Evaluate Chat-Optimized Language Models as Conversational Agents | EMNLP | [paper](https://aclanthology.org/2023.emnlp-main.689/) | [code](https://github.com/clp-research/clembench) |
+| 2024 | clembench-2024: A Challenging, Dynamic, Complementary, Multilingual Benchmark and Underlying Flexible Framework for LLMs as Multi-Action Agents | arXiv | [paper](https://arxiv.org/abs/2405.20859) | [code](https://github.com/clp-research/clembench) |
+| 2024 | GameBench: Evaluating Strategic Reasoning Abilities of LLM Agents | NeurIPS Workshop | [paper](https://arxiv.org/abs/2406.06613) | [code](https://github.com/Joshuaclymer/GameBench) |
+| 2024 | LLM-Deliberation: Evaluating LLMs with Interactive Multi-Agent Negotiation Game | ICLR Workshop | [paper](https://openreview.net/forum?id=eE1WHn6qlk) | N/A |
+| 2024 | GTBench: Uncovering the Strategic Reasoning Capabilities of LLMs via Game-Theoretic Evaluations | NeurIPS | [paper](https://arxiv.org/abs/2402.12348) | [code](https://github.com/jinhaoduan/GTBench) |
+
+#### Scientific Discovery
+
+| 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
+|------:|--------|--------|--------|--------|
+| 2024 | CORE-Bench: Fostering the Credibility of Published Research Through a Computational Reproducibility Agent Benchmark | TMLR | [paper](https://openreview.net/forum?id=BsMMc4MEGS) | [code](https://github.com/siegelz/core-bench) |
+| 2024 | DiscoveryWorld: A Virtual Environment for Developing and Evaluating Automated Scientific Discovery Agents | NeurIPS Datasets & Benchmarks | [paper](https://openreview.net/forum?id=cDYqckEt6d) | [code](https://github.com/allenai/discoveryworld) |
+| 2025 | PaperBench: Evaluating AI's Ability to Replicate AI Research | arXiv | [paper](https://arxiv.org/abs/2504.01848) | [code](https://github.com/openai/frontier-evals/tree/main/project/paperbench) |
+| 2025 | PhysGym: Benchmarking LLMs in Interactive Physics Discovery with Controlled Priors | NeurIPS Datasets & Benchmarks | [paper](https://openreview.net/forum?id=w8uII2qAmd) | [code](https://github.com/principia-ai/PhysGym) |
+| 2026 | AstaBench: Rigorous Benchmarking of AI Agents with a Scientific Research Suite | ICLR | [paper](https://openreview.net/forum?id=M7TNf5J26u) | [code](https://github.com/allenai/asta-bench) |
+| 2026 | MLS-Bench: A Holistic and Rigorous Assessment of AI Systems on Building Better AI | arXiv | [paper](https://arxiv.org/abs/2605.08678) | [code](https://github.com/Imbernoulli/MLS-Bench) |
+
+#### Embodied AI
+
+| 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
+|------:|--------|--------|--------|--------|
+| 2023 | ManiSkill2: A Unified Benchmark for Generalizable Manipulation Skills | ICLR | [paper](https://openreview.net/forum?id=b_CQDy9vrD1) | [code](https://github.com/mani-skill/ManiSkill) |
+| 2025 | SafeAgentBench: A Benchmark for Safe Task Planning of Embodied LLM Agents | arXiv | [paper](https://arxiv.org/abs/2412.13178) | [code](https://github.com/shengyin1224/SafeAgentBench) |
+| 2025 | EmbodiedBench: Comprehensive Benchmarking Multi-Modal Large Language Models for Vision-Driven Embodied Agents | ICML | [paper](https://openreview.net/forum?id=DgGF2LEBPS) | [code](https://github.com/EmbodiedBench/EmbodiedBench) |
+
+#### General Computer Control
+
+| 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
+|------:|--------|--------|--------|--------|
+| 2024 | OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments | NeurIPS | [paper](https://arxiv.org/abs/2404.07972) | [code](https://github.com/xlang-ai/OSWorld) |
+| 2024 | AppWorld: A Controllable World of Apps and People for Benchmarking Interactive Coding Agents | ACL | [paper](https://aclanthology.org/2024.acl-long.850/) | [code](https://github.com/StonyBrookNLP/appworld) |
+| 2024 | Identifying the Risks of LM Agents with an LM-Emulated Sandbox | ICLR | [paper](https://openreview.net/forum?id=GEcwtMk1uA) | [code](https://github.com/ryoungj/ToolEmu) |
+| 2024 | MetaTool Benchmark for Large Language Models: Deciding Whether to Use Tools and Which to Use | ICLR | [paper](https://arxiv.org/abs/2310.03128) | [code](https://github.com/HowieHwong/MetaTool) |
+| 2025 | Windows Agent Arena: Evaluating Multi-Modal OS Agents at Scale | ICML | [paper](https://openreview.net/forum?id=W9s817KqYf) | [code](https://github.com/microsoft/WindowsAgentArena) |
+| 2025 | The Berkeley Function Calling Leaderboard (BFCL): From Tool Use to Agentic Evaluation of Large Language Models | ICML | [paper](https://openreview.net/forum?id=2GmDdhBdDk) | [code](https://github.com/ShishirPatil/gorilla/tree/main/berkeley-function-call-leaderboard) |
+
+</details>
 
 ---
 
