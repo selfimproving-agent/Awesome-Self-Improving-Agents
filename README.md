@@ -730,6 +730,60 @@ The literature is organized along two complementary perspectives:
 
 ## 🔗 Related Resources
 
+### ✍️ Blogs & Essays
+
+* **Metalearning Machines Learn to Learn (1987–)** — Jürgen Schmidhuber, 2025
+  | [Blog](https://people.idsia.ch/~juergen/metalearning.html) |
+
+* **When AI Builds Itself** — Anthropic Institute, 2026
+  | [Blog](https://www.anthropic.com/institute/recursive-self-improvement) |
+
+* **AIDE²: The First Evidence of Recursive Self-Improvement** — WeCo, 2026
+  | [Blog](https://www.weco.ai/blog/first-evidence-of-recursive-self-improvement) |
+
+* **Automated Weak-to-Strong Researcher** — Anthropic Alignment Science, 2026
+  | [Blog](https://alignment.anthropic.com/2026/automated-w2s-researcher/) |
+
+* **AlphaEvolve: A Gemini-Powered Coding Agent for Designing Advanced Algorithms** — Google DeepMind, 2025
+  | [Blog](https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/) |
+
+* **FunSearch: Making New Discoveries in Mathematical Sciences Using Large Language Models** — Google DeepMind, 2023
+  | [Blog](https://deepmind.google/blog/funsearch-making-new-discoveries-in-mathematical-sciences-using-large-language-models/) | [Paper](https://www.nature.com/articles/s41586-023-06924-6) |
+
+### 🎙️ Podcasts & Interviews
+
+* **Jürgen Schmidhuber: Gödel Machines, Meta-Learning, and LSTMs | Lex Fridman Podcast #11** — Lex Fridman Podcast, 2018
+  | [YouTube Video](https://www.youtube.com/watch?v=3FIo6evmweo) |
+
+* **再访田渊栋：46.5 亿美金估值的 RSI，与 AI 自进化｜Neolabs 特辑【101 视频播客】** — 2026
+  | [Bilibili Video](https://www.bilibili.com/video/BV1DY7C6nEWM/) |
+
+* **Agent AI Needs Darwin** — Machine Learning Street Talk, 2025
+  | [Podcast](https://dexa.ai/machinelearningstreettalk/d/b6fadb24-ca4c-11ef-b367-275d623b7386) |
+
+* **#75 – Marcus Hutter: Universal Artificial Intelligence, AIXI, and AGI** — Lex Fridman Podcast, 2020
+  | [Podcast](https://lexfridman.com/marcus-hutter/) |
+
+### 🎥 Talks & Courses
+
+* **2026 北京智源大会｜AI 自进化** — Beijing Academy of Artificial Intelligence, 2026
+  | [Bilibili Video](https://www.bilibili.com/video/BV1Bijw65Ec9/) |
+
+* **Recursive Self-Improvement：当 AI 开始进化 AI** — 2026
+  | [Bilibili Video](https://www.bilibili.com/video/BV17Z7a6vEVH/) |
+
+* **全球嘉宾共话 Self-Evolving Agents：从学术前沿到产业落地** — 2026
+  | [Bilibili Video](https://www.bilibili.com/video/BV1P4LX68EcS/) |
+
+* **Jeff Clune | Open-Ended and AI-Generating Algorithms in the Era of Foundation Models** — 2025
+  | [YouTube Video](https://www.youtube.com/watch?v=gIHAVTj9fjo&t=3037s) |
+
+* **Stanford CS329A: Self-Improving AI Agents** — Stanford University, 2025
+  | [Course](https://cs329a.stanford.edu/) | [YouTube Playlist](https://www.youtube.com/playlist?list=PL3058ht9NqT1NG6Y663elpHSDh-AW1TIr) |
+
+* **Open-Ended Agent Learning in the Era of Foundation Models** — Jeff Clune
+  | [YouTube Video](https://www.youtube.com/watch?v=EZBuPfu85b8) |
+
 ### 🎓 Thesis
 
 - **[Multimodal Agents: From Automation toward Open-Ended Self-Improvement](https://repository.kaust.edu.sa/items/0bff44ae-653f-4381-a25a-78b990c3ab5c)**  
