@@ -627,7 +627,7 @@ The literature is organized along two complementary perspectives:
 
 | 📅 Year | 📝 Title | 🏛️ Venue | 📄 Paper | 💻 Code |
 |------:|--------|--------|--------|--------|
-| 2025 | Agent-as-a-Judge: Evaluate Agents with Agents | ICML | [paper](https://proceedings.mlr.press/v267/zhuge25a.html) | [code](https://github.com/metauto-ai/agent-as-a-judge) |
+| 2025 | Agent-as-a-Judge: Evaluate Agents with Agents | ICML | [paper](https://arxiv.org/abs/2410.10934) | [code](https://github.com/metauto-ai/agent-as-a-judge) |
 | 2025 | Evaluation Agent: Efficient and Promptable Evaluation Framework for Visual Generative Models | ACL | [paper](https://aclanthology.org/2025.acl-long.374/) | [code](https://github.com/Vchitect/Evaluation-Agent) |
 | 2025 | EvalAgent: Discovering Implicit Evaluation Criteria from the Web | COLM | [paper](https://openreview.net/forum?id=erGpkHCybv) | [code](https://github.com/ManyaWadhwa/EvalAgent) |
 | 2025 | Learning to Align Multi-Faceted Evaluation: A Unified and Robust Framework (ARJudge) | ACL Findings | [paper](https://aclanthology.org/2025.findings-acl.494/) | N/A |
@@ -672,6 +672,7 @@ The literature is organized along two complementary perspectives:
 | 2024 | SWT-Bench: Testing and Validating Real-World Bug-Fixes with Code Agents | NeurIPS | [paper](https://openreview.net/forum?id=9Y8zUO11EQ) | [code](https://github.com/logic-star-ai/swt-bench) |
 | 2024 | TDD-Bench Verified: Can LLMs Generate Tests for Issues Before They Get Resolved? | arXiv | [paper](https://arxiv.org/abs/2412.02883) | [code](https://github.com/IBM/TDD-Bench-Verified) |
 | 2025 | LoCoBench-Agent: An Interactive Benchmark for LLM Agents in Long-Context Software Engineering | arXiv | [paper](https://arxiv.org/abs/2511.13998) | [code](https://github.com/SalesforceAIResearch/LoCoBench-Agent) |
+| 2025 | DevAI: Automated AI Development Benchmark | ICML | [paper](https://arxiv.org/abs/2410.10934) | [code](https://github.com/metauto-ai/agent-as-a-judge) |
 
 #### Web Navigation
 
