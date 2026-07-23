@@ -730,25 +730,28 @@ The literature is organized along two complementary perspectives:
 
 ## 🔗 Related Resources
 
-### ✍️ Blogs & Essays
+### ✍️ Blogs
 
 * **Metalearning Machines Learn to Learn (1987–)** — Jürgen Schmidhuber, 2025
   | [Blog](https://people.idsia.ch/~juergen/metalearning.html) |
 
-* **When AI Builds Itself** — Anthropic Institute, 2026
+* **When AI Builds Itself** — Anthropic, 2026
   | [Blog](https://www.anthropic.com/institute/recursive-self-improvement) |
 
 * **AIDE²: The First Evidence of Recursive Self-Improvement** — WeCo, 2026
   | [Blog](https://www.weco.ai/blog/first-evidence-of-recursive-self-improvement) |
 
-* **Automated Weak-to-Strong Researcher** — Anthropic Alignment Science, 2026
+* **Automated Weak-to-Strong Researcher** — Anthropic, 2026
   | [Blog](https://alignment.anthropic.com/2026/automated-w2s-researcher/) |
+
+* **The Darwin Gödel Machine: AI That Improves Itself by Rewriting Its Own Code** — Sakana AI, 2025
+  | [Blog](https://sakana.ai/dgm/) |
 
 * **AlphaEvolve: A Gemini-Powered Coding Agent for Designing Advanced Algorithms** — Google DeepMind, 2025
   | [Blog](https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/) |
 
 * **FunSearch: Making New Discoveries in Mathematical Sciences Using Large Language Models** — Google DeepMind, 2023
-  | [Blog](https://deepmind.google/blog/funsearch-making-new-discoveries-in-mathematical-sciences-using-large-language-models/) | [Paper](https://www.nature.com/articles/s41586-023-06924-6) |
+  | [Blog](https://deepmind.google/blog/funsearch-making-new-discoveries-in-mathematical-sciences-using-large-language-models/) |
 
 ### 🎙️ Podcasts & Interviews
 
