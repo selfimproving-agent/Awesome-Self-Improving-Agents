@@ -4,9 +4,18 @@
 
 <p align="center">
   <strong>
-    A curated and continuously updated map of self-improving agentic systems
+    A curated and continuously evolving resource hub for self-improving agentic systems
   </strong>
   <br>
+  <sub>
+    This repository brings together
+    📄 Papers · 📊 Benchmarks · ✍️ Blogs & Essays · 🎙️ Podcasts ·
+    💬 Interviews · 🎥 Videos · 🧑‍🏫 Workshops & Courses
+  </sub>
+  <br>
+  <sub>
+    Contributions are welcome — open a PR to share relevant resources and help grow the community! 🌱
+  </sub>
 </p>
 
 <p align="center">
