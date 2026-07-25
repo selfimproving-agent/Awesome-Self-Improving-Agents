@@ -787,6 +787,9 @@ The literature is organized along two complementary perspectives:
 * **全球嘉宾共话 Self-Evolving Agents：从学术前沿到产业落地** — 2026
   | [Bilibili Video](https://www.bilibili.com/video/BV1P4LX68EcS/) |
 
+* **【肖仰华 复旦教授】大模型驱动的自进化智能体：研究与实践（Agentic AI Summit·2026·深圳站）** — 2026
+  | [Bilibili Video](https://www.bilibili.com/video/BV1tHgY6YEuJ/) |
+
 * **Jeff Clune | Open-Ended and AI-Generating Algorithms in the Era of Foundation Models** — 2025
   | [YouTube Video](https://www.youtube.com/watch?v=gIHAVTj9fjo&t=3037s) |
 
