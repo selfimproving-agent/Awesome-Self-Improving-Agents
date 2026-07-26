@@ -750,6 +750,9 @@ The literature is organized along two complementary perspectives:
 * **AIDE²: The First Evidence of Recursive Self-Improvement** — WeCo, 2026
   | [Blog](https://www.weco.ai/blog/first-evidence-of-recursive-self-improvement) |
 
+* **The What & When of Self-Evolving Agents** — 2026
+  | [Blog](https://xinmingtu.cn/blog/2026/self-evolving-agents/) |
+
 * **Automated Weak-to-Strong Researcher** — Anthropic, 2026
   | [Blog](https://alignment.anthropic.com/2026/automated-w2s-researcher/) |
 
