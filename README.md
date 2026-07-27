@@ -781,6 +781,9 @@ The literature is organized along two complementary perspectives:
 
 ### 🎥 Talks & Courses
 
+* **Recursive self-improvement (RSI) and meta learning** — Jürgen Schmidhuber, 2020
+  | [Video](https://x.com/SchmidhuberAI/status/2031397968511717584) |
+
 * **2026 北京智源大会｜AI 自进化** — Beijing Academy of Artificial Intelligence, 2026
   | [Bilibili Video](https://www.bilibili.com/video/BV1Bijw65Ec9/) |
 
