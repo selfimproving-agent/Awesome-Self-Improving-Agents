@@ -628,6 +628,7 @@ The literature is organized along two complementary perspectives:
 | 2025 | SafeAgentBench: A Benchmark for Safe Task Planning of Embodied LLM Agents | arXiv | [paper](https://arxiv.org/abs/2412.13178) | [code](https://github.com/shengyin1224/SafeAgentBench) |
 | 2026 | DrunkAgent: Stealthy Memory Corruption in LLM-Powered Recommender Agents | WWW | [paper](https://arxiv.org/abs/2503.23804) | N/A |
 | 2026 | ST-WebAgentBench: A Benchmark for Evaluating Safety and Trustworthiness in Web Agents | ICLR | [paper](https://openreview.net/forum?id=MuCDzH0ctf) | [code](https://github.com/segev-shlomov/ST-WebAgentBench) |
+| 2026 | ClawBench: A Benchmark for Evaluating AI Agents on Real-World Online Tasks | arXiv | [paper](https://arxiv.org/abs/2601.08613) | [code](https://github.com/TIGER-AI-Lab/ClawBench) |
 
 </details>
 
