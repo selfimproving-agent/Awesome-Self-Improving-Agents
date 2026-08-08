@@ -370,6 +370,7 @@ depending on **which component is improved** during learning and adaptation.
   | 2026 | SkillOpt: Executive Strategy for Self-Evolving Agent Skills | arXiv | [paper](https://arxiv.org/abs/2605.23904) | [code](https://github.com/microsoft/SkillOpt) |
   | 2026 | VASO: Formally Verifiable Self-Evolving Skills for Physical AI Agents | arXiv | [paper](https://arxiv.org/abs/2606.05395) | N/A |
   | 2026 | Learning to Evolve: A Self-Improving Framework for Multi-Agent Systems | ACL Findings | [paper](https://arxiv.org/abs/2604.20714) | N/A |
+  | 2026 | Learning to Learn-at-Test-Time: Language Agents with Learnable Adaptation Policies | arXiv | [paper](https://arxiv.org/abs/2604.00830) | [code](https://github.com/zzzlou/meta-ttl) |
 
   </details>
   
