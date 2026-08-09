@@ -265,6 +265,7 @@ depending on **which component is improved** during learning and adaptation.
   | 2026 | Tool-R0: Self-Evolving LLM Agents for Tool-Learning from Zero Data | arXiv | [paper](https://arxiv.org/abs/2602.21320) | [code](https://github.com/emrecanacikgoz/Tool-R0) |
   | 2026 | Socratic-SWE: Self-Evolving Coding Agents via Trace-Derived Agent Skills | arXiv | [paper](https://arxiv.org/abs/2606.07412) | N/A |
   | 2026 | Self-evolving LLM Agents with In-Distribution Optimization | ICML | [paper](https://arxiv.org/abs/2606.07367) | N/A |
+  | 2026 | Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills | arXiv | [paper](https://arxiv.org/abs/2607.22529) | [code](https://github.com/Qwen-Applications/skill-self-play) |
 
   </details>
 
