@@ -576,6 +576,7 @@ depending on **which component is improved** during learning and adaptation.
   | 2026 | RoboPhD: Self-Improving Text-to-SQL Through Autonomous Agent Evolution | arXiv | [paper](https://arxiv.org/abs/2601.01126) | [code](https://github.com/andborth/RoboPhD) |
   | 2026 | Group-Evolving Agents: Open-Ended Self-Improvement via Experience Sharing | arXiv | [paper](https://arxiv.org/abs/2602.04837) | N/A |
   | 2026 | Hyperagents | arXiv | [paper](https://arxiv.org/abs/2603.19461) | [code](https://github.com/facebookresearch/Hyperagents) |
+  | 2026 | CORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery | COLM | [paper](https://arxiv.org/abs/2604.01658) | [code](https://github.com/Human-Agent-Society/CORAL) |
   | 2026 | Adaptive Auto-Harness: Sustained Self-Improvement for Agentic System Deployment on Open-Ended Task Streams | arXiv | [paper](https://arxiv.org/abs/2606.01770) | [code](https://github.com/A-EVO-Lab/AdaptiveHarness) |
   | 2026 | MOSS: Self-Evolution through Source-Level Rewriting in Autonomous Agent Systems | arXiv | [paper](https://arxiv.org/abs/2605.22794) | [code](https://github.com/dav-joy-thon/MOSS) |
   | 2026 | Recursive Self-Evolving Agents via Held-Out Selection | arXiv | [paper](https://arxiv.org/abs/2606.28374) | N/A |
