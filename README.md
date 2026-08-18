@@ -581,6 +581,7 @@ depending on **which component is improved** during learning and adaptation.
   | 2026 | MOSS: Self-Evolution through Source-Level Rewriting in Autonomous Agent Systems | arXiv | [paper](https://arxiv.org/abs/2605.22794) | [code](https://github.com/dav-joy-thon/MOSS) |
   | 2026 | Recursive Self-Evolving Agents via Held-Out Selection | arXiv | [paper](https://arxiv.org/abs/2606.28374) | N/A |
   | 2026 | Continual Harness: Online Adaptation for Self-Improving Foundation Agents | arXiv | [paper](https://arxiv.org/abs/2605.09998) | [code](https://github.com/sethkarten/continual-harness) |
+  | 2026 | Argus: A General-Purpose Agentic Reasoning Runtime for Long-Horizon Tasks | arXiv | [paper](https://arxiv.org/abs/2608.05144) | [code](https://github.com/lbx154/Argus) |
   | 2026 | The Red Queen Gödel Machine: Co-Evolving Agents and Their Evaluators | arXiv | [paper](https://arxiv.org/abs/2606.26294) | N/A |
   | 2026 | Harness-R1: Learning to Edit Executable Runtime Harnesses from Agent Failure Trajectories | arXiv | [paper](https://arxiv.org/abs/2608.02276) | [code](https://github.com/DeepExperience/Harness-R1) |
   | 2026 | LLM-as-Code: Agentic Programming for Agent Harness | KDD AgenticSE Workshop | [paper](https://arxiv.org/abs/2606.15874) | [code](https://github.com/Fzkuji/OpenProgram) |
