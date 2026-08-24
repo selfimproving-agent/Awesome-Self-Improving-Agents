@@ -458,6 +458,7 @@ depending on **which component is improved** during learning and adaptation.
   | 2025 | SCM: Enhancing Large Language Model with Self-Controlled Memory Framework | DASFAA | [paper](https://arxiv.org/abs/2304.13343) | [code](https://github.com/wbbeyourself/SCM4LLMs) |
   | 2025 | Dynamic Cheatsheet: Test-Time Learning with Adaptive Memory | arXiv | [paper](https://arxiv.org/abs/2504.07952) | [code](https://github.com/suzgunmirac/dynamic-cheatsheet) |
   | 2025 | MLC-Agent: Cognitive Model based on Memory-Learning Collaboration in LLM Empowered Agent Simulation Environment | arXiv | [paper](https://arxiv.org/abs/2507.20215) | N/A |
+  | 2026 | ForeDreamer: A Self-Evolving Dual-Agent Memory Architecture for Future Event Prediction | EMNLP Findings | [paper](https://arxiv.org/abs/2608.20920) | [code](https://github.com/zhongzero/ForeDreamer) |
   | 2025 | MemInsight: Autonomous Memory Augmentation for LLM Agents | arXiv | [paper](https://arxiv.org/abs/2503.21760) | N/A |
   | 2026 | Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models | ICLR | [paper](https://arxiv.org/abs/2510.04618) | [code](https://github.com/ace-agent/ace) |
   | 2026 | MemRL: Self-Evolving Agents via Runtime Reinforcement Learning on Episodic Memory | arXiv | [paper](https://arxiv.org/abs/2601.03192) | [code](https://github.com/MemTensor/MemRL) |
