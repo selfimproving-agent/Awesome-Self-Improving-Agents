@@ -772,8 +772,11 @@ The literature is organized along two complementary perspectives:
 * **AlphaEvolve: A Gemini-Powered Coding Agent for Designing Advanced Algorithms** — Google DeepMind, 2025
   | [Blog](https://deepmind.google/blog/alphaevolve-a-gemini-powered-coding-agent-for-designing-advanced-algorithms/) |
 
-* **FunSearch: Making New Discoveries in Mathematical Sciences Using Large Language Models** — Google DeepMind, 2023
+* **FunSearch: Making New Discoveries in Mathematical Sciences Using Large Language Models** — Addy Osmani, 2026
   | [Blog](https://deepmind.google/blog/funsearch-making-new-discoveries-in-mathematical-sciences-using-large-language-models/) |
+
+* **Self-Improving Coding Agents** — Google DeepMind, 2023
+  | [Blog](https://addyosmani.com/blog/self-improving-agents/) |
 
 ### 🎙️ Podcasts & Interviews
 
