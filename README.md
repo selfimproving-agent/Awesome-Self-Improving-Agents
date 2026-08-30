@@ -589,6 +589,7 @@ depending on **which component is improved** during learning and adaptation.
   | 2026 | Ouroboros: A Self-Developing Frontier Coding Agent with Reviewed Core Evolution | arXiv | [paper](https://arxiv.org/abs/2608.08311) | [code](https://github.com/razzant/ouroboros) |
   | 2026 | Harness Handbook: Making Evolving Agent Harnesses Readable, Navigable, and Editable | arXiv | [paper](https://arxiv.org/pdf/2607.13285) | [code](https://github.com/Ruhan-Wang/Harness_Handbook) |
   | 2026 | Meta^n: Recursive Self-Improvement through Emergent Depth | arXiv | [paper](https://arxiv.org/pdf/2608.24735) | [code](https://github.com/minnesotanlp/meta-n) |  
+  | 2026 | Prime Agent: A Self-Improving RLM Harness | arXiv | [paper](https://arxiv.org/pdf/2608.23552) | [code](https://github.com/PrimeIntellect-ai/prime-agent) |  
 </details>
 
 ---
