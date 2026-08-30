@@ -588,7 +588,7 @@ depending on **which component is improved** during learning and adaptation.
   | 2026 | LLM-as-Code: Agentic Programming for Agent Harness | KDD AgenticSE Workshop | [paper](https://arxiv.org/abs/2606.15874) | [code](https://github.com/Fzkuji/OpenProgram) |
   | 2026 | Ouroboros: A Self-Developing Frontier Coding Agent with Reviewed Core Evolution | arXiv | [paper](https://arxiv.org/abs/2608.08311) | [code](https://github.com/razzant/ouroboros) |
   | 2026 | Harness Handbook: Making Evolving Agent Harnesses Readable, Navigable, and Editable | arXiv | [paper](https://arxiv.org/pdf/2607.13285) | [code](https://github.com/Ruhan-Wang/Harness_Handbook) |
-  
+  | 2026 | Meta^n: Recursive Self-Improvement through Emergent Depth | arXiv | [paper](https://arxiv.org/pdf/2608.24735) | [code](https://github.com/minnesotanlp/meta-n) |  
 </details>
 
 ---
