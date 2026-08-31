@@ -678,6 +678,7 @@ The literature is organized along two complementary perspectives:
 | 2025 | The Berkeley Function Calling Leaderboard (BFCL): From Tool Use to Agentic Evaluation of Large Language Models | ICML | [paper](https://openreview.net/forum?id=2GmDdhBdDk) | [code](https://github.com/ShishirPatil/gorilla/tree/main/berkeley-function-call-leaderboard) |
 | 2026 | DrunkAgent: Stealthy Memory Corruption in LLM-Powered Recommender Agents | WWW | [paper](https://arxiv.org/abs/2503.23804) | N/A |
 | 2026 | RSI-Bench: Multi-Axis Benchmark for Recursive Self-Improvement | GitHub | N/A | [code](https://github.com/sunghunkwag/rsi-bench) |
+| 2026 | PAST-Bench: Benchmarking the Foundations of Recursive Self-Improvement in Personal Agents | arXiv | [[paper]](https://arxiv.org/pdf/2608.04003) | [code](https://github.com/Gen-Verse/PAST-Bench) |
 
 </details>
 
