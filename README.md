@@ -161,6 +161,7 @@ depending on **which component is improved** during learning and adaptation.
 
 ## 📚 Key Literature
 ### 🛣️ Evolution of Self-Improving Agents
+- [Continuum-AI-Corp/OrcaReplay](https://github.com/Continuum-AI-Corp/OrcaReplay) — drop-in recorder that sits between your agent and the model provider.
 
 <p align="center">
   <a href="assets/fig-si-rw-001.png">
