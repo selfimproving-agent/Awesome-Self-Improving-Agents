@@ -596,6 +596,7 @@ depending on **which component is improved** during learning and adaptation.
   | 2026 | EvoSafeHarness: Evolving Model- and Domain-Specific Harnesses for Securing Agents | arXiv | [paper](https://arxiv.org/abs/2609.05903) | [code](https://github.com/SaFo-Lab/EvoSafeHarness) |
   | 2026 | MetaRSI / RSI2: A Meta-Recursive Self-Improving System for Recursive Self-Improving Systems Themselves | arXiv | [paper](https://arxiv.org/abs/2609.06396) | [code](https://github.com/CosmosMind-ai/RSI-Harness) |
   | 2026 | Harness-Zero: Harness Distillation via Agent-as-Harness | arXiv | [paper](https://arxiv.org/abs/2609.24974) | [code](https://github.com/metaevo-ai/harness-zero) |
+  | 2026 | SelfSearch: Reward-Free Search for Self-Improving Agents | arXiv | [paper](https://arxiv.org/abs/2609.37968) | N/A |
   
 </details>
 
