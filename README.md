@@ -267,6 +267,7 @@ depending on **which component is improved** during learning and adaptation.
   | 2026 | Self-evolving LLM Agents with In-Distribution Optimization | ICML | [paper](https://arxiv.org/abs/2606.07367) | N/A |
   | 2026 | Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills | arXiv | [paper](https://arxiv.org/abs/2607.22529) | [code](https://github.com/Qwen-Applications/skill-self-play) |
   | 2026 | EnvHarness: Awakening Static Worlds for Agent Learning | arXiv | [paper](https://arxiv.org/abs/2608.19880) | [code](https://github.com/google-research/envharness) |
+  | 2026 | ReSAIL: Mitigating Collapse in Iterative Agent Self-Distillation | arXiv | [paper](https://arxiv.org/abs/2609.39306) | [code](https://github.com/ShengjieJin/ReSAIL) |
 
   </details>
 
@@ -470,6 +471,7 @@ depending on **which component is improved** during learning and adaptation.
   | 2026 | AEL: Agent Evolving Learning for Open-Ended Environments | arXiv | [paper](https://arxiv.org/abs/2604.21725) | [code](https://github.com/WujiangXu/AEL) |
   | 2026 | Metis: Bridging Text and Code Memory for Self-Evolving Agents | arXiv | [paper](https://arxiv.org/abs/2606.24151) | N/A |
   | 2026 | Mem^2Evolve: Towards Self-Evolving Agents via Co-Evolutionary Capability Expansion and Experience Distillation | arXiv | [paper](https://arxiv.org/abs/2604.10923) | [code](https://github.com/BUAA-IRIP-LLM/Mem2Evolve) |
+  | 2026 | AnchorGUI: Asymmetric Memory for Dual-Scale Learning in GUI Navigation | ECCV | [paper](https://arxiv.org/abs/2609.15457) | N/A |
 
   </details>
 
