@@ -339,6 +339,7 @@ depending on **which component is improved** during learning and adaptation.
   | 2025 | Boosting Private Domain Understanding of Efficient MLLMs: A Tuning-free, Adaptive, Universal Prompt Optimization Framework | arXiv | [paper](https://arxiv.org/abs/2412.19684) | N/A |
   | 2026 | GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning | ICLR | [paper](https://arxiv.org/abs/2507.19457) | [code](https://github.com/gepa-ai/gepa) |
   | 2026 | FORGE: Self-Evolving Agent Memory With No Weight Updates via Population Broadcast | CAIS | [paper](https://arxiv.org/abs/2605.16233) | N/A |
+  | 2026 | Steer, Don't Solve: Training Small Critic Models for Large Code Agents | arXiv | [paper](https://arxiv.org/abs/2606.21811) | [code](https://github.com/shubhamrgandhi/critic-training) |
 
   </details>
 
