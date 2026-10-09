@@ -267,6 +267,8 @@ depending on **which component is improved** during learning and adaptation.
   | 2026 | Self-evolving LLM Agents with In-Distribution Optimization | ICML | [paper](https://arxiv.org/abs/2606.07367) | N/A |
   | 2026 | Skill Self-Play: Pushing the Frontier of LLM Capability with Co-Evolving Skills | arXiv | [paper](https://arxiv.org/abs/2607.22529) | [code](https://github.com/Qwen-Applications/skill-self-play) |
   | 2026 | DRACO: Fine-Grained Credit Assignment with Dynamic Rubrics for Long-Horizon Agent Training | arXiv | [paper](https://arxiv.org/abs/2609.04094) | [code](https://github.com/IBM/draco) |
+  | 2026 | EnvHarness: Awakening Static Worlds for Agent Learning | arXiv | [paper](https://arxiv.org/abs/2608.19880) | [code](https://github.com/google-research/envharness) |
+  | 2026 | ReSAIL: Mitigating Collapse in Iterative Agent Self-Distillation | arXiv | [paper](https://arxiv.org/abs/2609.39306) | [code](https://github.com/ShengjieJin/ReSAIL) |
 
   </details>
 
@@ -460,6 +462,7 @@ depending on **which component is improved** during learning and adaptation.
   | 2025 | Dynamic Cheatsheet: Test-Time Learning with Adaptive Memory | arXiv | [paper](https://arxiv.org/abs/2504.07952) | [code](https://github.com/suzgunmirac/dynamic-cheatsheet) |
   | 2025 | MLC-Agent: Cognitive Model based on Memory-Learning Collaboration in LLM Empowered Agent Simulation Environment | arXiv | [paper](https://arxiv.org/abs/2507.20215) | N/A |
   | 2026 | ForeDreamer: A Self-Evolving Dual-Agent Memory Architecture for Future Event Prediction | EMNLP Findings | [paper](https://arxiv.org/abs/2608.20920) | [code](https://github.com/zhongzero/ForeDreamer) |
+  | 2026 | Meta Context Engineering via Agentic Skill Evolution | ICML | [paper](https://arxiv.org/abs/2601.21557) | [code](https://github.com/metaevo-ai/meta-context-engineering) |
   | 2025 | MemInsight: Autonomous Memory Augmentation for LLM Agents | arXiv | [paper](https://arxiv.org/abs/2503.21760) | N/A |
   | 2026 | Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models | ICLR | [paper](https://arxiv.org/abs/2510.04618) | [code](https://github.com/ace-agent/ace) |
   | 2026 | MemRL: Self-Evolving Agents via Runtime Reinforcement Learning on Episodic Memory | arXiv | [paper](https://arxiv.org/abs/2601.03192) | [code](https://github.com/MemTensor/MemRL) |
@@ -469,6 +472,7 @@ depending on **which component is improved** during learning and adaptation.
   | 2026 | AEL: Agent Evolving Learning for Open-Ended Environments | arXiv | [paper](https://arxiv.org/abs/2604.21725) | [code](https://github.com/WujiangXu/AEL) |
   | 2026 | Metis: Bridging Text and Code Memory for Self-Evolving Agents | arXiv | [paper](https://arxiv.org/abs/2606.24151) | N/A |
   | 2026 | Mem^2Evolve: Towards Self-Evolving Agents via Co-Evolutionary Capability Expansion and Experience Distillation | arXiv | [paper](https://arxiv.org/abs/2604.10923) | [code](https://github.com/BUAA-IRIP-LLM/Mem2Evolve) |
+  | 2026 | AnchorGUI: Asymmetric Memory for Dual-Scale Learning in GUI Navigation | ECCV | [paper](https://arxiv.org/abs/2609.15457) | N/A |
 
   </details>
 
@@ -593,6 +597,11 @@ depending on **which component is improved** during learning and adaptation.
   | 2026 | Prime Agent: A Self-Improving RLM Harness | arXiv | [paper](https://arxiv.org/pdf/2608.23552) | [code](https://github.com/PrimeIntellect-ai/prime-agent) |  
   | 2026 | HarnessDev: Can LLMs Create and Evolve Their Own Agent Harness? | arXiv | [paper](https://arxiv.org/pdf/2609.01437) | N/A |
   | 2026 | EvoSafeHarness: Evolving Model- and Domain-Specific Harnesses for Securing Agents | arXiv | [paper](https://arxiv.org/abs/2609.05903) | [code](https://github.com/SaFo-Lab/EvoSafeHarness) |
+  | 2026 | MetaRSI / RSI2: A Meta-Recursive Self-Improving System for Recursive Self-Improving Systems Themselves | arXiv | [paper](https://arxiv.org/abs/2609.06396) | [code](https://github.com/CosmosMind-ai/RSI-Harness) |
+  | 2026 | Harness-Zero: Harness Distillation via Agent-as-Harness | arXiv | [paper](https://arxiv.org/abs/2609.24974) | [code](https://github.com/metaevo-ai/harness-zero) |
+  | 2026 | SelfSearch: Reward-Free Search for Self-Improving Agents | arXiv | [paper](https://arxiv.org/abs/2609.37968) | N/A |
+  | 2026 | AutoRef: Harness Optimization for Agentic Multi-Reference Image Generation | arXiv | [paper](https://arxiv.org/abs/2609.35530) | [code](https://github.com/KuOnoda/AutoRef) |
+  
 </details>
 
 ---
