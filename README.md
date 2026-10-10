@@ -269,6 +269,7 @@ depending on **which component is improved** during learning and adaptation.
   | 2026 | DRACO: Fine-Grained Credit Assignment with Dynamic Rubrics for Long-Horizon Agent Training | arXiv | [paper](https://arxiv.org/abs/2609.04094) | [code](https://github.com/IBM/draco) |
   | 2026 | EnvHarness: Awakening Static Worlds for Agent Learning | arXiv | [paper](https://arxiv.org/abs/2608.19880) | [code](https://github.com/google-research/envharness) |
   | 2026 | ReSAIL: Mitigating Collapse in Iterative Agent Self-Distillation | arXiv | [paper](https://arxiv.org/abs/2609.39306) | [code](https://github.com/ShengjieJin/ReSAIL) |
+  | 2026 | Environmental Feedback Modeling Matters: Rethinking Feedback Treatment in Agentic Hindsight Self-Distillation | arXiv | [paper](https://arxiv.org/abs/2610.11384) | N/A |
 
   </details>
 
@@ -338,6 +339,7 @@ depending on **which component is improved** during learning and adaptation.
   | 2025 | CriSPO: Multi-Aspect Critique-Suggestion-guided Automatic Prompt Optimization for Text Generation | AAAI | [paper](https://arxiv.org/abs/2410.02748) | [code](https://github.com/amazon-science/CriSPO) |
   | 2025 | Boosting Private Domain Understanding of Efficient MLLMs: A Tuning-free, Adaptive, Universal Prompt Optimization Framework | arXiv | [paper](https://arxiv.org/abs/2412.19684) | N/A |
   | 2026 | GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning | ICLR | [paper](https://arxiv.org/abs/2507.19457) | [code](https://github.com/gepa-ai/gepa) |
+  | 2026 | From a Prompt to Repertoires: Evolving Functional REpertoires Enable LLM Continual Learning | arXiv | [paper](https://arxiv.org/abs/2610.11373) | N/A |
   | 2026 | FORGE: Self-Evolving Agent Memory With No Weight Updates via Population Broadcast | CAIS | [paper](https://arxiv.org/abs/2605.16233) | N/A |
 
   </details>
