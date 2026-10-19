@@ -270,7 +270,8 @@ depending on **which component is improved** during learning and adaptation.
   | 2026 | EnvHarness: Awakening Static Worlds for Agent Learning | arXiv | [paper](https://arxiv.org/abs/2608.19880) | [code](https://github.com/google-research/envharness) |
   | 2026 | ReSAIL: Mitigating Collapse in Iterative Agent Self-Distillation | arXiv | [paper](https://arxiv.org/abs/2609.39306) | [code](https://github.com/ShengjieJin/ReSAIL) |
   | 2026 | Environmental Feedback Modeling Matters: Rethinking Feedback Treatment in Agentic Hindsight Self-Distillation | arXiv | [paper](https://arxiv.org/abs/2610.11384) | N/A |
-
+  | 2026 | Learning from Interaction Experience via Localized Context Distillation | arXiv | [paper](https://arxiv.org/abs/2610.21427) | [code](https://github.com/zz-haooo/LoCD) |
+  
   </details>
 
 - **1.3.2 Interaction with Simulated Proxy Environments**
