@@ -477,6 +477,7 @@ depending on **which component is improved** during learning and adaptation.
   | 2026 | Metis: Bridging Text and Code Memory for Self-Evolving Agents | arXiv | [paper](https://arxiv.org/abs/2606.24151) | N/A |
   | 2026 | Mem^2Evolve: Towards Self-Evolving Agents via Co-Evolutionary Capability Expansion and Experience Distillation | arXiv | [paper](https://arxiv.org/abs/2604.10923) | [code](https://github.com/BUAA-IRIP-LLM/Mem2Evolve) |
   | 2026 | AnchorGUI: Asymmetric Memory for Dual-Scale Learning in GUI Navigation | ECCV | [paper](https://arxiv.org/abs/2609.15457) | N/A |
+  | 2026 | Learning from Repair Experience: Self-Evolving Agents for Automated Vulnerability Repair | ICSE | [paper](https://arxiv.org/abs/2605.30105) | [code](https://github.com/iSEngLab/Learn-from-Repair-Experience) |
 
   </details>
 
