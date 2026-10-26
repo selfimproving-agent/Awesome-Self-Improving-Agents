@@ -789,6 +789,9 @@ The literature is organized along two complementary perspectives:
 * **Automated Weak-to-Strong Researcher** — Anthropic, 2026
   | [Blog](https://alignment.anthropic.com/2026/automated-w2s-researcher/) |
 
+* **rsi.watch: a ledger of recursive self-improvement claims** — Ju Chen, 2026
+  | [Website](https://rsi.watch/) |
+
 * **The Darwin Gödel Machine: AI That Improves Itself by Rewriting Its Own Code** — Sakana AI, 2025
   | [Blog](https://sakana.ai/dgm/) |
 
