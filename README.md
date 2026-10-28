@@ -516,6 +516,7 @@ depending on **which component is improved** during learning and adaptation.
   | 2026 | In-the-Flow Agentic System Optimization for Effective Planning and Tool Use | ICLR | [paper](https://arxiv.org/abs/2510.05592) | [code](https://github.com/lupantech/AgentFlow) |
   | 2026 | GenericAgent: A Token-Efficient Self-Evolving LLM Agent via Contextual Information Density Maximization | arXiv | [paper](https://arxiv.org/abs/2604.17091) | [code](https://github.com/lsdefine/GenericAgent) |
   | 2026 | ANDES: Agent Native Data Evolving Synthesis Tool for Autonomous Instruction Alignment | arXiv | [paper](https://arxiv.org/abs/2606.01279) | [code](https://github.com/zzy1127/ANDES) |
+  | 2026 | TabAgent: Distilling LLM Agent Components into Cheap Classifiers | arXiv | [paper](https://arxiv.org/abs/2602.16429) | [code](https://github.com/dolev31/TabAgent) |
 
 
   </details>
