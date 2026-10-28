@@ -773,6 +773,8 @@ The literature is organized along two complementary perspectives:
 
 ## 🔗 Related Resources
 
+* **[BeforeRSI](https://github.com/Cherish0925/BeforeRSI)** — Interactive Chinese–English research maps of model, scaffold and joint self-improvement, with source-linked study records and an offline learning manual.
+
 ### ✍️ Blogs
 
 * **Metalearning Machines Learn to Learn (1987–)** — Jürgen Schmidhuber, 2025
