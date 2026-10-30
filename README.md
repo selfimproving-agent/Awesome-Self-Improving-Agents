@@ -746,6 +746,7 @@ The literature is organized along two complementary perspectives:
 | 2025 | PhysGym: Benchmarking LLMs in Interactive Physics Discovery with Controlled Priors | NeurIPS Datasets & Benchmarks | [paper](https://openreview.net/forum?id=w8uII2qAmd) | [code](https://github.com/principia-ai/PhysGym) |
 | 2026 | AstaBench: Rigorous Benchmarking of AI Agents with a Scientific Research Suite | ICLR | [paper](https://openreview.net/forum?id=M7TNf5J26u) | [code](https://github.com/allenai/asta-bench) |
 | 2026 | MLS-Bench: A Holistic and Rigorous Assessment of AI Systems on Building Better AI | arXiv | [paper](https://arxiv.org/abs/2605.08678) | [code](https://github.com/Imbernoulli/MLS-Bench) |
+| 2026 | SciΠvot: Benchmarking Principal-Investigator Judgment at Pivotal Moments of Scientific AutoResearch Agents | arXiv | [paper](https://arxiv.org/abs/2610.21082) | [code](https://github.com/AutoResearch-Factory/SciPIvot) |
 
 #### Embodied AI
 
