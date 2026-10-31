@@ -409,6 +409,7 @@ depending on **which component is improved** during learning and adaptation.
   | 2026 | Thought-Retriever: Don't Just Retrieve Raw Data, Retrieve Thoughts for Memory-Augmented Agentic Systems | arXiv | [paper](https://arxiv.org/abs/2604.12231) | N/A |
   | 2026 | Better with Experience: Self-Evolving LLM Agents for Evidence-Grounded Health Community Notes | arXiv | [paper](https://arxiv.org/abs/2606.02215) | N/A |
   | 2026 | Agon: An Autonomous Large-Scale Omnidisciplinary Research System Built on Prompt Economy | arXiv | [paper](https://arxiv.org/abs/2606.24177) | [code](https://github.com/AutoResearch-Factory/Agon) |
+  | 2026 | Spotter: Let the Embodied Model Lead, and the VLM Reflect for It | arXiv | [paper](https://arxiv.org/abs/2609.36808) | [code](https://github.com/zqc3117/Spotter) |
 
   </details>
 
