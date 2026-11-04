@@ -207,6 +207,7 @@ depending on **which component is improved** during learning and adaptation.
   | 2026 | SAGE: Multi-Agent Self-Evolution for LLM Reasoning | arXiv | [paper](https://arxiv.org/abs/2603.15255) | N/A |
   | 2026 | ANDES: Agent Native Data Evolving Synthesis Tool for Autonomous Instruction Alignment | arXiv | [paper](https://arxiv.org/abs/2606.01279) | [code](https://github.com/zzy1127/ANDES) |
   | 2026 | EvoGround: Self-Evolving Video Agents for Video Temporal Grounding | arXiv | [paper](https://arxiv.org/abs/2605.13803) | [code](https://github.com/minjoong507/EvoGround) |
+  | 2026 | SIMIT: Self-Improving Vision-Language Models via Imagination at Test-Time | arXiv | [paper](https://arxiv.org/abs/2611.00053) | [code](https://github.com/monurcan/simit_paper) |
 
 </details>
 
