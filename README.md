@@ -806,6 +806,9 @@ The literature is organized along two complementary perspectives:
 * **Self-Improving Coding Agents** — Google DeepMind, 2023
   | [Blog](https://addyosmani.com/blog/self-improving-agents/) |
 
+* **Auditing Self-Improving AI Systems: 27 Issues Across 23 Open-Source Projects** — Sung Hun Kwag, 2026
+  | [Blog](https://sunghunkwag.github.io/research/self-improvement-audits/) |
+
 ### 🎙️ Podcasts & Interviews
 
 * **Jürgen Schmidhuber: Gödel Machines, Meta-Learning, and LSTMs | Lex Fridman Podcast #11** — Lex Fridman Podcast, 2018
