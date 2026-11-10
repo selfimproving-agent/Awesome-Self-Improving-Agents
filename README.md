@@ -271,6 +271,7 @@ depending on **which component is improved** during learning and adaptation.
   | 2026 | EnvHarness: Awakening Static Worlds for Agent Learning | arXiv | [paper](https://arxiv.org/abs/2608.19880) | [code](https://github.com/google-research/envharness) |
   | 2026 | ReSAIL: Mitigating Collapse in Iterative Agent Self-Distillation | arXiv | [paper](https://arxiv.org/abs/2609.39306) | [code](https://github.com/ShengjieJin/ReSAIL) |
   | 2026 | Environmental Feedback Modeling Matters: Rethinking Feedback Treatment in Agentic Hindsight Self-Distillation | arXiv | [paper](https://arxiv.org/abs/2610.11384) | N/A |
+  | 2026 | NeuroMAS: Multi-Agent Systems as Neural Networks with Joint Reinforcement Learning | STAI-X 2026 (Paper Award Honorable Mention) | [paper](https://arxiv.org/abs/2605.16757) | [code](https://github.com/haoranlustat/NeuroMAS) |
 
   </details>
 
