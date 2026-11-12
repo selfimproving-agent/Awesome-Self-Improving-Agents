@@ -594,6 +594,7 @@ depending on **which component is improved** during learning and adaptation.
   | 2026 | Hyperagents | arXiv | [paper](https://arxiv.org/abs/2603.19461) | [code](https://github.com/facebookresearch/Hyperagents) |
   | 2026 | CORAL: Towards Autonomous Multi-Agent Evolution for Open-Ended Discovery | COLM | [paper](https://arxiv.org/abs/2604.01658) | [code](https://github.com/Human-Agent-Society/CORAL) |
   | 2026 | Adaptive Auto-Harness: Sustained Self-Improvement for Agentic System Deployment on Open-Ended Task Streams | arXiv | [paper](https://arxiv.org/abs/2606.01770) | [code](https://github.com/A-EVO-Lab/AdaptiveHarness) |
+  | 2026 | PluginRSI: Recursive Improvement of Agent Harnesses with Reusable Plugins | arXiv | [paper](https://arxiv.org/abs/2609.32423) | [code](https://github.com/syr-cn/PluginRSI) |
   | 2026 | MOSS: Self-Evolution through Source-Level Rewriting in Autonomous Agent Systems | arXiv | [paper](https://arxiv.org/abs/2605.22794) | [code](https://github.com/dav-joy-thon/MOSS) |
   | 2026 | Recursive Self-Evolving Agents via Held-Out Selection | arXiv | [paper](https://arxiv.org/abs/2606.28374) | N/A |
   | 2026 | Continual Harness: Online Adaptation for Self-Improving Foundation Agents | arXiv | [paper](https://arxiv.org/abs/2605.09998) | [code](https://github.com/sethkarten/continual-harness) |
