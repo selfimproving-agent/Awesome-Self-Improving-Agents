@@ -263,6 +263,7 @@ depending on **which component is improved** during learning and adaptation.
   | 2025 | SEAgent: Self-Evolving Computer Use Agent with Autonomous Learning from Experience | arXiv | [paper](https://arxiv.org/abs/2508.04700) | [code](https://github.com/SunzeY/SEAgent) |
   | 2026 | WebGym: Scaling Training Environments for Visual Web Agents with Realistic Tasks | arXiv | [paper](https://arxiv.org/abs/2601.02439) | [code](https://github.com/microsoft/webgym) |
   | 2026 | Kevin: Multi-Turn RL for Generating CUDA Kernels | ICLR | [paper](https://openreview.net/pdf?id=xu1XwVZtDi) | N/A |
+  | 2026 | Teaching LLMs to Learn Tool Trialing and Execution through Environment Interaction | arXiv | [paper](https://arxiv.org/abs/2601.12762) | [code](https://github.com/NEUIR/ToolMaster) |
   | 2026 | Tool-R0: Self-Evolving LLM Agents for Tool-Learning from Zero Data | arXiv | [paper](https://arxiv.org/abs/2602.21320) | [code](https://github.com/emrecanacikgoz/Tool-R0) |
   | 2026 | Socratic-SWE: Self-Evolving Coding Agents via Trace-Derived Agent Skills | arXiv | [paper](https://arxiv.org/abs/2606.07412) | N/A |
   | 2026 | Self-evolving LLM Agents with In-Distribution Optimization | ICML | [paper](https://arxiv.org/abs/2606.07367) | N/A |
